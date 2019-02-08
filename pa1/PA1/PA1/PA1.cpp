@@ -50,40 +50,58 @@ HuffmanTree<char>* PA1::huffmanTreeFromText(vector<string> data)
 //NOTE: I used a recursive helper function to solve this!
 void huffmanTreeFromMapHelper(HuffmanNode<char>* node, char value, string encoding, int position)
 {
-	if (position == encoding.length())
-	{
-		return;
-	}
-
 	if (encoding[position] == '0')
 	{
 		HuffmanInternalNode<char>* root = dynamic_cast<HuffmanInternalNode<char>*>(node);
-		if (root->getLeftChild() != nullptr)
+		// check if we are at the end of walk
+		if (position == encoding.length() - 1)
 		{
-			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
+			// this is a leaf node, set as left child
+			root->setLeftChild(new HuffmanLeafNode<char>(value, stoi(encoding)));
+			return;
+		}
+
+		// move to the left
+		// create left node if it does not exist
+		// call recursivly
+		if (root->getLeftChild() == nullptr)
+		{
+			root->setLeftChild(new HuffmanInternalNode<char>(nullptr, nullptr));
+			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
 		}
 		else
 		{
-			root->setLeftChild(new HuffmanInternalNode<char>(nullptr, nullptr));
 			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
 		}
+		return;
 	}
 	else
 	{
 		HuffmanInternalNode<char>* root = dynamic_cast<HuffmanInternalNode<char>*>(node);
-		if (root->getRightChild() != nullptr)
+		// check if we are at the end of walk
+		if (position == encoding.length() - 1)
 		{
+			// this is a leaf node, set as right child
+			root->setRightChild(new HuffmanLeafNode<char>(value, stoi(encoding)));
+			return;
+		}
+
+		// move to the right
+		// create right node if it does not exist
+		// call recursivly
+		if (root->getRightChild() == nullptr)
+		{
+			root->setRightChild(new HuffmanInternalNode<char>(nullptr, nullptr));
 			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
 		}
 		else
 		{
-			root->setLeftChild(new HuffmanInternalNode<char>(nullptr, nullptr));
 			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
 		}
+		return;
 	}
 
-	HuffmanLeafNode<char>* leaf_node = new HuffmanLeafNode<char>(value, stoi(encoding));
-
+	return;
 }
 
 HuffmanTree<char>* PA1::huffmanTreeFromMap(unordered_map<char, string> huffmanMap)
@@ -92,11 +110,11 @@ HuffmanTree<char>* PA1::huffmanTreeFromMap(unordered_map<char, string> huffmanMa
     //Huffman Map contains a series of codes(e.g. 'a' = > 001).Each digit(0, 1) 
     //in a given code corresponds to a left branch for 0 and right branch for 1.
 	HuffmanInternalNode<char>* node = new HuffmanInternalNode<char>(nullptr, nullptr);
-	HuffmanTree<char>* root = new HuffmanTree<char>(node);
 	for (auto kvp : huffmanMap)
 	{
 		huffmanTreeFromMapHelper(node, kvp.first, kvp.second, 0);
 	}
+	HuffmanTree<char>* root = new HuffmanTree<char>(node);
 
     return root;
 }
@@ -188,6 +206,14 @@ string PA1::decodeBits(vector<bool> bits, unordered_map<char, string> huffmanMap
     //tree traversals to convert the bits back into text.
     ostringstream result{};
 	HuffmanTree<char>* root = huffmanTreeFromMap(huffmanMap);
+	HuffmanInternalNode<char>* node = dynamic_cast<HuffmanInternalNode<char>*>(root);
+	for (auto bit : bits)
+	{
+		if (node->isLeaf() == false)
+		{
+			
+		}
+	}
 
     return result.str();
 }
@@ -196,5 +222,6 @@ string PA1::decodeBits(vector<bool> bits, unordered_map<char, string> huffmanMap
 vector<bool> PA1::toBinary(vector<string> text, unordered_map<char, string> huffmanMap)
 {
     vector<bool> result{};
+
     return result;
 }
