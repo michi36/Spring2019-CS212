@@ -73,7 +73,6 @@ void huffmanTreeFromMapHelper(HuffmanNode<char>* node, char value, string encodi
 		{
 			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
 		}
-		return;
 	}
 	else
 	{
@@ -98,7 +97,6 @@ void huffmanTreeFromMapHelper(HuffmanNode<char>* node, char value, string encodi
 		{
 			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
 		}
-		return;
 	}
 
 	return;
