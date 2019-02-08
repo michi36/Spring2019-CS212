@@ -67,7 +67,7 @@ void huffmanTreeFromMapHelper(HuffmanNode<char>* node, char value, string encodi
 		if (root->getLeftChild() == nullptr)
 		{
 			root->setLeftChild(new HuffmanInternalNode<char>(nullptr, nullptr));
-			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
+			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
 		}
 		else
 		{
@@ -140,13 +140,6 @@ void huffmanEncodingMapFromTreeHelper(unordered_map<char, string>& map, HuffmanN
 
 unordered_map<char, string> PA1::huffmanEncodingMapFromTree(HuffmanTree<char> *tree)
 {
-	HuffmanNode<char> *node = tree->getRoot();
-	if (node->isLeaf() == true)
-	{
-		HuffmanLeafNode<char> *leaf = dynamic_cast<HuffmanLeafNode<char> *>(node);
-		leaf = (HuffmanLeafNode<char> *)node;
-	}
-
     //Generates a Huffman Map based on the supplied Huffman Tree.  Again, recall 
     //that a Huffman Map contains a series of codes(e.g. 'a' = > 001).Each digit(0, 1) 
     //in a given code corresponds to a left branch for 0 and right branch for 1.  
@@ -206,15 +199,32 @@ string PA1::decodeBits(vector<bool> bits, unordered_map<char, string> huffmanMap
     //tree traversals to convert the bits back into text.
     ostringstream result{};
 	HuffmanTree<char>* root = huffmanTreeFromMap(huffmanMap);
-	HuffmanInternalNode<char>* node = dynamic_cast<HuffmanInternalNode<char>*>(root);
+	HuffmanInternalNode<char>* node = dynamic_cast<HuffmanInternalNode<char>*>(root->getRoot());
+
 	for (auto bit : bits)
 	{
-		if (node->isLeaf() == false)
+		HuffmanNode<char>* temp;
+		if (bit == false)
 		{
-			
+			temp = node->getLeftChild();
+		}
+		else
+		{
+			temp = node->getRightChild();
+		}
+
+		if (temp->isLeaf() == true)
+		{
+			HuffmanLeafNode<char>* leaf = dynamic_cast<HuffmanLeafNode<char>*>(temp);
+			result << leaf->getValue();
+			node = dynamic_cast<HuffmanInternalNode<char>*>(root->getRoot());
+		}
+		else
+		{
+			node = dynamic_cast<HuffmanInternalNode<char>*>(temp);
 		}
 	}
-
+	
     return result.str();
 }
 
@@ -222,6 +232,25 @@ string PA1::decodeBits(vector<bool> bits, unordered_map<char, string> huffmanMap
 vector<bool> PA1::toBinary(vector<string> text, unordered_map<char, string> huffmanMap)
 {
     vector<bool> result{};
+	for (auto word : text)
+	{
+		for (auto ch : word)
+		{
+			string value = huffmanMap[ch];
+			for (auto bit : value)
+			{
+				if (bit == '0')
+				{
+					result.push_back(false);
+				}
+				else
+				{
+					result.push_back(true);
+				}
+			}
+
+		}
+	}
 
     return result;
 }

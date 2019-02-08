@@ -137,6 +137,7 @@
     <Text Include="kennedy.txt" />
     <Text Include="pa1test.txt" />
     <Text Include="savio.txt" />
+    <Text Include="test.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
