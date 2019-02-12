@@ -1,5 +1,13 @@
 #include "PA1.h"
 
+/*
+	NAME: Misael Hinojosa
+	HSU ID: 0134-86600
+	COMPLETION TIME: 4 hours
+	COLLABORATORS: None
+
+*/
+
 
 //PA #1 TOOD: Generates a Huffman character tree from the supplied text
 HuffmanTree<char>* PA1::huffmanTreeFromText(vector<string> data)
@@ -48,55 +56,40 @@ HuffmanTree<char>* PA1::huffmanTreeFromText(vector<string> data)
 
 //PA #1 TODO: Generates a Huffman character tree from the supplied encoding map
 //NOTE: I used a recursive helper function to solve this!
-void huffmanTreeFromMapHelper(HuffmanNode<char>* node, char value, string encoding, int position)
+void huffmanTreeFromMapHelper(HuffmanNode<char>* root, char value, string encoding)
 {
-	if (encoding[position] == '0')
+	HuffmanInternalNode<char>* node = dynamic_cast<HuffmanInternalNode<char>*>(root);
+	for (int i = 0; i < encoding.length() - 1; i++)
 	{
-		HuffmanInternalNode<char>* root = dynamic_cast<HuffmanInternalNode<char>*>(node);
-		// check if we are at the end of walk
-		if (position == encoding.length() - 1)
+		char ch = encoding[i];
+		
+		if (ch == '0')
 		{
-			// this is a leaf node, set as left child
-			root->setLeftChild(new HuffmanLeafNode<char>(value, stoi(encoding)));
-			return;
-		}
-
-		// move to the left
-		// create left node if it does not exist
-		// call recursivly
-		if (root->getLeftChild() == nullptr)
-		{
-			root->setLeftChild(new HuffmanInternalNode<char>(nullptr, nullptr));
-			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
+			// check if nodes exists
+			if (node->getLeftChild() == nullptr)
+			{
+				node->setLeftChild(new HuffmanInternalNode<char>{ nullptr, nullptr });
+			}
+			node = dynamic_cast<HuffmanInternalNode<char>*>(node->getLeftChild());
 		}
 		else
 		{
-			huffmanTreeFromMapHelper(root->getLeftChild(), value, encoding, position + 1);
+			if (node->getRightChild() == nullptr)
+			{
+				node->setRightChild(new HuffmanInternalNode<char>{ nullptr, nullptr });
+			}
+			node = dynamic_cast<HuffmanInternalNode<char>*>(node->getRightChild());
 		}
+	}
+
+	char last_bit = encoding[encoding.length() - 1];
+	if (last_bit == '0')
+	{
+		node->setLeftChild(new HuffmanLeafNode<char>(value, 1));
 	}
 	else
 	{
-		HuffmanInternalNode<char>* root = dynamic_cast<HuffmanInternalNode<char>*>(node);
-		// check if we are at the end of walk
-		if (position == encoding.length() - 1)
-		{
-			// this is a leaf node, set as right child
-			root->setRightChild(new HuffmanLeafNode<char>(value, stoi(encoding)));
-			return;
-		}
-
-		// move to the right
-		// create right node if it does not exist
-		// call recursivly
-		if (root->getRightChild() == nullptr)
-		{
-			root->setRightChild(new HuffmanInternalNode<char>(nullptr, nullptr));
-			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
-		}
-		else
-		{
-			huffmanTreeFromMapHelper(root->getRightChild(), value, encoding, position + 1);
-		}
+		node->setRightChild(new HuffmanLeafNode<char>(value, 1));
 	}
 
 	return;
@@ -110,7 +103,7 @@ HuffmanTree<char>* PA1::huffmanTreeFromMap(unordered_map<char, string> huffmanMa
 	HuffmanInternalNode<char>* node = new HuffmanInternalNode<char>(nullptr, nullptr);
 	for (auto kvp : huffmanMap)
 	{
-		huffmanTreeFromMapHelper(node, kvp.first, kvp.second, 0);
+		huffmanTreeFromMapHelper(node, kvp.first, kvp.second);
 	}
 	HuffmanTree<char>* root = new HuffmanTree<char>(node);
 
