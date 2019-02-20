@@ -1,0 +1,45 @@
+A,Cayon Complex
+B,Creekview Complex
+C,Jolly Green Commons
+D,The Hill
+E,Cypress Residence Hall
+F,Feuerwerker House
+G,Nelson Hall East or Nelson Hall West
+H,Founders Hall
+I,Brero House
+J,Bookstore or Kate Buchanan Room
+K,Student Health & Counseling
+L,Libary
+M,Van Matre Hall
+N,Siemens Hall
+O,Redwood Ball
+P,Music A
+Q,Upper Playing Field
+R,Art A or Music B
+S,Balabanis House
+T,Recreation & Wellness Center
+U,Telonicher House
+V,Art B
+W,Bret Harte House
+X,Warren House or 
+Y,Gist Hall
+Z,Science A
+A2,Student Recreation Center
+B2,Kinesiology & Athletics or Forbes Gym
+D2,Science B or Science C
+E2,Student & Business Services
+F2,Del Norte Residence Hall or Shasta Residence Hall
+G2,Harry Griffith Hall or Child Dev. Lab
+H2,Mendocino Residence Hall or Trinity Residence Hall
+I2,Campus Events Field
+J2,Wildlife & Fisheries
+K2,Marine Wildlife Care Center
+L2,Fish Hatchery or Wildlife Game Pens
+M2,Natural Resources
+N2,Facilities Management
+O2,Boat Facility
+P2,Behavioral & Social Services
+Q2,Marketing & Communications or Toddler Center
+R2,Forestry
+S2,Trinity Annex
+T2,Schatz Energy Research Center
