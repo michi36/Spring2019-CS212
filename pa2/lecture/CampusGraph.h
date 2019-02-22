@@ -6,7 +6,6 @@
 #include <unordered_map>
 #include <string>
 #include <queue>
-#include <iostream>
 using namespace std;
 
 class PairComparer
@@ -15,11 +14,6 @@ public:
    bool operator()(pair<StringGraphNode*, int> first, pair<StringGraphNode*, int> second)
    {
       return first.second > second.second;
-   }
-
-   bool operator()(pair<queue<string>, int> first, pair<queue<string>, int> second)
-   {
-	   return first.second > second.second;
    }
 };
 

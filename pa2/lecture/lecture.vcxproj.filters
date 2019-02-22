@@ -27,9 +27,6 @@
     <ClInclude Include="StringGraphNode.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IntersectionNode.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="StringSplitter.h">
       <Filter>Header Files</Filter>
     </ClInclude>

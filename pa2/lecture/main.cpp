@@ -7,9 +7,10 @@
 #include "CampusGraph.h"
 #include "CsvParser.h"
 #include "StringSplitter.h"
+#include <iostream>
 
 void constructGraph(CampusGraph& graph, vector<vector<string>> data);
-void tier1Submission(CampusGraph graph, unordered_map<string, string> mapKey, unordered_map<string, string> abbreviations);
+void pathTaken(CampusGraph graph, unordered_map<string, string> mapKey, unordered_map<string, string> abbreviations);
 
 int main(void)
 {
@@ -54,7 +55,7 @@ int main(void)
 	CampusGraph graph{};
 	constructGraph(graph, data);
 
-	tier1Submission(graph, mapKey, abbreviations);
+	pathTaken(graph, mapKey, abbreviations);
 
 	return 0;
 }
@@ -85,7 +86,7 @@ void constructGraph(CampusGraph& graph, vector<vector<string>> data)
 	return;
 }
 
-void tier1Submission(CampusGraph graph, unordered_map<string, string> mapKey, unordered_map<string, string> abbreviations)
+void pathTaken(CampusGraph graph, unordered_map<string, string> mapKey, unordered_map<string, string> abbreviations)
 {
 	string start_location, end_location;
 	unordered_map<string, int> distances{};

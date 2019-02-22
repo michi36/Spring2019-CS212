@@ -119,7 +119,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CampusGraph.h" />
-    <ClInclude Include="IntersectionNode.h" />
     <ClInclude Include="StringGraphNode.h" />
     <ClInclude Include="CsvParser.h" />
     <ClInclude Include="GraphNode.h" />
