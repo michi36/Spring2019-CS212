@@ -145,6 +145,63 @@ public:
 		}
 		return distances;
 	}
+
+	vector<Edge> computeMinimumSpanningTree(const string& start_key, queue<string>& route)
+	{
+		//where all of the edges should go
+		priority_queue<Edge, vector<Edge>, Edge> mst_queue{};
+
+		//tracks whether or not we've seen a given node in the MST
+		unordered_map<string, int> discoveries{};
+		discoveries[start_key] = 1;
+		route.push(start_key);
+
+		//constructs final end product
+		vector<Edge> accepted_edges{};
+
+		//grab starting vertex.  Construct all edges from start
+		//add as primer to PQ.
+		StringGraphNode* start = _graph[start_key];
+		for (auto vertex : start->getEdges())
+		{
+			Edge e{
+				start,
+				dynamic_cast<StringGraphNode*>(vertex.first),
+				vertex.second
+			};
+			mst_queue.push(e);
+		}
+
+		//use PQ to construct MST
+		while (mst_queue.empty() == false && discoveries.size() < _graph.size())
+		{
+			Edge top = mst_queue.top();
+			mst_queue.pop();
+
+			//have we NOT seen the top before
+			if (discoveries.find(top.sink->getKey()) == discoveries.end())
+			{
+				//mark discovered
+				discoveries[top.sink->getKey()] ++;
+				route.push(top.sink->getKey());
+
+				//accept edge
+				accepted_edges.push_back(top);
+
+				//add in outgoing edges
+				for (auto vertex : top.sink->getEdges())
+				{
+					Edge e{
+						top.sink,
+						dynamic_cast<StringGraphNode*>(vertex.first),
+						vertex.second
+					};
+					mst_queue.push(e);
+				}
+			}
+		}
+		return accepted_edges;
+	}
 };
 
 #endif // !GRAPH_H
