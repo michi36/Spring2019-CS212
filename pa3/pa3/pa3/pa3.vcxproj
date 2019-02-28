@@ -131,8 +131,11 @@
   <ItemGroup>
     <Text Include="deliveries1.txt" />
     <Text Include="deliveries2.txt" />
+    <Text Include="deliveries3.1.txt" />
+    <Text Include="deliveries3.2.txt" />
     <Text Include="map1.txt" />
     <Text Include="map2.txt" />
+    <Text Include="map3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -146,7 +146,7 @@ public:
 		return distances;
 	}
 
-	vector<Edge> computeMinimumSpanningTree(const string& start_key, queue<string>& route)
+	vector<Edge> computeMinimumSpanningTree(const string& start_key, queue<string>& route, unordered_map<string, int> vertex_seen)
 	{
 		//where all of the edges should go
 		priority_queue<Edge, vector<Edge>, Edge> mst_queue{};
@@ -184,6 +184,11 @@ public:
 				//mark discovered
 				discoveries[top.sink->getKey()] ++;
 				route.push(top.sink->getKey());
+				if (vertex_seen[top.sink->getKey()] < 2)
+				{
+					route.push(top.sink->getKey());
+					route.push(top.source->getKey());
+				}
 
 				//accept edge
 				accepted_edges.push_back(top);
