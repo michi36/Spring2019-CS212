@@ -11,7 +11,6 @@
 
 unordered_map<string, int> constructGraph(CityGraph& graph);
 void constructSubGraph(CityGraph graph, CityGraph& sub_graph, vector<string> destinations);
-void findStartingPoint(string& start_location);
 
 int main(void)
 {
@@ -21,13 +20,13 @@ int main(void)
 
 	cout << "***Route Planner***" << endl;
 
-	// constructs graph
+	// Constructs graph
 	vertex_seen = constructGraph(graph);
 	
 	cout << "Enter destination file: ";
 	getline(cin, input);
 
-	// get the delivery route
+	// Get the delivery route
 	vector<string> destinations{};
 	ifstream input_file{ input };
 	if (input_file.is_open() == true)
@@ -41,12 +40,12 @@ int main(void)
 	}
 	input_file.close();
 
-	// construct a sub graph based on the delivery route
+	// Construct a sub graph based on the delivery route
 	CityGraph sub_graph;
 	queue<string> route{};
 	constructSubGraph(graph, sub_graph, destinations);
 
-	// find least seen vertex
+	// Find least seen vertex
 	int least = 0;
 	string start_location;
 	for (auto vertex: destinations)
@@ -63,9 +62,12 @@ int main(void)
 		}
 	}
 
-	// construct minimal spanning tree on the sub graph and record route
+	// Construct minimal spanning tree on the sub graph based on the
+	// least seen vertex
 	vector<Edge> mst = sub_graph.computeMinimumSpanningTree(start_location);
 
+	// Again, record how many times each vertex is seen.
+	// This will be used to find the best possible route
 	vertex_seen.clear();
 	for (auto edge : mst)
 	{
@@ -86,27 +88,41 @@ int main(void)
 			start_location = vertex;
 		}
 	}
-	mst.clear();
 
+	// Get the MST based on the new starting location
+	mst.clear();
 	mst = sub_graph.computeMinimumSpanningTree(start_location, route, vertex_seen);
 
-	// add the weights to find the total transit time
+	// Add the weights to find the total transit time
 	int time = 0;
-	string previous = "";
-	int backtracking = 0;
 	for (auto edge : mst)
 	{
-		if (edge.source->getKey() == previous)
+		// Decrement everytime we see a vertex
+		// By the end, everything in hashtable should be zero
+		vertex_seen[edge.source->getKey()]--;
+		vertex_seen[edge.sink->getKey()]--;
+
+		// If the vertex we start from has been visited more (or equal)
+		// than the vertex we are going, we know the edge between the start
+		// and end vertices will be backtracked.
+		// Add the weight of the backtrack
+		if (vertex_seen[edge.source->getKey()] >= vertex_seen[edge.sink->getKey()])
 		{
-			time += backtracking;
+			time += edge.weight;
 		}
+
+		// This adds the weight as if we traversed once
 		time += edge.weight;
-		previous = edge.source->getKey();
-		backtracking = edge.weight;
 	}
+
+	// Subtract the last edge weight because we will end at
+	// the last visited vertex and we will NOT backtrack
+	time -= mst[mst.size() - 1].weight;
+
+	// Print total transit time
 	cout << "Total transit time: " << time << " minutes" << endl;
 
-	// print route
+	// Print route
 	cout << "Route:" << endl;
 	while (route.empty() == false)
 	{
@@ -174,31 +190,31 @@ void constructSubGraph(CityGraph graph, CityGraph& sub_graph, vector<string> des
 	unordered_map<string, int> seen{};
 	for (auto vertex : destinations)
 	{
-		// add vertex if haven't been seen yet
+		// Add vertex if haven't been seen yet
 		if (visited[vertex] < 1)
 		{
 			sub_graph.addVertex(vertex);
 			visited[vertex]++;
 		}
 
-		// find the shortest paths from the starting vertex to all other vertex
+		// Find the shortest paths from the starting vertex to all other vertex
 		unordered_map<string, int> paths = graph.computeShortestPath(vertex);
 		for (auto second_vertex : destinations)
 		{
-			// if vertices are the same, skip
+			// If vertices are the same, skip
 			if (second_vertex == vertex)
 			{
 				continue;
 			}
 
-			// add vertex if haven't been seen yet
+			// Add vertex if haven't been seen yet
 			if (visited[second_vertex] < 1)
 			{
 				sub_graph.addVertex(second_vertex);
 				visited[second_vertex]++;
 			}
 
-			// connect vertices
+			// Connect vertices
 			sub_graph.connectVertex(vertex, second_vertex, paths[second_vertex], true);
 		}
 	}
