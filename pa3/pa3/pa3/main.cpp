@@ -1,16 +1,19 @@
 /*
 	NAME: Misael Hinojosa
 	STUDENT ID: 0134-86600
-	COMPLETION TIME: 2 hours
+	COMPLETION TIME: 4 hours
 	COLLABS: None
 */
 #include "CityGraph.h"
 #include "CsvParser.h"
 #include "StringSplitter.h"
 #include <iostream>
+#include <stack>
 
 unordered_map<string, int> constructGraph(CityGraph& graph);
-void constructSubGraph(CityGraph graph, CityGraph& sub_graph, vector<string> destinations);
+void constructSubGraph(CityGraph graph, CityGraph& sub_graph, const vector<string>& destinations);
+void addingEdges(const vector<Edge>& mst, int& time, unordered_map<string, int> vertex_seen);
+void addingEdgesWithRoute(const vector<Edge>& mst, int& time, unordered_map<string, int> vertex_seen, queue<string>& route);
 
 int main(void)
 {
@@ -67,7 +70,6 @@ int main(void)
 	vector<Edge> mst = sub_graph.computeMinimumSpanningTree(start_location);
 
 	// Again, record how many times each vertex is seen.
-	// This will be used to find the best possible route
 	vertex_seen.clear();
 	for (auto edge : mst)
 	{
@@ -75,50 +77,44 @@ int main(void)
 		vertex_seen[edge.source->getKey()]++;
 	}
 
-	for (auto vertex : destinations)
+	// Find all vertices that equal one
+	destinations.clear();
+	for (auto vertex : vertex_seen)
 	{
-		if (least == 0)
+		if (vertex.second == 1)
 		{
-			least = vertex_seen[vertex];
-			start_location = vertex;
+			destinations.push_back(vertex.first);
 		}
-		if (vertex_seen[vertex] < least)
+	}
+
+	int time = 0;
+	int least_time = 0;
+	for (auto start_position : destinations)
+	{
+		vector<Edge> temp = sub_graph.computeMinimumSpanningTree(start_position);
+		addingEdges(temp, time, vertex_seen);
+
+		if (least_time == 0)
 		{
-			least = vertex_seen[vertex];
-			start_location = vertex;
+			least_time = time;
+			start_location = start_position;
 		}
+
+		if (time < least_time)
+		{
+			start_location = start_position;
+			least_time = time;
+		}
+		time = 0;
 	}
 
 	// Get the MST based on the new starting location
 	mst.clear();
-	mst = sub_graph.computeMinimumSpanningTree(start_location, route, vertex_seen);
+	mst = sub_graph.computeMinimumSpanningTree(start_location);
 
-	// Add the weights to find the total transit time
-	int time = 0;
-	for (auto edge : mst)
-	{
-		// Decrement everytime we see a vertex
-		// By the end, everything in hashtable should be zero
-		vertex_seen[edge.source->getKey()]--;
-		vertex_seen[edge.sink->getKey()]--;
-
-		// If the vertex we start from has been visited more (or equal)
-		// than the vertex we are going, we know the edge between the start
-		// and end vertices will be backtracked.
-		// Add the weight of the backtrack
-		if (vertex_seen[edge.source->getKey()] >= vertex_seen[edge.sink->getKey()])
-		{
-			time += edge.weight;
-		}
-
-		// This adds the weight as if we traversed once
-		time += edge.weight;
-	}
-
-	// Subtract the last edge weight because we will end at
-	// the last visited vertex and we will NOT backtrack
-	time -= mst[mst.size() - 1].weight;
-
+	time = 0;
+	addingEdgesWithRoute(mst, time, vertex_seen, route);
+	
 	// Print total transit time
 	cout << "Total transit time: " << time << " minutes" << endl;
 
@@ -126,22 +122,12 @@ int main(void)
 	cout << "Route:" << endl;
 	while (route.empty() == false)
 	{
-		string first = route.front();
+		cout << route.front() << " -> ";
 		route.pop();
-		string second = route.front();
+		cout << route.front() << endl;
 
-		if (first == second)
+		if (route.size() == 1)
 		{
-			route.pop();
-			second = route.front();
-		}
-		cout << first << " -> ";
-		cout << second << endl;
-
-		if (route.size() == 3)
-		{
-			route.pop();
-			route.pop();
 			route.pop();
 		}
 	}
@@ -184,10 +170,9 @@ unordered_map<string, int> constructGraph(CityGraph& graph)
 	return visited;
 }
 
-void constructSubGraph(CityGraph graph, CityGraph& sub_graph, vector<string> destinations)
+void constructSubGraph(CityGraph graph, CityGraph& sub_graph, const vector<string>& destinations)
 {
 	unordered_map<string, int> visited{};
-	unordered_map<string, int> seen{};
 	for (auto vertex : destinations)
 	{
 		// Add vertex if haven't been seen yet
@@ -218,4 +203,111 @@ void constructSubGraph(CityGraph graph, CityGraph& sub_graph, vector<string> des
 			sub_graph.connectVertex(vertex, second_vertex, paths[second_vertex], true);
 		}
 	}
+}
+
+void addingEdges(const vector<Edge>& mst, int& time, unordered_map<string, int> vertex_seen)
+{
+	// Add the weights to find the total transit time
+	// root_vertex is where the graph will branch off to a subgraph
+	// and come back to the root_vertex
+	// Because we know it will come back, double the time added
+	// is_branched will keep track if we are branched
+	bool is_branched = false;
+	string root_vertex = "";
+	for (auto edge : mst)
+	{
+		// Decrement the starting vertex
+		vertex_seen[edge.source->getKey()]--;
+
+		// If we return to the root_vertex, set is_branched to false
+		// and root_vertex to an empty string
+		if (edge.source->getKey() == root_vertex)
+		{
+			root_vertex = "";
+			is_branched = false;
+		}
+
+		// If branched, add double the time
+		if (is_branched == true)
+		{
+			time += (2 * edge.weight);
+		}
+		// We know that a vertex less than 2 will not be seen again,
+		// and because of that, that edge will only be passed once
+		else if (vertex_seen[edge.source->getKey()] < 2)
+		{
+			time += edge.weight;
+		}
+		// At this point, we know that the source vertex has been touched
+		// at least 2 times. We will see this vertex again, so add double
+		// time, set is_branched to true, and record vertex name
+		else
+		{
+			is_branched = true;
+			time += (2 * edge.weight);
+			root_vertex = edge.source->getKey();
+		}
+	}
+}
+
+void addingEdgesWithRoute(const vector<Edge>& mst, int& time, unordered_map<string, int> vertex_seen, queue<string>& route)
+{
+	// Add the weights to find the total transit time
+	// root_vertex is where the graph will branch off to a subgraph
+	// and come back to the root_vertex
+	// Because we know it will come back, double the time added
+	// is_branched will keep track if we are branched
+	stack<string> back{};
+	bool is_branched = false;
+	string root_vertex = "";
+	for (auto edge : mst)
+	{
+		// Decrement the starting vertex
+		vertex_seen[edge.source->getKey()]--;
+
+		// If we return to the root_vertex, set is_branched to false
+		// and root_vertex to an empty string
+		if (edge.source->getKey() == root_vertex)
+		{
+			root_vertex = "";
+			is_branched = false;
+			while (back.empty() == false)
+			{
+				route.push(back.top());
+				back.pop();
+			}
+		}
+
+		// If branched, add double the time
+		if (is_branched == true)
+		{
+			time += (2 * edge.weight);
+			route.push(edge.source->getKey());
+			if (vertex_seen[edge.sink->getKey()] == 1)
+			{
+				route.push(edge.sink->getKey());
+			}
+		}
+		// We know that a vertex less than 2 will not be seen again,
+		// and because of that, that edge will only be passed once
+		else if (vertex_seen[edge.source->getKey()] < 2)
+		{
+			time += edge.weight;
+			route.push(edge.source->getKey());
+		}
+		// At this point, we know that the source vertex has been touched
+		// at least 2 times. We will see this vertex again, so add double
+		// time, set is_branched to true, and record vertex name
+		else
+		{
+			is_branched = true;
+			time += (2 * edge.weight);
+			root_vertex = edge.source->getKey();
+			route.push(edge.source->getKey());
+			back.push(edge.sink->getKey());
+		}
+	}
+
+	// Add the last sink vertex
+	route.push(mst[mst.size() - 1].sink->getKey());
 }

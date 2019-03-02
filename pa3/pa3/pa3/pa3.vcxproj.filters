@@ -61,5 +61,11 @@
     <Text Include="deliveries3.2.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="deliveries4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="map4.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>
