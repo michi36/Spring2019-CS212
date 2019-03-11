@@ -1,7 +1,7 @@
 /*
 	NAME: Misael Hinojosa
 	STUDENT ID: 0134-86600
-	COMPLETION TIME: 4 hours
+	COMPLETION TIME: 5 hours
 	COLLABS: None
 */
 #include "CityGraph.h"
@@ -179,8 +179,9 @@ void constructSubGraph(CityGraph graph, CityGraph& sub_graph, const vector<strin
 		if (visited[vertex] < 1)
 		{
 			sub_graph.addVertex(vertex);
-			visited[vertex]++;
+			
 		}
+		visited[vertex]++;
 
 		// Find the shortest paths from the starting vertex to all other vertex
 		unordered_map<string, int> paths = graph.computeShortestPath(vertex);
@@ -196,8 +197,9 @@ void constructSubGraph(CityGraph graph, CityGraph& sub_graph, const vector<strin
 			if (visited[second_vertex] < 1)
 			{
 				sub_graph.addVertex(second_vertex);
-				visited[second_vertex]++;
+				
 			}
+			visited[second_vertex]++;
 
 			// Connect vertices
 			sub_graph.connectVertex(vertex, second_vertex, paths[second_vertex], true);
@@ -252,62 +254,69 @@ void addingEdges(const vector<Edge>& mst, int& time, unordered_map<string, int> 
 
 void addingEdgesWithRoute(const vector<Edge>& mst, int& time, unordered_map<string, int> vertex_seen, queue<string>& route)
 {
-	// Add the weights to find the total transit time
-	// root_vertex is where the graph will branch off to a subgraph
-	// and come back to the root_vertex
-	// Because we know it will come back, double the time added
-	// is_branched will keep track if we are branched
-	stack<string> back{};
+	// Look at function addingEdges for explaination for
+	// adding the edges
+	// Will use a stack to record the backtracking
+
+	stack<string> backtracking{};
 	bool is_branched = false;
 	string root_vertex = "";
 	for (auto edge : mst)
 	{
-		// Decrement the starting vertex
 		vertex_seen[edge.source->getKey()]--;
 
-		// If we return to the root_vertex, set is_branched to false
-		// and root_vertex to an empty string
 		if (edge.source->getKey() == root_vertex)
 		{
 			root_vertex = "";
 			is_branched = false;
-			while (back.empty() == false)
+
+			// We've returned to the vertex from where
+			// we branched off. Add contents of stack
+			// to the route
+			while (backtracking.empty() == false)
 			{
-				route.push(back.top());
-				back.pop();
+				route.push(backtracking.top());
+				backtracking.pop();
 			}
 		}
 
-		// If branched, add double the time
 		if (is_branched == true)
 		{
 			time += (2 * edge.weight);
+
+			// Add source vertex to route
 			route.push(edge.source->getKey());
+
+			// If the sink had a value of one, it will
+			// never be seen again, add to route
 			if (vertex_seen[edge.sink->getKey()] == 1)
 			{
 				route.push(edge.sink->getKey());
 			}
 		}
-		// We know that a vertex less than 2 will not be seen again,
-		// and because of that, that edge will only be passed once
 		else if (vertex_seen[edge.source->getKey()] < 2)
 		{
 			time += edge.weight;
+
+			// Source vertex will never be seen again,
+			// add to route
 			route.push(edge.source->getKey());
 		}
-		// At this point, we know that the source vertex has been touched
-		// at least 2 times. We will see this vertex again, so add double
-		// time, set is_branched to true, and record vertex name
 		else
 		{
 			is_branched = true;
 			time += (2 * edge.weight);
 			root_vertex = edge.source->getKey();
+
+			// We reached a part of the graph where it will
+			// branch off and backtrack back. Add source vertex
+			// to route and sink vertex to stack
 			route.push(edge.source->getKey());
-			back.push(edge.sink->getKey());
+			backtracking.push(edge.sink->getKey());
 		}
 	}
 
-	// Add the last sink vertex
+	// The last sink vertex seen wasn't added from algorithm above.
+	// Add the last sink vertex now
 	route.push(mst[mst.size() - 1].sink->getKey());
 }
