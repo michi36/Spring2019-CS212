@@ -1,0 +1,11263 @@
+NULL|emp_length|12
+< 1 year|home_ownership|3
+4 years|home_ownership|3
+n/a|home_ownership|3
+10+ years|home_ownership|3
+2 years|home_ownership|3
+6 years|home_ownership|3
+1 year|home_ownership|3
+3 years|home_ownership|3
+5 years|home_ownership|3
+8 years|home_ownership|3
+7 years|home_ownership|3
+9 years|home_ownership|3
+OWN|income|9
+MORTGAGE|income|10
+RENT|income|10
+30000|state|13
+40000|state|17
+150000|state|5
+10000|C|0
+100000|state|6
+125000|state|4
+80000|state|6
+60000|state|7
+20000|C|0
+OH|C|0
+MN|C|0
+DC|A|0
+AL|C|0
+TX|C|0
+NJ|A|0
+CA|C|0
+MT|C|0
+FL|C|0
+TN|C|0
+WA|C|0
+GA|C|0
+NC|C|0
+VA|debt to income|2
+IL|C|0
+NC|A|0
+MO|C|0
+FL|debt to income|2
+CA|debt to income|3
+NJ|C|0
+TX|debt to income|2
+OH|C|0
+MA|A|0
+AZ|C|0
+MN|A|0
+IN|C|0
+LA|C|0
+MI|A|0
+WI|C|0
+NY|A|0
+15|C|0
+18|A|0
+9|A|0
+25|C|0
+12|A|0
+19|C|0
+17|C|0
+7|C|0
+6|A|0
+VA|A|0
+PA|C|0
+TX|C|0
+CA|C|0
+GA|C|0
+WI|debt to income|2
+TX|debt to income|2
+MI|debt to income|2
+MA|debt to income|2
+NY|A|0
+FL|A|0
+23|C|0
+16|A|0
+17|C|0
+34|A|0
+12|C|0
+7|A|0
+18|A|0
+32|C|0
+RI|A|0
+TX|C|0
+LA|A|0
+PA|C|0
+MA|C|0
+NY|C|0
+FL|C|0
+NC|C|0
+CA|A|0
+MD|A|0
+AZ|A|0
+OH|C|0
+MD|A|0
+FL|C|0
+KS|C|0
+TX|C|0
+CA|C|0
+60000|state|28
+15000|state|8
+150000|state|17
+40000|state|34
+10000|state|7
+100000|state|27
+20000|state|24
+80000|state|26
+125000|state|18
+30000|state|25
+NY|debt to income|5
+VA|debt to income|2
+IL|debt to income|7
+MA|C|0
+NE|C|0
+FL|debt to income|7
+TN|debt to income|3
+OH|debt to income|5
+PA|debt to income|3
+CA|debt to income|7
+NC|debt to income|4
+WA|debt to income|2
+WI|debt to income|3
+LA|C|0
+MN|C|0
+AZ|debt to income|2
+MD|debt to income|3
+TX|debt to income|5
+MI|debt to income|3
+GA|debt to income|2
+ID|C|0
+KY|C|0
+CO|debt to income|4
+RI|debt to income|3
+AL|A|0
+ME|A|0
+OR|A|0
+NV|C|0
+21|C|0
+18|C|0
+5|A|0
+25|A|0
+15|A|0
+15|C|0
+20|A|0
+17|C|0
+34|A|0
+19|A|0
+20|C|0
+10|A|0
+14|A|0
+35|C|0
+24|C|0
+11|A|0
+19|A|0
+39|C|0
+17|C|0
+22|C|0
+13|A|0
+10|earliest credit|2
+9|A|0
+2|A|0
+2012|C|0
+2005|A|0
+17|A|0
+23|C|0
+9|C|0
+19|C|0
+22|C|0
+24|C|0
+33|C|0
+1|A|0
+17|C|0
+22|A|0
+27|A|0
+33|A|0
+20|C|0
+0|C|0
+21|C|0
+6|A|0
+25|C|0
+19|A|0
+21|C|0
+20|A|0
+2|C|0
+21|earliest credit|2
+14|C|0
+30|C|0
+2005|A|0
+1996|C|0
+14|A|0
+28|C|0
+17|A|0
+26|A|0
+15|C|0
+12|C|0
+23|C|0
+30|C|0
+26|A|0
+11|A|0
+20|earliest credit|2
+19|C|0
+28|C|0
+2002|A|0
+1996|C|0
+27|C|0
+10|A|0
+26|C|0
+15|C|0
+35|C|0
+12|A|0
+27|C|0
+21|A|0
+20|C|0
+MA|A|0
+OR|C|0
+FL|C|0
+CO|C|0
+WI|C|0
+TX|C|0
+KY|C|0
+IN|C|0
+TX|debt to income|3
+NJ|debt to income|5
+PA|debt to income|3
+OH|A|0
+IL|C|0
+VA|debt to income|2
+NY|debt to income|4
+WA|C|0
+MO|C|0
+GA|debt to income|4
+NC|debt to income|3
+MD|C|0
+FL|debt to income|2
+CA|debt to income|5
+AL|C|0
+HI|C|0
+MA|C|0
+14|earliest credit|3
+26|C|0
+20|A|0
+1968|A|0
+1993|C|0
+2002|C|0
+10|C|0
+15|A|0
+8|C|0
+16|C|0
+12|A|0
+14|C|0
+8|A|0
+23|A|0
+7|A|0
+23|C|0
+12|C|0
+2|A|0
+1|C|0
+19|A|0
+11|A|0
+15|A|0
+24|C|0
+14|C|0
+15|C|0
+9|C|0
+14|A|0
+11|C|0
+5|A|0
+16|A|0
+27|C|0
+23|C|0
+5|C|0
+9|C|0
+LA|C|0
+IN|debt to income|3
+PA|debt to income|5
+MN|debt to income|6
+AZ|debt to income|4
+MO|C|0
+WI|debt to income|4
+GA|debt to income|8
+RI|C|0
+MD|debt to income|2
+NY|debt to income|3
+OR|debt to income|2
+NV|debt to income|3
+TX|C|0
+NJ|C|0
+IL|debt to income|7
+VA|debt to income|2
+AL|debt to income|2
+CO|debt to income|6
+NE|A|0
+CA|debt to income|5
+OK|debt to income|4
+FL|C|0
+MI|A|0
+CT|C|0
+KY|debt to income|2
+OH|debt to income|4
+KS|C|0
+SC|C|0
+ID|A|0
+UT|C|0
+AR|C|0
+NC|debt to income|3
+TN|C|0
+21|C|0
+35|C|0
+23|A|0
+28|A|0
+18|A|0
+38|C|0
+14|C|0
+23|C|0
+26|C|0
+31|C|0
+46|C|0
+36|A|0
+27|C|0
+24|C|0
+18|C|0
+29|C|0
+11|A|0
+30|C|0
+19|A|0
+57|C|0
+7|A|0
+16|C|0
+38|C|0
+7|C|0
+47|C|0
+18|C|0
+12|C|0
+19|C|0
+15|C|0
+25|A|0
+19|C|0
+37|A|0
+15|A|0
+4|C|0
+16|A|0
+2|A|0
+24|C|0
+28|A|0
+10|A|0
+5|C|0
+19|C|0
+8|C|0
+9|A|0
+2|C|0
+13|C|0
+34|C|0
+23|A|0
+18|C|0
+17|A|0
+22|A|0
+87|C|0
+42|C|0
+28|C|0
+26|C|0
+40|C|0
+27|C|0
+34|A|0
+8|C|0
+32|C|0
+5|C|0
+9|A|0
+33|C|0
+4|A|0
+34|C|0
+17|C|0
+27|A|0
+47|C|0
+36|A|0
+7|C|0
+15|A|0
+21|C|0
+53|C|0
+58|C|0
+20|C|0
+39|A|0
+OH|C|0
+PA|A|0
+RI|C|0
+LA|C|0
+SC|C|0
+NJ|C|0
+CO|C|0
+CA|debt to income|4
+TX|debt to income|3
+OR|A|0
+MD|debt to income|5
+NC|A|0
+OK|C|0
+FL|C|0
+VA|A|0
+IL|debt to income|7
+OH|debt to income|2
+WI|A|0
+MI|C|0
+AZ|A|0
+MO|C|0
+WA|debt to income|2
+CT|C|0
+NV|C|0
+AK|A|0
+CO|A|0
+IN|A|0
+LA|C|0
+SC|debt to income|2
+GA|debt to income|3
+MS|A|0
+NY|A|0
+PA|C|0
+WY|A|0
+20|A|0
+13|A|0
+12|C|0
+4|A|0
+12|C|0
+24|A|0
+13|C|0
+17|A|0
+24|A|0
+15|A|0
+16|C|0
+9|A|0
+19|C|0
+10|A|0
+21|C|0
+24|A|0
+27|C|0
+3|A|0
+17|C|0
+22|A|0
+13|C|0
+11|A|0
+23|C|0
+29|C|0
+26|A|0
+10|C|0
+24|C|0
+2|A|0
+MA|debt to income|2
+KS|C|0
+NC|C|0
+LA|C|0
+IN|debt to income|3
+WI|C|0
+WA|C|0
+CT|A|0
+OK|C|0
+FL|C|0
+TN|C|0
+MT|C|0
+ME|C|0
+VA|C|0
+ID|C|0
+MI|C|0
+GA|A|0
+MN|A|0
+ND|C|0
+NY|C|0
+CA|C|0
+TX|C|0
+PA|C|0
+SC|C|0
+12|A|0
+10|C|0
+33|C|0
+3|C|0
+21|A|0
+GA|debt to income|4
+AZ|C|0
+DE|A|0
+MN|A|0
+PA|debt to income|4
+NY|C|0
+IL|debt to income|2
+VA|debt to income|5
+TX|debt to income|8
+NJ|debt to income|4
+CA|debt to income|4
+FL|A|0
+OK|C|0
+MA|debt to income|3
+CT|debt to income|2
+OH|debt to income|3
+MD|C|0
+TN|debt to income|3
+ME|A|0
+MO|debt to income|2
+ID|C|0
+CO|A|0
+SC|C|0
+NC|A|0
+OR|C|0
+MI|C|0
+9|A|0
+5|C|0
+26|C|0
+20|A|0
+19|C|0
+8|A|0
+9|C|0
+30|C|0
+45|A|0
+39|C|0
+12|C|0
+19|C|0
+8|C|0
+26|A|0
+18|C|0
+10|A|0
+21|C|0
+26|A|0
+17|C|0
+23|A|0
+3|A|0
+30|C|0
+24|A|0
+21|A|0
+8|C|0
+25|A|0
+13|C|0
+16|C|0
+30|C|0
+17|A|0
+12|C|0
+21|A|0
+11|A|0
+34|C|0
+17|C|0
+11|A|0
+19|A|0
+24|C|0
+7|C|0
+9|C|0
+17|A|0
+6|C|0
+16|A|0
+6|C|0
+TX|C|0
+NJ|C|0
+CA|debt to income|2
+TN|A|0
+FL|C|0
+MI|A|0
+WA|debt to income|2
+MO|debt to income|2
+MN|A|0
+AZ|C|0
+VA|A|0
+IL|C|0
+GA|debt to income|3
+CO|A|0
+OH|debt to income|2
+NM|C|0
+PA|C|0
+MA|A|0
+8|C|0
+16|A|0
+16|C|0
+13|A|0
+14|A|0
+25|C|0
+10|C|0
+21|C|0
+18|A|0
+15|A|0
+20|C|0
+NY|C|0
+PA|debt to income|5
+OH|debt to income|3
+MN|A|0
+AZ|A|0
+OK|C|0
+FL|debt to income|4
+IN|C|0
+CA|C|0
+GA|C|0
+SC|C|0
+RI|C|0
+WA|debt to income|3
+MO|A|0
+TX|C|0
+NJ|C|0
+AL|C|0
+VA|debt to income|3
+IL|A|0
+MI|A|0
+KY|C|0
+WI|C|0
+NC|C|0
+NE|C|0
+ND|C|0
+104|A|0
+33|A|0
+42|C|0
+28|A|0
+57|C|0
+26|C|0
+6|A|0
+48|C|0
+24|C|0
+36|A|0
+49|C|0
+34|C|0
+5|A|0
+21|C|0
+42|C|0
+19|C|0
+112|A|0
+38|C|0
+30000|state|21
+80000|state|21
+125000|state|10
+40000|state|34
+150000|state|12
+20000|state|28
+60000|state|28
+100000|state|12
+10000|state|7
+15000|C|0
+TX|C|0
+CA|debt to income|8
+WI|C|0
+OR|C|0
+MD|C|0
+AZ|debt to income|4
+IN|debt to income|3
+LA|C|0
+NC|C|0
+NY|debt to income|6
+PA|C|0
+FL|debt to income|6
+AR|C|0
+KS|C|0
+MO|C|0
+MI|C|0
+OH|C|0
+CT|C|0
+GA|C|0
+AL|C|0
+TN|C|0
+24|C|0
+15|A|0
+28|C|0
+8|A|0
+6|C|0
+14|C|0
+34|C|0
+35|C|0
+21|C|0
+29|C|0
+2|A|0
+34|C|0
+22|C|0
+28|A|0
+21|C|0
+11|C|0
+20|C|0
+19|A|0
+9|C|0
+13|A|0
+31|C|0
+23|C|0
+13|earliest credit|2
+30|C|0
+43|C|0
+32|C|0
+21|C|0
+2008|C|0
+1999|A|0
+LA|C|0
+MA|C|0
+MI|C|0
+CA|debt to income|11
+TX|debt to income|5
+OR|C|0
+FL|debt to income|2
+OK|C|0
+WI|C|0
+OH|C|0
+MD|C|0
+VA|C|0
+IL|A|0
+PA|A|0
+NY|debt to income|3
+DC|C|0
+CO|C|0
+NC|C|0
+DE|C|0
+AZ|C|0
+GA|C|0
+33|C|0
+11|earliest credit|2
+8|C|0
+6|C|0
+17|C|0
+14|A|0
+13|C|0
+9|C|0
+12|A|0
+23|C|0
+15|A|0
+2011|C|0
+2002|A|0
+19|C|0
+20|C|0
+23|C|0
+29|A|0
+17|A|0
+23|C|0
+17|A|0
+13|C|0
+4|A|0
+18|C|0
+MA|A|0
+KS|C|0
+NC|A|0
+PA|A|0
+NJ|C|0
+TX|debt to income|2
+CA|debt to income|7
+NY|debt to income|3
+IL|C|0
+MO|C|0
+14|A|0
+23|C|0
+4|C|0
+7|A|0
+16|C|0
+12|C|0
+17|C|0
+9|A|0
+1|C|0
+19|C|0
+8|C|0
+12|A|0
+CA|debt to income|17
+TX|debt to income|16
+NJ|C|0
+FL|C|0
+CO|debt to income|9
+MO|debt to income|3
+WA|debt to income|3
+KS|C|0
+MA|debt to income|6
+NC|debt to income|2
+OR|debt to income|4
+GA|debt to income|3
+AR|C|0
+UT|C|0
+MD|A|0
+NM|C|0
+MN|C|0
+AZ|debt to income|3
+PA|debt to income|4
+NY|debt to income|12
+TN|C|0
+NV|C|0
+IL|C|0
+VA|debt to income|4
+CT|C|0
+OH|debt to income|4
+WI|C|0
+DC|C|0
+ND|C|0
+MS|C|0
+ID|C|0
+HI|C|0
+RI|C|0
+SC|C|0
+9|C|0
+1|C|0
+26|C|0
+16|C|0
+8|earliest credit|2
+37|A|0
+42|C|0
+33|C|0
+3|C|0
+14|C|0
+23|C|0
+27|C|0
+22|C|0
+18|C|0
+21|C|0
+39|C|0
+32|C|0
+2007|A|0
+2010|C|0
+18|C|0
+28|C|0
+11|earliest credit|2
+19|C|0
+20|A|0
+17|earliest credit|2
+25|C|0
+32|C|0
+27|C|0
+7|earliest credit|2
+24|C|0
+41|C|0
+35|C|0
+8|A|0
+15|A|0
+14|C|0
+2005|A|0
+2011|C|0
+2007|A|0
+2013|C|0
+2004|A|0
+2013|C|0
+11|C|0
+9|C|0
+24|A|0
+15|C|0
+7|C|0
+12|earliest credit|2
+23|C|0
+14|C|0
+32|C|0
+1998|A|0
+2012|C|0
+19|C|0
+11|A|0
+13|C|0
+20|A|0
+31|C|0
+22|C|0
+22|C|0
+24|C|0
+16|C|0
+12|A|0
+8|C|0
+10|A|0
+9|A|0
+25|C|0
+12|A|0
+2|C|0
+7|C|0
+16|C|0
+18|A|0
+20|C|0
+23|C|0
+4|C|0
+2|A|0
+25|C|0
+30|C|0
+7|C|0
+25|A|0
+9|C|0
+13|C|0
+20|C|0
+26|earliest credit|3
+17|A|0
+3|C|0
+23|C|0
+12|earliest credit|2
+15|C|0
+27|C|0
+6|C|0
+24|C|0
+10|C|0
+1986|C|0
+2003|C|0
+2002|A|0
+2004|A|0
+2006|C|0
+21|C|0
+20|C|0
+19|A|0
+25|C|0
+23|C|0
+12|A|0
+3|C|0
+32|C|0
+PA|C|0
+AZ|C|0
+NY|debt to income|4
+IL|A|0
+VA|C|0
+NC|C|0
+CA|debt to income|4
+TX|debt to income|2
+NJ|A|0
+MA|A|0
+GA|C|0
+WA|A|0
+5|A|0
+25|C|0
+11|C|0
+8|C|0
+19|A|0
+11|C|0
+28|A|0
+5|A|0
+25|A|0
+15|C|0
+CA|C|0
+TX|C|0
+NJ|C|0
+CO|C|0
+OK|C|0
+FL|C|0
+GA|C|0
+MO|C|0
+WA|C|0
+MD|C|0
+IL|C|0
+VA|C|0
+MT|C|0
+OR|C|0
+WI|debt to income|2
+OH|C|0
+AR|A|0
+NY|C|0
+NC|A|0
+TN|C|0
+AZ|debt to income|3
+MA|debt to income|3
+KS|C|0
+LA|C|0
+MI|A|0
+KY|C|0
+UT|C|0
+SC|C|0
+23|C|0
+25|earliest credit|2
+2009|A|0
+1979|C|0
+30|C|0
+71|A|0
+47|C|0
+42|C|0
+17|A|0
+26|C|0
+NH|C|0
+MA|debt to income|2
+CA|debt to income|10
+TX|C|0
+NJ|C|0
+NY|debt to income|12
+VA|debt to income|2
+IL|debt to income|2
+PA|debt to income|3
+OH|C|0
+TN|A|0
+NC|debt to income|2
+AL|C|0
+NM|C|0
+MD|C|0
+MI|C|0
+FL|debt to income|4
+CT|C|0
+CO|A|0
+AR|C|0
+GA|C|0
+ID|C|0
+UT|C|0
+IN|C|0
+WA|A|0
+MO|C|0
+MN|C|0
+WI|C|0
+6|A|0
+8|C|0
+10|A|0
+18|earliest credit|2
+7|C|0
+15|earliest credit|3
+28|C|0
+8|A|0
+13|A|0
+17|C|0
+23|C|0
+6|C|0
+2003|C|0
+2006|A|0
+2005|C|0
+2001|A|0
+2006|C|0
+20|A|0
+11|C|0
+12|C|0
+6|C|0
+17|C|0
+1|C|0
+13|C|0
+22|C|0
+16|C|0
+14|A|0
+21|C|0
+29|A|0
+29|C|0
+13|A|0
+22|C|0
+25|A|0
+10|A|0
+18|C|0
+12|A|0
+14|C|0
+13|A|0
+29|C|0
+25|A|0
+5|C|0
+15|A|0
+TX|C|0
+NC|debt to income|2
+FL|debt to income|2
+CO|C|0
+MN|C|0
+WA|C|0
+IL|C|0
+NY|debt to income|4
+KS|C|0
+MA|A|0
+CA|debt to income|2
+PA|C|0
+20|A|0
+16|C|0
+33|C|0
+10|A|0
+8|A|0
+6|C|0
+18|C|0
+13|A|0
+25|C|0
+9|A|0
+OR|C|0
+FL|C|0
+ID|C|0
+NY|C|0
+MI|C|0
+MN|C|0
+CA|A|0
+MORTGAGE|income|10
+OWN|income|8
+RENT|income|9
+80000|state|20
+125000|state|20
+40000|state|31
+150000|state|15
+30000|state|18
+60000|state|27
+100000|state|21
+10000|C|0
+20000|state|12
+15000|C|0
+OH|A|0
+PA|debt to income|2
+AZ|C|0
+DE|C|0
+CA|C|0
+TX|debt to income|4
+MI|C|0
+SC|A|0
+GA|debt to income|3
+CT|C|0
+IL|debt to income|4
+VA|C|0
+VT|C|0
+CO|C|0
+FL|C|0
+OK|C|0
+LA|A|0
+MT|C|0
+WA|A|0
+WI|C|0
+20|A|0
+21|C|0
+11|A|0
+18|earliest credit|2
+15|C|0
+22|C|0
+2003|C|0
+1998|A|0
+10|A|0
+9|C|0
+20|C|0
+13|A|0
+14|A|0
+15|A|0
+27|C|0
+IL|C|0
+VA|debt to income|2
+PA|C|0
+MN|A|0
+TX|C|0
+NJ|C|0
+IN|C|0
+NC|debt to income|3
+MD|C|0
+MI|debt to income|2
+FL|debt to income|2
+MO|A|0
+WA|debt to income|2
+DC|C|0
+CA|A|0
+RI|A|0
+GA|A|0
+MA|C|0
+OH|C|0
+NY|C|0
+14|earliest credit|2
+9|A|0
+1995|C|0
+2004|A|0
+18|earliest credit|2
+6|A|0
+7|A|0
+2007|A|0
+2003|C|0
+20|C|0
+12|A|0
+13|C|0
+17|A|0
+6|A|0
+7|C|0
+WA|earliest credit|2
+MO|C|0
+WY|C|0
+WI|C|0
+MD|C|0
+NM|C|0
+OR|debt to income|3
+IL|debt to income|4
+VA|debt to income|3
+FL|debt to income|4
+MA|C|0
+KS|C|0
+TX|debt to income|9
+NJ|C|0
+PA|C|0
+CA|debt to income|5
+MT|C|0
+MN|C|0
+DE|C|0
+AZ|A|0
+CT|C|0
+RI|debt to income|2
+TN|debt to income|4
+IN|debt to income|3
+GA|C|0
+MI|C|0
+SC|C|0
+OH|A|0
+NC|C|0
+AK|C|0
+KY|A|0
+2007|A|0
+2006|C|0
+27|C|0
+30|C|0
+24|A|0
+11|A|0
+19|A|0
+28|C|0
+15|C|0
+15|earliest credit|2
+30|A|0
+5|grade|2
+2006|C|0
+2005|A|0
+C|C|0
+A|A|0
+32|C|0
+21|A|0
+26|C|0
+23|C|0
+32|C|0
+18|earliest credit|2
+29|C|0
+13|C|0
+22|earliest credit|2
+17|A|0
+7|C|0
+27|C|0
+33|C|0
+2005|C|0
+1996|A|0
+2008|C|0
+2012|A|0
+15|A|0
+24|C|0
+5|C|0
+21|C|0
+11|A|0
+26|A|0
+13|C|0
+25|C|0
+32|C|0
+26|A|0
+18|C|0
+2|C|0
+28|A|0
+15|C|0
+GA|debt to income|4
+WA|A|0
+CA|debt to income|5
+NJ|A|0
+TX|debt to income|3
+CO|A|0
+TN|A|0
+MA|A|0
+VA|A|0
+IL|C|0
+OH|debt to income|2
+FL|debt to income|3
+LA|A|0
+AZ|C|0
+NY|debt to income|2
+13|A|0
+3|C|0
+19|C|0
+10|A|0
+23|A|0
+15|C|0
+9|C|0
+8|C|0
+5|C|0
+25|A|0
+20|A|0
+10|C|0
+9|C|0
+15|A|0
+16|C|0
+23|A|0
+19|A|0
+5|A|0
+2|C|0
+TX|C|0
+KY|debt to income|2
+CA|C|0
+IL|C|0
+CT|A|0
+SD|A|0
+PA|C|0
+NH|C|0
+KS|C|0
+UT|C|0
+MI|C|0
+MN|C|0
+AL|C|0
+WI|C|0
+FL|C|0
+NC|C|0
+SC|A|0
+IN|A|0
+22|A|0
+20|C|0
+OK|C|0
+FL|debt to income|5
+ND|C|0
+CO|debt to income|7
+TN|C|0
+GA|A|0
+OH|debt to income|4
+LA|C|0
+MA|C|0
+KS|C|0
+MD|A|0
+MI|debt to income|3
+IL|debt to income|3
+VA|C|0
+AL|C|0
+TX|debt to income|7
+NJ|C|0
+NC|C|0
+MS|C|0
+KY|A|0
+CA|C|0
+NY|C|0
+AZ|C|0
+SC|C|0
+PA|debt to income|6
+WI|C|0
+NE|C|0
+25|C|0
+14|A|0
+4|C|0
+13|C|0
+22|A|0
+18|A|0
+9|C|0
+24|A|0
+16|A|0
+31|C|0
+17|C|0
+20|C|0
+7|C|0
+26|C|0
+22|C|0
+12|A|0
+19|C|0
+12|A|0
+13|A|0
+18|A|0
+10|A|0
+12|C|0
+30|C|0
+16|A|0
+29|A|0
+18|A|0
+1|C|0
+22|A|0
+19|C|0
+14|A|0
+5|A|0
+1|A|0
+28|A|0
+16|C|0
+15|A|0
+CA|debt to income|3
+MA|C|0
+VA|C|0
+IL|C|0
+GA|C|0
+CO|C|0
+OK|C|0
+FL|debt to income|5
+AZ|debt to income|2
+MN|debt to income|2
+UT|A|0
+TX|debt to income|4
+NJ|C|0
+NY|C|0
+AK|C|0
+OH|A|0
+MD|C|0
+WA|A|0
+IN|A|0
+TN|C|0
+AL|A|0
+15|A|0
+24|C|0
+27|C|0
+11|A|0
+23|C|0
+12|C|0
+9|C|0
+24|C|0
+15|C|0
+28|A|0
+19|A|0
+2|C|0
+26|A|0
+4|A|0
+16|C|0
+22|C|0
+ID|C|0
+NY|C|0
+KS|A|0
+CO|C|0
+PA|C|0
+NC|C|0
+CA|C|0
+WA|A|0
+UT|C|0
+WI|C|0
+VA|C|0
+AR|C|0
+40000|state|11
+150000|state|3
+60000|state|17
+80000|state|3
+125000|state|4
+20000|C|0
+100000|C|0
+30000|A|0
+MN|debt to income|4
+OH|debt to income|2
+PA|debt to income|4
+FL|C|0
+TX|C|0
+VA|A|0
+NY|C|0
+GA|C|0
+OR|A|0
+MA|A|0
+CA|C|0
+33|C|0
+15|A|0
+20|C|0
+31|C|0
+21|C|0
+34|A|0
+15|A|0
+20|A|0
+32|C|0
+22|C|0
+VA|C|0
+CO|A|0
+TX|A|0
+MS|C|0
+CA|A|0
+TX|C|0
+NJ|C|0
+PA|C|0
+IL|A|0
+ID|C|0
+MA|C|0
+MI|A|0
+MD|A|0
+FL|C|0
+CO|C|0
+GA|C|0
+IN|C|0
+LA|C|0
+AR|C|0
+NY|A|0
+TX|A|0
+GA|A|0
+OH|C|0
+AR|C|0
+MI|C|0
+TX|C|0
+NE|A|0
+40000|state|30
+150000|state|5
+80000|state|16
+125000|state|9
+30000|state|24
+20000|state|15
+100000|state|9
+60000|state|25
+15000|state|3
+OH|A|0
+CO|debt to income|5
+VT|C|0
+VA|C|0
+IL|debt to income|3
+NY|debt to income|12
+IN|A|0
+LA|C|0
+NJ|debt to income|6
+TX|debt to income|7
+OR|C|0
+WA|C|0
+MO|C|0
+FL|debt to income|7
+OK|C|0
+CA|debt to income|10
+AL|A|0
+MA|debt to income|3
+NH|C|0
+PA|debt to income|2
+NC|C|0
+MI|C|0
+AK|C|0
+NV|C|0
+MD|A|0
+SC|C|0
+WI|C|0
+CT|C|0
+MS|C|0
+AZ|A|0
+27|C|0
+11|C|0
+19|C|0
+24|A|0
+15|C|0
+28|C|0
+12|A|0
+32|C|0
+15|C|0
+4|C|0
+13|A|0
+14|A|0
+32|C|0
+11|C|0
+19|C|0
+26|A|0
+9|A|0
+17|C|0
+22|C|0
+24|C|0
+22|C|0
+25|C|0
+16|A|0
+26|C|0
+20|C|0
+11|C|0
+39|C|0
+26|C|0
+7|C|0
+23|earliest credit|2
+24|C|0
+11|C|0
+21|C|0
+2007|C|0
+2006|A|0
+10|C|0
+18|A|0
+35|C|0
+12|C|0
+25|C|0
+17|C|0
+31|C|0
+26|C|0
+22|earliest credit|2
+13|C|0
+16|A|0
+3|C|0
+28|C|0
+20|A|0
+18|A|0
+24|C|0
+8|C|0
+2009|A|0
+2005|C|0
+19|A|0
+9|C|0
+13|A|0
+24|C|0
+19|A|0
+FL|debt to income|2
+CA|debt to income|4
+TX|C|0
+NJ|C|0
+NV|C|0
+15|C|0
+12|A|0
+8|C|0
+12|C|0
+2|C|0
+6|A|0
+NY|debt to income|4
+VA|C|0
+IL|C|0
+CT|C|0
+AR|C|0
+OH|earliest credit|2
+CO|C|0
+SC|C|0
+MD|C|0
+CA|debt to income|7
+WA|A|0
+TX|debt to income|5
+FL|C|0
+MI|C|0
+UT|A|0
+OR|C|0
+19|C|0
+8|A|0
+15|C|0
+14|C|0
+2011|A|0
+2003|C|0
+15|C|0
+24|A|0
+23|C|0
+12|C|0
+14|C|0
+11|C|0
+22|C|0
+9|C|0
+11|A|0
+8|C|0
+17|C|0
+15|C|0
+NC|C|0
+IL|C|0
+NY|debt to income|2
+CA|debt to income|6
+MS|C|0
+GA|C|0
+MA|C|0
+MD|C|0
+FL|A|0
+6|C|0
+12|A|0
+13|A|0
+8|C|0
+15|A|0
+24|C|0
+31|C|0
+14|A|0
+NY|debt to income|6
+IL|debt to income|4
+VA|C|0
+MI|debt to income|2
+MA|C|0
+NH|C|0
+OK|C|0
+FL|debt to income|6
+MO|C|0
+GA|C|0
+NM|C|0
+MD|C|0
+CA|debt to income|5
+NJ|C|0
+TX|debt to income|4
+UT|C|0
+LA|C|0
+MT|C|0
+CT|A|0
+OH|C|0
+SC|debt to income|2
+MN|C|0
+AZ|debt to income|2
+AL|C|0
+15|A|0
+7|earliest credit|2
+19|C|0
+25|C|0
+17|C|0
+21|C|0
+1994|A|0
+2006|C|0
+21|A|0
+27|C|0
+3|A|0
+28|C|0
+6|C|0
+3|A|0
+16|A|0
+8|C|0
+46|C|0
+25|C|0
+13|C|0
+18|C|0
+19|C|0
+5|C|0
+6|C|0
+29|C|0
+16|A|0
+19|C|0
+23|A|0
+26|C|0
+27|C|0
+27|C|0
+15|A|0
+7|C|0
+16|A|0
+NY|debt to income|5
+NH|A|0
+SC|C|0
+IN|C|0
+NC|C|0
+FL|A|0
+PA|C|0
+WI|C|0
+WA|C|0
+CA|C|0
+NJ|C|0
+OR|debt to income|2
+OH|C|0
+HI|C|0
+NV|C|0
+19|A|0
+8|C|0
+29|C|0
+10|C|0
+12|C|0
+15|C|0
+11|A|0
+CA|debt to income|4
+TX|C|0
+NC|A|0
+CO|C|0
+NY|debt to income|5
+IL|A|0
+MD|A|0
+MO|C|0
+AZ|A|0
+15|A|0
+25|C|0
+26|C|0
+3|C|0
+24|A|0
+15|C|0
+4|C|0
+12|A|0
+9|A|0
+NV|debt to income|2
+AK|A|0
+WI|C|0
+NJ|C|0
+TX|debt to income|4
+CA|debt to income|7
+NY|debt to income|6
+VA|C|0
+IL|A|0
+FL|C|0
+CO|debt to income|2
+MD|debt to income|5
+GA|debt to income|3
+NC|C|0
+CT|C|0
+MA|C|0
+KS|C|0
+AZ|C|0
+MO|C|0
+WA|debt to income|2
+OH|C|0
+RI|A|0
+PA|C|0
+MI|A|0
+MS|C|0
+15|A|0
+21|C|0
+14|C|0
+12|A|0
+23|C|0
+16|C|0
+27|earliest credit|3
+16|C|0
+17|C|0
+26|C|0
+15|A|0
+24|C|0
+14|A|0
+2000|A|0
+2006|C|0
+2007|C|0
+5|C|0
+14|C|0
+24|A|0
+23|C|0
+26|C|0
+27|C|0
+25|A|0
+14|C|0
+6|A|0
+17|A|0
+32|C|0
+2|C|0
+15|A|0
+19|A|0
+26|C|0
+25|C|0
+15|A|0
+20|C|0
+FL|A|0
+LA|C|0
+RI|C|0
+MORTGAGE|income|10
+OWN|income|9
+RENT|income|9
+20000|state|17
+100000|state|10
+10000|state|13
+30000|state|24
+150000|state|11
+40000|state|28
+125000|state|5
+80000|state|14
+60000|state|25
+15000|state|11
+OH|debt to income|3
+PA|A|0
+NY|debt to income|2
+IL|A|0
+TX|debt to income|3
+NJ|C|0
+NC|debt to income|3
+FL|debt to income|3
+TN|C|0
+AR|C|0
+MN|A|0
+AZ|A|0
+IN|A|0
+SC|C|0
+MI|C|0
+CA|C|0
+WI|C|0
+26|A|0
+28|C|0
+9|A|0
+17|A|0
+32|C|0
+26|A|0
+31|C|0
+12|A|0
+22|C|0
+21|A|0
+18|C|0
+71|C|0
+10|C|0
+43|A|0
+AL|A|0
+VA|C|0
+IL|A|0
+AR|A|0
+CT|A|0
+AZ|C|0
+TX|A|0
+CA|C|0
+FL|debt to income|3
+GA|C|0
+13|A|0
+16|A|0
+18|C|0
+OK|C|0
+PA|C|0
+AZ|C|0
+OH|debt to income|3
+TX|debt to income|2
+VA|C|0
+IL|C|0
+GA|C|0
+UT|C|0
+ME|A|0
+NY|A|0
+NM|C|0
+SC|C|0
+|A|0
+31|C|0
+187|C|0
+|A|0
+776|C|0
+MI|debt to income|4
+GA|debt to income|2
+NV|debt to income|2
+FL|C|0
+CO|debt to income|3
+MS|A|0
+IN|C|0
+LA|C|0
+ID|C|0
+OH|C|0
+VA|debt to income|2
+IL|C|0
+KS|C|0
+MA|C|0
+NE|C|0
+SC|debt to income|2
+NJ|A|0
+MO|A|0
+AR|A|0
+CA|C|0
+MD|C|0
+PA|A|0
+NY|C|0
+NC|C|0
+30|C|0
+28|earliest credit|2
+21|A|0
+12|C|0
+2005|C|0
+2000|A|0
+12|A|0
+13|C|0
+20|C|0
+8|A|0
+15|C|0
+27|A|0
+17|C|0
+19|C|0
+16|A|0
+20|A|0
+25|C|0
+CA|debt to income|3
+TX|A|0
+CO|C|0
+VA|debt to income|2
+IL|A|0
+MI|A|0
+NH|C|0
+NV|A|0
+NM|A|0
+AR|C|0
+GA|A|0
+11|C|0
+20|A|0
+6|C|0
+20|A|0
+18|C|0
+IL|debt to income|4
+VA|debt to income|3
+AL|A|0
+CA|debt to income|9
+NJ|debt to income|5
+TX|debt to income|3
+IN|C|0
+LA|C|0
+OH|debt to income|4
+TN|debt to income|3
+OR|C|0
+MD|C|0
+FL|debt to income|8
+OK|C|0
+PA|debt to income|2
+NC|debt to income|5
+VT|A|0
+CO|debt to income|2
+GA|debt to income|5
+WA|debt to income|3
+UT|A|0
+SC|C|0
+NY|C|0
+MI|debt to income|4
+KY|C|0
+MN|A|0
+AZ|C|0
+AR|C|0
+34|C|0
+33|A|0
+18|A|0
+28|C|0
+34|C|0
+23|A|0
+27|C|0
+19|C|0
+13|earliest credit|3
+18|C|0
+10|A|0
+15|A|0
+12|A|0
+23|C|0
+14|C|0
+16|C|0
+2005|A|0
+1993|C|0
+1995|C|0
+7|C|0
+35|C|0
+20|C|0
+29|A|0
+6|C|0
+5|A|0
+15|C|0
+34|C|0
+21|A|0
+24|C|0
+25|earliest credit|2
+19|A|0
+2002|C|0
+1981|A|0
+14|A|0
+21|C|0
+10|C|0
+34|C|0
+12|A|0
+14|C|0
+17|C|0
+31|C|0
+13|A|0
+10|C|0
+38|C|0
+21|C|0
+28|A|0
+14|A|0
+6|A|0
+4|A|0
+10|A|0
+9|C|0
+17|A|0
+7|C|0
+26|C|0
+17|A|0
+28|C|0
+19|A|0
+15|C|0
+14|A|0
+4|C|0
+20|C|0
+19|A|0
+20|C|0
+17|C|0
+16|A|0
+PA|debt to income|2
+AZ|A|0
+CA|A|0
+TX|A|0
+IL|C|0
+10|C|0
+5|A|0
+NV|debt to income|2
+WY|A|0
+NJ|debt to income|3
+PA|debt to income|3
+AZ|C|0
+FL|debt to income|2
+TN|C|0
+IL|debt to income|3
+NY|C|0
+CA|debt to income|2
+MS|A|0
+MI|C|0
+NC|A|0
+NE|C|0
+13|A|0
+27|C|0
+30|C|0
+29|A|0
+2|C|0
+18|C|0
+14|C|0
+11|A|0
+7|A|0
+26|C|0
+29|C|0
+14|C|0
+13|A|0
+20|A|0
+8|C|0
+GA|debt to income|4
+MO|A|0
+WA|C|0
+FL|debt to income|8
+CA|debt to income|9
+NJ|debt to income|5
+TX|debt to income|5
+SD|C|0
+CT|debt to income|2
+VA|A|0
+IL|debt to income|4
+MD|C|0
+KY|debt to income|2
+MA|A|0
+AZ|debt to income|5
+PA|C|0
+WI|C|0
+NC|A|0
+MS|debt to income|2
+NY|debt to income|2
+UT|C|0
+MI|A|0
+LA|A|0
+VT|C|0
+OH|A|0
+17|A|0
+23|C|0
+19|A|0
+25|A|0
+25|A|0
+32|earliest credit|2
+16|A|0
+7|A|0
+2|C|0
+18|A|0
+10|A|0
+15|C|0
+1978|A|0
+2000|C|0
+25|C|0
+22|C|0
+13|A|0
+12|A|0
+27|C|0
+28|C|0
+8|A|0
+26|C|0
+1|A|0
+17|C|0
+12|C|0
+25|A|0
+32|C|0
+16|A|0
+18|A|0
+34|A|0
+22|C|0
+20|C|0
+11|C|0
+10|C|0
+14|A|0
+26|C|0
+6|A|0
+20|A|0
+7|C|0
+33|C|0
+22|A|0
+14|A|0
+27|A|0
+31|C|0
+9|A|0
+24|C|0
+10|C|0
+29|A|0
+20|C|0
+17|A|0
+IL|C|0
+NY|A|0
+TX|C|0
+AZ|C|0
+PA|debt to income|2
+WI|C|0
+WA|C|0
+IN|C|0
+TN|C|0
+MI|C|0
+MA|C|0
+37|C|0
+71|A|0
+40000|state|19
+30000|state|18
+10000|state|6
+100000|state|4
+20000|state|16
+60000|state|11
+15000|C|0
+80000|state|6
+125000|C|0
+TX|C|0
+WA|C|0
+OK|C|0
+FL|C|0
+TN|A|0
+NY|debt to income|2
+AZ|A|0
+MI|C|0
+NH|C|0
+NC|C|0
+AR|A|0
+OR|C|0
+SC|C|0
+SD|A|0
+NM|A|0
+MD|C|0
+NV|A|0
+PA|A|0
+CA|A|0
+1|A|0
+29|C|0
+NJ|A|0
+TX|C|0
+MS|debt to income|2
+CA|debt to income|3
+FL|C|0
+MD|C|0
+NV|A|0
+MO|C|0
+CT|C|0
+IN|A|0
+MT|C|0
+TN|C|0
+AL|C|0
+AZ|C|0
+PA|C|0
+KY|A|0
+IL|C|0
+NY|debt to income|3
+33|C|0
+28|A|0
+20|C|0
+19|A|0
+15|C|0
+19|A|0
+25|C|0
+27|C|0
+PA|C|0
+TX|C|0
+FL|C|0
+NY|C|0
+MT|A|0
+NC|A|0
+MD|A|0
+CT|A|0
+FL|C|0
+CA|C|0
+OR|C|0
+ND|A|0
+PA|debt to income|3
+OH|C|0
+SD|C|0
+MN|C|0
+CA|debt to income|4
+TX|C|0
+NC|A|0
+MD|debt to income|2
+FL|C|0
+GA|C|0
+NV|C|0
+SC|C|0
+KY|C|0
+LA|C|0
+1|C|0
+25|C|0
+22|A|0
+7|A|0
+18|A|0
+25|C|0
+22|C|0
+11|A|0
+17|C|0
+AR|A|0
+AZ|C|0
+HI|C|0
+TX|debt to income|2
+CA|C|0
+UT|C|0
+MA|C|0
+NY|debt to income|2
+FL|C|0
+TN|C|0
+NC|A|0
+22|A|0
+11|C|0
+28|A|0
+15|C|0
+FL|debt to income|3
+CA|debt to income|4
+TX|C|0
+MS|A|0
+MI|debt to income|2
+IN|A|0
+26|C|0
+12|C|0
+20|A|0
+2|A|0
+9|A|0
+20|C|0
+15|C|0
+5|A|0
+22|C|0
+40000|state|18
+10000|state|19
+100000|state|4
+30000|state|22
+20000|state|22
+60000|state|14
+15000|state|13
+80000|state|4
+125000|A|0
+VA|C|0
+NY|C|0
+AL|A|0
+OK|C|0
+FL|debt to income|5
+CA|debt to income|7
+TX|debt to income|3
+NJ|debt to income|5
+IN|C|0
+LA|C|0
+NV|C|0
+PA|A|0
+OH|C|0
+WA|C|0
+MO|A|0
+AZ|C|0
+NC|A|0
+MD|C|0
+23|C|0
+12|C|0
+13|C|0
+21|A|0
+29|C|0
+18|A|0
+20|C|0
+11|C|0
+19|A|0
+32|C|0
+24|C|0
+22|C|0
+29|A|0
+9|C|0
+11|C|0
+20|C|0
+26|C|0
+32|C|0
+34|C|0
+9|A|0
+DC|C|0
+NY|C|0
+CA|debt to income|5
+PA|C|0
+MD|C|0
+MI|C|0
+NH|C|0
+MA|C|0
+GA|C|0
+TN|C|0
+MO|C|0
+WA|C|0
+WI|C|0
+CT|C|0
+SD|C|0
+AZ|C|0
+FL|C|0
+IL|C|0
+KY|C|0
+64|C|0
+0|A|0
+23|C|0
+|C|0
+38|C|0
+NY|C|0
+CA|C|0
+NJ|C|0
+TX|A|0
+VA|A|0
+OH|debt to income|2
+AR|C|0
+MA|C|0
+KS|C|0
+OK|C|0
+FL|debt to income|2
+CA|C|0
+NV|C|0
+NC|C|0
+MD|C|0
+NM|C|0
+MS|C|0
+PA|debt to income|2
+IN|debt to income|2
+MI|C|0
+HI|C|0
+TX|C|0
+WI|C|0
+NY|debt to income|2
+CT|A|0
+WA|C|0
+9|A|0
+23|C|0
+20|C|0
+23|A|0
+23|C|0
+22|A|0
+10|A|0
+18|C|0
+6|A|0
+15|C|0
+NY|debt to income|5
+CA|debt to income|3
+TX|debt to income|2
+NJ|C|0
+WA|C|0
+MO|debt to income|2
+MN|C|0
+OR|C|0
+MA|C|0
+FL|C|0
+GA|debt to income|3
+PA|C|0
+IL|C|0
+MI|C|0
+KY|C|0
+OH|C|0
+NE|A|0
+WI|C|0
+NC|debt to income|2
+NV|C|0
+CT|C|0
+CO|A|0
+20|A|0
+22|C|0
+16|C|0
+30|C|0
+29|C|0
+24|A|0
+12|C|0
+40|C|0
+15|C|0
+12|A|0
+4|A|0
+22|C|0
+16|A|0
+20|C|0
+11|C|0
+26|A|0
+23|C|0
+AZ|C|0
+OH|C|0
+CT|C|0
+PA|A|0
+MT|A|0
+NM|C|0
+NY|C|0
+IL|debt to income|2
+CA|debt to income|7
+NC|C|0
+RI|C|0
+NJ|debt to income|2
+NE|A|0
+MI|A|0
+21|A|0
+18|C|0
+11|C|0
+28|A|0
+9|C|0
+16|C|0
+30|C|0
+15|C|0
+22|A|0
+18|A|0
+17|C|0
+MI|C|0
+NH|C|0
+MA|C|0
+IL|C|0
+NY|debt to income|2
+AZ|C|0
+TN|C|0
+TX|C|0
+KY|A|0
+CT|C|0
+UT|C|0
+OH|A|0
+AR|C|0
+15|A|0
+23|C|0
+MD|C|0
+CA|debt to income|4
+FL|debt to income|3
+NY|C|0
+28|C|0
+9|C|0
+10|A|0
+7|C|0
+32|A|0
+11|C|0
+9|C|0
+MORTGAGE|income|9
+OWN|income|9
+RENT|income|9
+125000|state|38
+80000|state|44
+30000|state|34
+40000|state|46
+150000|state|39
+100000|state|41
+60000|state|45
+15000|A|0
+20000|state|17
+OR|debt to income|4
+NJ|debt to income|7
+TX|debt to income|13
+CA|debt to income|17
+NV|debt to income|3
+AZ|A|0
+MN|C|0
+OH|debt to income|4
+NY|debt to income|15
+TN|debt to income|5
+CT|debt to income|7
+GA|debt to income|9
+WI|debt to income|2
+CO|debt to income|7
+VT|C|0
+FL|debt to income|7
+OK|debt to income|3
+SC|A|0
+PA|debt to income|6
+ND|C|0
+MA|debt to income|3
+NH|C|0
+IL|C|0
+VA|debt to income|6
+LA|debt to income|3
+IN|C|0
+NC|debt to income|5
+RI|A|0
+MI|debt to income|4
+HI|debt to income|2
+MD|debt to income|5
+NM|C|0
+DC|C|0
+AL|debt to income|4
+WA|C|0
+MO|debt to income|4
+KY|debt to income|4
+UT|A|0
+30|C|0
+15|A|0
+28|C|0
+12|C|0
+10|earliest credit|2
+19|A|0
+5|C|0
+12|earliest credit|2
+6|C|0
+24|A|0
+7|C|0
+1999|C|0
+1997|A|0
+2002|C|0
+2005|A|0
+15|earliest credit|2
+24|earliest credit|2
+10|A|0
+18|C|0
+25|earliest credit|2
+14|C|0
+13|earliest credit|2
+34|C|0
+19|A|0
+20|C|0
+16|A|0
+17|C|0
+6|A|0
+2003|grade|2
+2007|C|0
+C|C|0
+A|A|0
+2004|A|0
+1993|C|0
+2000|A|0
+2004|C|0
+1986|A|0
+1990|C|0
+17|earliest credit|2
+12|C|0
+23|A|0
+13|earliest credit|2
+7|A|0
+30|A|0
+27|C|0
+0|C|0
+4|earliest credit|4
+9|earliest credit|2
+14|A|0
+19|A|0
+15|earliest credit|4
+18|A|0
+8|C|0
+24|C|0
+10|A|0
+1995|A|0
+2003|C|0
+2003|A|0
+2004|C|0
+1992|A|0
+1998|C|0
+2002|C|0
+2003|A|0
+1996|C|0
+1994|A|0
+2004|C|0
+2000|A|0
+2005|A|0
+1994|A|0
+16|C|0
+20|A|0
+17|A|0
+17|C|0
+6|A|0
+32|C|0
+21|C|0
+6|C|0
+17|A|0
+28|A|0
+11|C|0
+8|A|0
+5|C|0
+22|C|0
+13|earliest credit|3
+12|A|0
+24|C|0
+4|earliest credit|3
+25|A|0
+18|A|0
+10|C|0
+15|A|0
+1995|A|0
+1986|C|0
+1999|A|0
+1972|A|0
+1998|A|0
+1986|C|0
+17|A|0
+28|C|0
+24|A|0
+23|A|0
+27|C|0
+32|C|0
+18|A|0
+9|A|0
+10|A|0
+20|A|0
+3|C|0
+15|A|0
+20|earliest credit|2
+28|C|0
+11|A|0
+13|earliest credit|2
+12|C|0
+23|A|0
+17|A|0
+26|C|0
+14|A|0
+1995|C|0
+1988|A|0
+1996|C|0
+1992|A|0
+26|C|0
+14|A|0
+16|A|0
+10|A|0
+9|A|0
+17|A|0
+11|A|0
+12|C|0
+25|A|0
+24|C|0
+4|A|0
+15|C|0
+16|C|0
+29|A|0
+21|A|0
+19|C|0
+8|C|0
+16|A|0
+25|C|0
+14|C|0
+32|A|0
+25|C|0
+10|C|0
+12|A|0
+20|C|0
+9|A|0
+21|A|0
+16|C|0
+25|A|0
+19|C|0
+20|A|0
+15|A|0
+9|A|0
+6|A|0
+7|A|0
+24|C|0
+28|C|0
+7|A|0
+25|C|0
+13|A|0
+21|A|0
+18|C|0
+20|C|0
+11|C|0
+21|A|0
+24|C|0
+23|A|0
+8|C|0
+21|A|0
+10|earliest credit|2
+12|C|0
+15|A|0
+5|C|0
+1997|C|0
+2003|A|0
+12|A|0
+23|C|0
+9|C|0
+19|A|0
+13|C|0
+12|A|0
+29|C|0
+20|C|0
+13|C|0
+25|A|0
+9|A|0
+29|C|0
+WA|debt to income|5
+MO|debt to income|6
+CA|debt to income|25
+NJ|debt to income|8
+TX|debt to income|23
+VA|debt to income|16
+IL|debt to income|13
+NY|debt to income|15
+MI|debt to income|12
+UT|debt to income|4
+MD|debt to income|20
+NM|A|0
+FL|debt to income|18
+OK|debt to income|4
+AZ|debt to income|14
+MN|debt to income|3
+PA|debt to income|16
+AL|debt to income|8
+WI|debt to income|6
+OH|debt to income|12
+CO|debt to income|16
+VT|C|0
+MA|debt to income|11
+NH|A|0
+KS|C|0
+NC|debt to income|14
+AR|C|0
+CT|debt to income|8
+NV|debt to income|6
+AK|C|0
+GA|debt to income|10
+OR|debt to income|2
+KY|debt to income|4
+IN|debt to income|7
+LA|debt to income|7
+MS|debt to income|4
+TN|debt to income|5
+SC|debt to income|6
+NE|debt to income|4
+HI|C|0
+DC|A|0
+ME|A|0
+MT|A|0
+WY|C|0
+13|A|0
+18|C|0
+17|A|0
+26|C|0
+5|C|0
+20|C|0
+22|C|0
+31|C|0
+5|A|0
+16|A|0
+30|C|0
+7|earliest credit|5
+16|earliest credit|4
+21|earliest credit|3
+18|A|0
+9|earliest credit|2
+20|C|0
+19|earliest credit|3
+4|C|0
+33|C|0
+13|earliest credit|5
+17|earliest credit|3
+29|C|0
+10|A|0
+26|C|0
+24|C|0
+31|C|0
+14|earliest credit|2
+27|C|0
+11|C|0
+3|A|0
+34|earliest credit|2
+25|earliest credit|2
+22|C|0
+8|C|0
+12|A|0
+1990|A|0
+2003|C|0
+2001|C|0
+1975|A|0
+2000|A|0
+2001|C|0
+1976|C|0
+1999|A|0
+2000|A|0
+2000|A|0
+1990|C|0
+1999|A|0
+1977|C|0
+1997|A|0
+1976|C|0
+2006|A|0
+2001|A|0
+1995|C|0
+2006|C|0
+1999|C|0
+2000|A|0
+1990|C|0
+1998|C|0
+1999|C|0
+2002|A|0
+1987|A|0
+1993|C|0
+2003|C|0
+2004|A|0
+1991|C|0
+2001|A|0
+29|earliest credit|2
+10|C|0
+1|A|0
+20|C|0
+28|C|0
+22|C|0
+14|earliest credit|5
+15|C|0
+2007|C|0
+1990|A|0
+1999|A|0
+1998|A|0
+2007|C|0
+1993|C|0
+1997|C|0
+18|earliest credit|2
+21|C|0
+17|earliest credit|3
+23|earliest credit|4
+14|C|0
+5|A|0
+32|earliest credit|2
+13|C|0
+30|A|0
+7|C|0
+19|earliest credit|6
+20|A|0
+24|C|0
+28|earliest credit|3
+11|C|0
+12|earliest credit|4
+35|C|0
+22|earliest credit|2
+27|A|0
+25|A|0
+16|A|0
+31|C|0
+15|A|0
+1993|C|0
+2002|A|0
+1985|A|0
+1992|C|0
+1996|C|0
+1999|C|0
+1998|C|0
+2002|C|0
+2001|A|0
+2000|A|0
+1991|C|0
+2004|C|0
+1994|A|0
+1999|C|0
+1995|C|0
+2002|A|0
+1998|C|0
+1992|A|0
+2005|C|0
+1998|A|0
+1994|A|0
+2002|C|0
+2004|C|0
+1991|A|0
+1999|C|0
+2002|A|0
+23|earliest credit|3
+22|C|0
+21|C|0
+9|A|0
+16|C|0
+7|C|0
+28|C|0
+11|A|0
+17|C|0
+15|A|0
+1|A|0
+14|earliest credit|2
+10|C|0
+6|earliest credit|2
+33|C|0
+5|A|0
+2003|C|0
+1996|C|0
+1999|A|0
+1988|C|0
+2003|A|0
+1989|A|0
+1994|C|0
+14|earliest credit|3
+32|A|0
+5|C|0
+29|A|0
+21|earliest credit|2
+18|C|0
+11|earliest credit|2
+19|A|0
+24|earliest credit|2
+15|A|0
+8|A|0
+26|A|0
+12|C|0
+2005|C|0
+1999|A|0
+1987|A|0
+2000|C|0
+2008|A|0
+1989|C|0
+2005|A|0
+2000|A|0
+2004|C|0
+11|C|0
+20|C|0
+19|earliest credit|2
+25|C|0
+24|A|0
+22|A|0
+29|C|0
+10|C|0
+16|C|0
+6|C|0
+31|C|0
+14|C|0
+1|C|0
+12|earliest credit|2
+21|C|0
+2000|C|0
+2002|A|0
+2002|C|0
+2001|A|0
+20|A|0
+8|A|0
+15|A|0
+29|A|0
+23|C|0
+12|C|0
+14|A|0
+32|C|0
+5|C|0
+28|A|0
+11|C|0
+13|C|0
+12|C|0
+13|A|0
+11|A|0
+26|C|0
+7|A|0
+30|C|0
+27|C|0
+22|C|0
+25|C|0
+12|A|0
+21|A|0
+18|A|0
+19|earliest credit|2
+20|C|0
+31|C|0
+10|C|0
+29|C|0
+26|C|0
+8|A|0
+16|C|0
+15|C|0
+17|A|0
+13|A|0
+23|A|0
+2000|A|0
+1990|C|0
+18|earliest credit|2
+10|C|0
+7|A|0
+30|C|0
+28|C|0
+11|earliest credit|4
+19|C|0
+12|C|0
+23|earliest credit|3
+17|earliest credit|2
+33|C|0
+5|C|0
+13|C|0
+26|C|0
+31|C|0
+25|earliest credit|2
+14|C|0
+24|C|0
+2000|A|0
+1988|C|0
+2003|C|0
+1994|C|0
+1997|C|0
+2011|A|0
+1995|A|0
+1997|C|0
+2003|C|0
+1985|A|0
+2005|C|0
+2005|C|0
+1995|A|0
+23|A|0
+28|C|0
+13|C|0
+24|A|0
+31|C|0
+17|earliest credit|4
+7|A|0
+16|A|0
+4|A|0
+24|C|0
+13|A|0
+5|C|0
+9|A|0
+21|C|0
+0|C|0
+12|A|0
+28|C|0
+22|C|0
+1989|C|0
+1981|A|0
+1988|C|0
+2004|C|0
+15|earliest credit|2
+21|C|0
+25|A|0
+2008|C|0
+1996|A|0
+9|C|0
+10|A|0
+22|earliest credit|3
+16|C|0
+17|C|0
+24|C|0
+15|A|0
+28|C|0
+11|A|0
+19|C|0
+27|A|0
+5|C|0
+31|C|0
+7|A|0
+21|C|0
+8|C|0
+2006|C|0
+1990|C|0
+2005|grade|2
+C|C|0
+A|A|0
+16|earliest credit|2
+12|C|0
+24|C|0
+9|C|0
+21|A|0
+18|A|0
+14|C|0
+11|C|0
+2005|A|0
+1990|C|0
+22|C|0
+9|A|0
+10|A|0
+23|C|0
+45|C|0
+19|A|0
+24|A|0
+33|C|0
+25|C|0
+14|C|0
+27|A|0
+7|A|0
+8|earliest credit|2
+12|A|0
+13|C|0
+16|A|0
+18|A|0
+23|C|0
+1983|A|0
+2001|C|0
+16|A|0
+7|earliest credit|3
+5|A|0
+32|C|0
+14|C|0
+29|C|0
+13|C|0
+15|C|0
+24|C|0
+17|C|0
+27|A|0
+21|A|0
+18|A|0
+8|A|0
+19|A|0
+22|A|0
+2004|C|0
+1986|A|0
+2006|C|0
+9|C|0
+18|A|0
+21|earliest credit|2
+29|A|0
+25|C|0
+11|C|0
+17|A|0
+4|C|0
+12|A|0
+16|C|0
+34|C|0
+1998|C|0
+2006|A|0
+18|C|0
+29|C|0
+30|C|0
+7|C|0
+25|C|0
+14|A|0
+26|C|0
+6|A|0
+11|A|0
+2|A|0
+27|C|0
+13|A|0
+15|A|0
+23|C|0
+12|A|0
+20|A|0
+24|C|0
+15|C|0
+27|A|0
+16|C|0
+18|A|0
+26|C|0
+16|C|0
+15|A|0
+10|C|0
+17|C|0
+6|C|0
+3|C|0
+19|A|0
+20|C|0
+32|grade|2
+25|C|0
+17|C|0
+18|earliest credit|3
+23|C|0
+7|A|0
+13|C|0
+24|C|0
+A|A|0
+C|C|0
+1996|C|0
+2001|C|0
+1979|A|0
+31|C|0
+10|A|0
+18|A|0
+27|C|0
+6|A|0
+24|A|0
+4|C|0
+16|C|0
+7|A|0
+17|A|0
+14|C|0
+25|C|0
+11|A|0
+22|A|0
+21|A|0
+9|A|0
+24|A|0
+15|C|0
+20|C|0
+34|C|0
+18|C|0
+15|A|0
+24|C|0
+14|A|0
+27|A|0
+6|C|0
+18|A|0
+19|C|0
+15|A|0
+10|C|0
+19|A|0
+4|A|0
+33|C|0
+23|C|0
+22|C|0
+16|A|0
+22|C|0
+8|C|0
+12|C|0
+MD|C|0
+NE|C|0
+NC|C|0
+AZ|A|0
+DE|debt to income|2
+MN|debt to income|4
+OH|debt to income|5
+GA|debt to income|6
+WI|C|0
+OK|debt to income|2
+FL|C|0
+VT|A|0
+KY|debt to income|3
+NY|debt to income|3
+AL|C|0
+MO|C|0
+WA|C|0
+TX|debt to income|5
+KS|A|0
+NH|C|0
+AR|C|0
+PA|debt to income|6
+SD|A|0
+CA|debt to income|3
+TN|debt to income|3
+IL|debt to income|4
+VA|C|0
+SC|A|0
+MI|A|0
+LA|C|0
+ID|A|0
+MS|A|0
+ME|C|0
+NV|C|0
+22|C|0
+28|A|0
+20|C|0
+8|A|0
+22|C|0
+14|C|0
+7|C|0
+16|A|0
+0|C|0
+12|C|0
+15|C|0
+40|C|0
+21|A|0
+9|earliest credit|2
+20|earliest credit|2
+33|C|0
+13|A|0
+2000|A|0
+2001|C|0
+1984|C|0
+1996|A|0
+32|C|0
+35|A|0
+17|C|0
+30|C|0
+41|A|0
+22|A|0
+14|C|0
+25|C|0
+12|C|0
+18|A|0
+13|C|0
+25|C|0
+8|A|0
+27|earliest credit|2
+28|C|0
+11|C|0
+6|A|0
+17|A|0
+23|C|0
+2007|C|0
+2005|A|0
+16|C|0
+22|A|0
+11|C|0
+24|C|0
+20|A|0
+3|A|0
+34|A|0
+23|C|0
+19|C|0
+25|C|0
+OK|debt to income|5
+FL|debt to income|20
+MN|debt to income|8
+DE|C|0
+AZ|debt to income|11
+CA|debt to income|16
+NJ|debt to income|5
+TX|debt to income|22
+NV|debt to income|7
+AK|A|0
+WA|debt to income|7
+MO|debt to income|11
+MD|debt to income|8
+NM|C|0
+OR|debt to income|7
+NC|debt to income|10
+PA|debt to income|10
+KY|debt to income|7
+MA|C|0
+NH|debt to income|3
+KS|debt to income|3
+OH|debt to income|17
+MS|C|0
+AR|debt to income|6
+VA|debt to income|8
+IL|debt to income|15
+GA|debt to income|10
+TN|debt to income|5
+RI|debt to income|3
+IN|debt to income|9
+LA|debt to income|6
+SC|debt to income|7
+NY|debt to income|10
+CO|debt to income|10
+VT|C|0
+WI|debt to income|7
+MI|debt to income|12
+AL|debt to income|9
+CT|debt to income|5
+SD|C|0
+MT|debt to income|3
+WY|debt to income|2
+UT|debt to income|3
+NE|C|0
+HI|debt to income|2
+ID|C|0
+20|C|0
+27|C|0
+17|A|0
+29|C|0
+12|A|0
+1|A|0
+18|earliest credit|2
+21|C|0
+11|C|0
+28|earliest credit|4
+20|C|0
+19|earliest credit|2
+31|C|0
+23|C|0
+27|C|0
+24|A|0
+13|A|0
+29|C|0
+15|earliest credit|4
+30|earliest credit|3
+22|C|0
+25|A|0
+33|A|0
+17|A|0
+12|C|0
+2004|A|0
+2008|C|0
+2006|C|0
+2003|A|0
+2005|A|0
+2001|C|0
+2000|C|0
+1989|A|0
+2006|grade|2
+2002|C|0
+1971|C|0
+1997|C|0
+A|A|0
+C|C|0
+2005|C|0
+2000|C|0
+1998|A|0
+21|C|0
+14|earliest credit|2
+16|A|0
+7|A|0
+19|C|0
+24|A|0
+33|C|0
+17|C|0
+2001|C|0
+2000|A|0
+18|A|0
+29|A|0
+20|A|0
+23|A|0
+3|C|0
+35|C|0
+6|C|0
+15|A|0
+14|C|0
+28|A|0
+44|C|0
+30|C|0
+16|earliest credit|5
+24|earliest credit|3
+12|C|0
+17|earliest credit|3
+14|earliest credit|3
+21|C|0
+18|C|0
+19|earliest credit|3
+20|C|0
+25|earliest credit|3
+29|C|0
+10|earliest credit|2
+9|earliest credit|2
+22|C|0
+13|A|0
+2006|C|0
+2004|C|0
+1993|C|0
+2001|A|0
+2003|A|0
+1992|A|0
+2011|A|0
+1994|C|0
+1995|A|0
+2000|A|0
+2006|C|0
+1999|C|0
+2002|A|0
+2000|C|0
+2000|A|0
+1997|C|0
+1993|C|0
+1996|A|0
+1994|C|0
+1999|C|0
+1993|A|0
+1997|C|0
+1988|C|0
+2000|A|0
+55|C|0
+19|C|0
+21|C|0
+7|A|0
+31|C|0
+14|earliest credit|2
+25|C|0
+13|C|0
+27|A|0
+28|earliest credit|3
+6|A|0
+31|C|0
+17|earliest credit|4
+23|earliest credit|3
+56|C|0
+29|A|0
+24|A|0
+12|C|0
+22|earliest credit|2
+7|A|0
+5|C|0
+15|C|0
+16|C|0
+34|earliest credit|2
+26|C|0
+21|A|0
+45|C|0
+1991|A|0
+1998|C|0
+2001|C|0
+2007|C|0
+1995|A|0
+2005|C|0
+1987|A|0
+2001|C|0
+2002|C|0
+2005|C|0
+1999|A|0
+1986|C|0
+1999|C|0
+1997|A|0
+1996|A|0
+2002|C|0
+21|earliest credit|2
+10|C|0
+22|C|0
+6|C|0
+28|earliest credit|2
+30|earliest credit|2
+16|A|0
+1999|A|0
+2004|C|0
+1998|C|0
+2003|A|0
+1993|C|0
+2000|A|0
+21|A|0
+52|C|0
+17|C|0
+26|C|0
+25|A|0
+23|C|0
+8|C|0
+27|C|0
+21|A|0
+31|C|0
+26|C|0
+22|earliest credit|2
+20|A|0
+19|C|0
+12|C|0
+5|C|0
+29|C|0
+17|C|0
+2001|A|0
+1990|C|0
+18|earliest credit|3
+21|C|0
+7|A|0
+30|C|0
+32|earliest credit|2
+25|C|0
+6|C|0
+17|A|0
+2002|C|0
+2008|A|0
+2006|A|0
+1986|A|0
+1995|C|0
+19|C|0
+11|A|0
+17|C|0
+9|A|0
+23|A|0
+33|C|0
+13|A|0
+6|A|0
+17|C|0
+26|C|0
+18|C|0
+29|earliest credit|2
+10|C|0
+24|earliest credit|3
+15|earliest credit|3
+14|earliest credit|4
+30|C|0
+2002|A|0
+2005|C|0
+1987|C|0
+2003|C|0
+1996|A|0
+1997|A|0
+2003|C|0
+2009|C|0
+2000|C|0
+2005|A|0
+1996|C|0
+2004|A|0
+28|C|0
+11|earliest credit|2
+19|C|0
+14|A|0
+25|C|0
+29|A|0
+34|earliest credit|2
+16|C|0
+13|C|0
+31|A|0
+2002|grade|2
+1987|A|0
+A|A|0
+C|C|0
+1995|A|0
+2007|C|0
+24|C|0
+14|earliest credit|2
+18|C|0
+23|A|0
+22|earliest credit|2
+6|C|0
+11|C|0
+1994|C|0
+2002|A|0
+2002|C|0
+2005|A|0
+3|A|0
+6|C|0
+15|A|0
+11|A|0
+19|A|0
+6|C|0
+33|C|0
+68|C|0
+24|C|0
+15|C|0
+27|C|0
+16|earliest credit|4
+20|C|0
+21|C|0
+18|C|0
+13|A|0
+26|earliest credit|2
+14|C|0
+31|C|0
+6|C|0
+17|A|0
+12|C|0
+5|C|0
+1999|C|0
+2008|C|0
+2007|A|0
+1994|C|0
+1991|A|0
+1987|C|0
+16|C|0
+34|A|0
+32|A|0
+6|C|0
+31|C|0
+17|earliest credit|2
+2004|A|0
+1991|C|0
+21|earliest credit|2
+7|C|0
+27|earliest credit|2
+37|C|0
+28|A|0
+17|C|0
+15|C|0
+22|A|0
+1998|A|0
+2003|C|0
+2001|A|0
+2004|C|0
+18|C|0
+21|C|0
+25|C|0
+5|A|0
+7|A|0
+12|A|0
+15|A|0
+24|C|0
+17|A|0
+8|A|0
+14|C|0
+27|C|0
+33|A|0
+23|A|0
+36|C|0
+27|C|0
+16|C|0
+22|C|0
+12|C|0
+11|A|0
+20|A|0
+10|C|0
+31|C|0
+17|C|0
+24|C|0
+30|C|0
+29|C|0
+24|A|0
+14|A|0
+31|C|0
+15|C|0
+10|C|0
+22|A|0
+44|C|0
+39|C|0
+29|C|0
+18|C|0
+32|C|0
+12|A|0
+4|C|0
+8|C|0
+7|C|0
+21|earliest credit|2
+32|A|0
+25|C|0
+28|C|0
+8|A|0
+30|C|0
+2000|A|0
+1999|C|0
+17|A|0
+31|C|0
+27|C|0
+12|C|0
+28|A|0
+33|C|0
+9|C|0
+15|earliest credit|2
+24|A|0
+16|earliest credit|2
+27|A|0
+19|C|0
+21|earliest credit|3
+18|C|0
+25|C|0
+17|C|0
+7|A|0
+1996|A|0
+2002|C|0
+2010|A|0
+2004|C|0
+1989|C|0
+2003|A|0
+2004|C|0
+8|C|0
+20|C|0
+19|A|0
+13|C|0
+22|C|0
+7|A|0
+17|C|0
+26|A|0
+23|C|0
+9|A|0
+25|A|0
+29|C|0
+21|C|0
+17|A|0
+16|earliest credit|3
+13|C|0
+20|C|0
+1998|C|0
+2008|A|0
+1994|C|0
+34|C|0
+23|C|0
+15|A|0
+33|C|0
+32|C|0
+30|A|0
+28|A|0
+19|C|0
+20|A|0
+18|earliest credit|2
+9|A|0
+24|A|0
+2001|A|0
+2005|C|0
+18|A|0
+29|A|0
+10|A|0
+16|A|0
+30|A|0
+26|C|0
+17|C|0
+13|C|0
+11|C|0
+17|A|0
+8|A|0
+1|C|0
+12|A|0
+5|C|0
+15|C|0
+14|A|0
+12|C|0
+17|A|0
+8|C|0
+9|A|0
+26|C|0
+23|C|0
+23|C|0
+14|A|0
+OH|debt to income|5
+NC|debt to income|7
+NM|A|0
+MD|debt to income|10
+OK|A|0
+FL|debt to income|8
+CA|debt to income|19
+AL|debt to income|4
+NY|debt to income|13
+IL|debt to income|12
+VA|debt to income|12
+NV|debt to income|3
+AK|C|0
+GA|debt to income|8
+TX|debt to income|13
+NJ|debt to income|6
+AR|debt to income|5
+KS|A|0
+NH|debt to income|3
+MA|debt to income|4
+MO|debt to income|2
+WA|debt to income|3
+PA|debt to income|5
+CT|debt to income|4
+LA|debt to income|3
+IN|C|0
+SC|C|0
+MI|C|0
+AZ|debt to income|5
+MN|A|0
+DE|C|0
+MS|earliest credit|2
+TN|debt to income|4
+CO|A|0
+RI|debt to income|2
+NE|C|0
+UT|A|0
+WI|C|0
+OR|A|0
+20|C|0
+12|earliest credit|2
+9|A|0
+10|A|0
+7|A|0
+1985|A|0
+2004|C|0
+11|earliest credit|3
+21|A|0
+12|A|0
+25|C|0
+5|C|0
+22|C|0
+17|A|0
+2004|C|0
+2001|C|0
+1978|A|0
+6|C|0
+25|C|0
+14|A|0
+15|A|0
+23|C|0
+19|A|0
+13|A|0
+18|A|0
+21|A|0
+11|earliest credit|2
+1983|A|0
+2000|C|0
+15|A|0
+8|C|0
+11|earliest credit|3
+0|A|0
+20|C|0
+25|C|0
+14|A|0
+13|C|0
+2004|C|0
+1996|A|0
+2000|A|0
+15|earliest credit|3
+4|earliest credit|4
+10|earliest credit|2
+9|A|0
+0|C|0
+8|earliest credit|3
+20|A|0
+19|A|0
+12|earliest credit|2
+5|earliest credit|4
+23|C|0
+21|earliest credit|2
+17|A|0
+6|A|0
+3|A|0
+7|C|0
+11|A|0
+22|A|0
+24|A|0
+1990|A|0
+1981|A|0
+1986|C|0
+1996|A|0
+1981|C|0
+2005|C|0
+2000|A|0
+1999|A|0
+2000|C|0
+1997|C|0
+2000|A|0
+1994|A|0
+1994|C|0
+2000|A|0
+1994|C|0
+1997|A|0
+1989|A|0
+2002|C|0
+1967|C|0
+2001|A|0
+15|A|0
+7|C|0
+10|A|0
+5|C|0
+20|C|0
+11|A|0
+10|A|0
+18|earliest credit|3
+21|A|0
+15|A|0
+23|C|0
+13|A|0
+14|C|0
+3|A|0
+24|C|0
+9|C|0
+17|C|0
+2002|A|0
+1995|A|0
+1988|C|0
+5|A|0
+26|C|0
+6|C|0
+17|A|0
+9|A|0
+21|C|0
+18|A|0
+11|C|0
+22|C|0
+12|A|0
+19|C|0
+20|C|0
+27|A|0
+21|C|0
+18|C|0
+11|C|0
+19|C|0
+24|C|0
+15|earliest credit|2
+26|C|0
+14|A|0
+13|A|0
+12|A|0
+9|A|0
+1997|grade|2
+1987|A|0
+C|C|0
+A|A|0
+4|A|0
+5|A|0
+26|C|0
+9|earliest credit|2
+8|A|0
+11|A|0
+13|earliest credit|2
+22|A|0
+14|earliest credit|2
+17|A|0
+15|C|0
+2004|C|0
+1978|A|0
+1992|A|0
+2002|C|0
+1984|A|0
+1997|C|0
+16|earliest credit|4
+27|A|0
+19|A|0
+8|A|0
+13|C|0
+18|A|0
+21|A|0
+23|A|0
+12|earliest credit|2
+24|A|0
+15|A|0
+14|A|0
+3|C|0
+1992|C|0
+1985|A|0
+1983|C|0
+2002|C|0
+2000|C|0
+2004|A|0
+11|A|0
+26|C|0
+14|A|0
+24|A|0
+22|A|0
+3|A|0
+13|A|0
+15|A|0
+33|A|0
+29|C|0
+19|A|0
+22|C|0
+16|A|0
+33|C|0
+25|A|0
+14|A|0
+10|A|0
+9|earliest credit|2
+1998|A|0
+1996|C|0
+12|C|0
+8|A|0
+14|A|0
+16|A|0
+15|C|0
+3|earliest credit|2
+26|A|0
+21|A|0
+22|A|0
+14|A|0
+1975|A|0
+2005|C|0
+25|A|0
+13|A|0
+12|A|0
+17|earliest credit|2
+1993|C|0
+1990|A|0
+10|C|0
+18|C|0
+9|A|0
+12|A|0
+4|C|0
+24|A|0
+15|A|0
+13|C|0
+2004|A|0
+1998|C|0
+15|A|0
+14|C|0
+18|A|0
+13|A|0
+12|A|0
+7|C|0
+CT|debt to income|7
+PA|debt to income|7
+WI|C|0
+GA|debt to income|6
+CA|debt to income|23
+NJ|debt to income|17
+TX|debt to income|24
+MA|debt to income|7
+KS|A|0
+NH|C|0
+IL|debt to income|9
+VA|debt to income|12
+UT|debt to income|6
+WA|debt to income|10
+MO|A|0
+MD|debt to income|10
+NM|C|0
+MI|debt to income|9
+AZ|debt to income|9
+DE|C|0
+MN|debt to income|6
+OH|debt to income|9
+NY|debt to income|13
+CO|C|0
+FL|debt to income|15
+OK|A|0
+IN|debt to income|5
+LA|debt to income|3
+HI|debt to income|2
+NV|debt to income|7
+AK|A|0
+SC|debt to income|3
+MS|A|0
+NC|debt to income|7
+AR|A|0
+TN|debt to income|3
+NE|C|0
+AL|A|0
+ID|A|0
+RI|C|0
+ND|A|0
+6|C|0
+28|C|0
+19|C|0
+35|C|0
+5|A|0
+7|A|0
+16|earliest credit|2
+1986|C|0
+2001|A|0
+17|A|0
+18|A|0
+13|A|0
+20|C|0
+16|A|0
+30|C|0
+33|A|0
+21|earliest credit|2
+29|A|0
+18|C|0
+19|C|0
+12|A|0
+16|C|0
+2003|A|0
+1989|C|0
+29|C|0
+10|A|0
+18|earliest credit|4
+21|C|0
+16|earliest credit|4
+7|A|0
+24|C|0
+22|C|0
+11|A|0
+27|C|0
+23|earliest credit|2
+35|A|0
+12|earliest credit|2
+9|C|0
+20|C|0
+19|earliest credit|4
+1|A|0
+26|earliest credit|4
+13|earliest credit|3
+14|A|0
+25|A|0
+15|A|0
+8|A|0
+2001|C|0
+1996|A|0
+1995|C|0
+2004|C|0
+1981|C|0
+1995|C|0
+1985|C|0
+1979|A|0
+1996|A|0
+2000|C|0
+1993|C|0
+1997|A|0
+2001|A|0
+1999|A|0
+1986|C|0
+1997|C|0
+1995|C|0
+2006|A|0
+1990|A|0
+1998|C|0
+2004|grade|2
+1998|A|0
+2000|C|0
+C|C|0
+A|A|0
+26|C|0
+6|C|0
+21|C|0
+18|C|0
+19|A|0
+20|A|0
+8|A|0
+13|earliest credit|2
+2|C|0
+22|C|0
+16|A|0
+14|A|0
+17|A|0
+23|C|0
+11|A|0
+9|C|0
+10|A|0
+2000|C|0
+2003|A|0
+8|A|0
+11|A|0
+28|earliest credit|4
+6|C|0
+31|C|0
+26|C|0
+18|earliest credit|2
+21|C|0
+27|C|0
+4|A|0
+24|earliest credit|2
+14|C|0
+16|earliest credit|2
+19|C|0
+20|A|0
+25|C|0
+17|A|0
+9|C|0
+7|A|0
+29|C|0
+22|C|0
+5|A|0
+13|earliest credit|3
+15|A|0
+1995|C|0
+1999|C|0
+1984|A|0
+2000|A|0
+1983|A|0
+2004|C|0
+1999|C|0
+1980|A|0
+1997|C|0
+1999|A|0
+2000|grade|2
+2003|A|0
+1993|C|0
+C|C|0
+A|A|0
+16|A|0
+24|A|0
+4|A|0
+13|C|0
+11|earliest credit|2
+8|C|0
+32|C|0
+1987|C|0
+2000|A|0
+18|A|0
+21|earliest credit|2
+30|C|0
+26|A|0
+17|earliest credit|2
+6|C|0
+22|C|0
+23|C|0
+20|C|0
+2007|C|0
+2000|A|0
+2001|A|0
+1986|C|0
+15|grade|2
+17|C|0
+13|C|0
+14|earliest credit|2
+25|earliest credit|2
+3|A|0
+19|A|0
+18|C|0
+52|C|0
+8|A|0
+9|A|0
+5|C|0
+A|A|0
+C|C|0
+2007|C|0
+2004|A|0
+2001|A|0
+2005|C|0
+21|A|0
+18|C|0
+24|C|0
+33|C|0
+8|C|0
+11|A|0
+14|A|0
+25|A|0
+10|A|0
+29|A|0
+18|A|0
+9|A|0
+19|A|0
+8|A|0
+15|C|0
+28|C|0
+14|C|0
+32|C|0
+23|A|0
+27|C|0
+30|C|0
+21|A|0
+9|A|0
+22|C|0
+24|C|0
+29|A|0
+17|C|0
+22|A|0
+15|C|0
+28|C|0
+19|C|0
+23|C|0
+5|C|0
+25|A|0
+16|A|0
+24|A|0
+15|C|0
+30|A|0
+10|A|0
+17|C|0
+26|C|0
+22|A|0
+25|C|0
+11|A|0
+19|C|0
+22|A|0
+18|C|0
+9|C|0
+5|A|0
+12|A|0
+22|C|0
+23|A|0
+24|C|0
+10|C|0
+18|C|0
+9|A|0
+20|A|0
+19|C|0
+32|C|0
+19|earliest credit|2
+28|C|0
+14|earliest credit|2
+2|C|0
+10|C|0
+18|A|0
+21|C|0
+12|A|0
+34|C|0
+5|C|0
+7|A|0
+27|C|0
+22|C|0
+2002|A|0
+1999|C|0
+1984|A|0
+2012|C|0
+27|A|0
+8|A|0
+20|earliest credit|2
+28|C|0
+11|A|0
+22|A|0
+24|C|0
+17|A|0
+10|C|0
+12|A|0
+23|C|0
+30|A|0
+18|A|0
+15|A|0
+16|A|0
+2002|C|0
+1990|A|0
+16|A|0
+5|A|0
+9|C|0
+35|A|0
+11|C|0
+35|C|0
+15|A|0
+16|A|0
+18|A|0
+9|C|0
+19|C|0
+20|C|0
+23|C|0
+12|A|0
+13|C|0
+16|A|0
+15|C|0
+16|C|0
+18|C|0
+25|A|0
+12|C|0
+33|C|0
+11|C|0
+7|C|0
+16|earliest credit|2
+29|C|0
+10|A|0
+2001|A|0
+2003|C|0
+11|A|0
+10|C|0
+18|A|0
+OK|debt to income|3
+FL|debt to income|21
+NJ|debt to income|17
+TX|debt to income|23
+KY|debt to income|6
+DE|debt to income|5
+MN|debt to income|8
+AZ|debt to income|14
+PA|debt to income|17
+WI|debt to income|10
+MO|debt to income|7
+WA|debt to income|9
+AL|debt to income|7
+NM|debt to income|8
+MD|debt to income|14
+NY|debt to income|19
+NE|debt to income|6
+OH|debt to income|17
+VA|debt to income|12
+IL|debt to income|18
+CA|debt to income|29
+KS|debt to income|5
+MA|debt to income|10
+NH|A|0
+IN|debt to income|11
+LA|debt to income|6
+NV|debt to income|6
+AK|A|0
+TN|debt to income|8
+NC|debt to income|11
+GA|debt to income|11
+CO|debt to income|9
+VT|A|0
+SC|debt to income|6
+MI|debt to income|7
+RI|debt to income|3
+CT|debt to income|8
+SD|A|0
+UT|debt to income|3
+OR|debt to income|6
+MS|C|0
+HI|C|0
+ME|debt to income|3
+AR|debt to income|2
+MT|C|0
+12|A|0
+29|C|0
+27|A|0
+12|C|0
+23|earliest credit|3
+29|C|0
+18|C|0
+21|C|0
+27|earliest credit|2
+28|C|0
+11|earliest credit|2
+25|C|0
+5|C|0
+13|C|0
+30|earliest credit|3
+24|earliest credit|4
+14|earliest credit|2
+16|earliest credit|4
+34|C|0
+22|C|0
+15|C|0
+26|A|0
+9|A|0
+19|C|0
+1998|C|0
+2006|A|0
+2005|A|0
+2000|grade|2
+1995|C|0
+C|C|0
+A|A|0
+2004|A|0
+2000|C|0
+2003|C|0
+1978|A|0
+1991|C|0
+2000|C|0
+1997|C|0
+1986|C|0
+2005|A|0
+2000|A|0
+1991|C|0
+2003|A|0
+1996|C|0
+1997|C|0
+1985|A|0
+15|C|0
+33|C|0
+22|earliest credit|2
+6|A|0
+31|C|0
+17|A|0
+25|C|0
+14|C|0
+19|earliest credit|4
+16|C|0
+12|earliest credit|2
+8|A|0
+10|C|0
+29|C|0
+13|earliest credit|2
+28|C|0
+49|C|0
+2004|C|0
+2006|A|0
+2002|A|0
+2001|C|0
+2006|A|0
+1998|C|0
+2006|C|0
+1983|A|0
+1995|A|0
+1990|C|0
+20|earliest credit|2
+19|earliest credit|3
+11|C|0
+27|A|0
+25|C|0
+14|earliest credit|3
+10|C|0
+23|C|0
+12|C|0
+26|earliest credit|2
+21|earliest credit|5
+18|earliest credit|3
+33|C|0
+4|A|0
+13|A|0
+17|C|0
+16|earliest credit|2
+34|C|0
+22|C|0
+7|C|0
+24|A|0
+8|C|0
+15|C|0
+2001|A|0
+2007|C|0
+2000|A|0
+1996|C|0
+1990|C|0
+1991|A|0
+2000|C|0
+1976|A|0
+1994|A|0
+1986|C|0
+2005|C|0
+2003|A|0
+1988|C|0
+2006|C|0
+1995|C|0
+1999|A|0
+2005|A|0
+2003|C|0
+2002|C|0
+1999|A|0
+23|A|0
+34|C|0
+13|A|0
+29|A|0
+16|A|0
+33|C|0
+36|C|0
+29|A|0
+18|A|0
+27|A|0
+17|C|0
+23|A|0
+20|C|0
+19|C|0
+17|C|0
+26|C|0
+10|A|0
+21|C|0
+13|C|0
+49|C|0
+19|A|0
+21|C|0
+3|C|0
+12|A|0
+26|C|0
+24|A|0
+13|C|0
+32|C|0
+22|A|0
+23|C|0
+30|C|0
+7|A|0
+9|A|0
+29|C|0
+10|A|0
+26|C|0
+17|C|0
+12|earliest credit|4
+30|C|0
+16|earliest credit|2
+15|C|0
+13|A|0
+19|A|0
+20|A|0
+8|earliest credit|2
+28|C|0
+11|A|0
+24|C|0
+27|C|0
+31|C|0
+1997|A|0
+1998|C|0
+1991|C|0
+2004|A|0
+2001|C|0
+1990|A|0
+1988|A|0
+2004|C|0
+15|C|0
+32|C|0
+5|A|0
+11|A|0
+18|C|0
+23|C|0
+16|C|0
+17|A|0
+26|C|0
+31|C|0
+19|earliest credit|2
+28|C|0
+26|A|0
+17|A|0
+25|C|0
+5|A|0
+21|C|0
+2004|C|0
+2002|A|0
+27|earliest credit|3
+19|A|0
+20|C|0
+32|C|0
+25|C|0
+31|A|0
+21|A|0
+33|A|0
+22|C|0
+2003|C|0
+1998|A|0
+1990|A|0
+29|A|0
+13|A|0
+4|C|0
+33|C|0
+49|C|0
+17|earliest credit|2
+14|A|0
+1998|A|0
+2003|C|0
+22|C|0
+16|earliest credit|2
+27|C|0
+15|C|0
+4|C|0
+32|C|0
+11|C|0
+28|C|0
+2010|C|0
+2002|A|0
+18|A|0
+9|C|0
+17|C|0
+35|C|0
+14|C|0
+8|earliest credit|2
+11|C|0
+28|A|0
+30|C|0
+15|A|0
+10|A|0
+20|earliest credit|2
+26|C|0
+24|A|0
+2006|C|0
+1999|A|0
+2006|C|0
+1990|A|0
+17|earliest credit|5
+14|earliest credit|4
+25|C|0
+9|C|0
+21|C|0
+29|A|0
+16|earliest credit|2
+33|A|0
+4|C|0
+19|C|0
+20|C|0
+6|A|0
+11|A|0
+23|A|0
+8|A|0
+12|A|0
+24|C|0
+22|C|0
+27|A|0
+2001|A|0
+1996|A|0
+1999|A|0
+2003|A|0
+1995|C|0
+2006|C|0
+2000|C|0
+2001|C|0
+1998|A|0
+2006|C|0
+2000|A|0
+18|A|0
+21|C|0
+32|A|0
+20|C|0
+28|C|0
+12|A|0
+22|A|0
+9|A|0
+21|earliest credit|2
+10|A|0
+8|earliest credit|2
+6|C|0
+16|A|0
+27|C|0
+12|A|0
+11|C|0
+28|C|0
+25|C|0
+13|A|0
+30|A|0
+19|A|0
+17|C|0
+33|C|0
+2006|A|0
+1998|C|0
+2002|A|0
+2003|C|0
+15|C|0
+14|A|0
+12|C|0
+21|earliest credit|2
+18|A|0
+27|A|0
+0|A|0
+19|C|0
+11|C|0
+17|C|0
+31|C|0
+4|A|0
+2003|A|0
+2004|C|0
+20|C|0
+19|A|0
+18|C|0
+21|C|0
+10|C|0
+29|A|0
+26|earliest credit|2
+22|A|0
+12|A|0
+15|earliest credit|2
+17|C|0
+35|A|0
+2|C|0
+11|earliest credit|2
+5|A|0
+32|C|0
+31|C|0
+33|A|0
+1992|A|0
+2005|C|0
+2003|A|0
+2002|C|0
+2002|C|0
+2000|A|0
+9|earliest credit|2
+33|C|0
+4|earliest credit|2
+15|A|0
+14|earliest credit|3
+25|earliest credit|2
+6|earliest credit|3
+23|earliest credit|2
+3|A|0
+27|A|0
+22|earliest credit|3
+11|C|0
+28|C|0
+19|earliest credit|2
+20|C|0
+2|C|0
+35|A|0
+41|A|0
+10|A|0
+16|earliest credit|3
+13|earliest credit|3
+7|C|0
+24|A|0
+26|earliest credit|2
+21|C|0
+18|A|0
+12|A|0
+1|A|0
+8|A|0
+2007|A|0
+2006|C|0
+1995|A|0
+1986|C|0
+1995|A|0
+2002|C|0
+2005|C|0
+1993|A|0
+2003|C|0
+2001|C|0
+1989|C|0
+1997|A|0
+2000|A|0
+2003|C|0
+1987|A|0
+2004|C|0
+2002|C|0
+2008|C|0
+2003|A|0
+1981|C|0
+1993|A|0
+2005|A|0
+2003|A|0
+2005|C|0
+1998|C|0
+2000|A|0
+1996|C|0
+18|C|0
+17|C|0
+19|C|0
+28|C|0
+23|A|0
+32|A|0
+5|A|0
+20|C|0
+30|C|0
+26|C|0
+12|C|0
+15|C|0
+24|A|0
+13|A|0
+11|A|0
+17|A|0
+26|C|0
+35|C|0
+24|C|0
+15|C|0
+16|A|0
+29|C|0
+11|C|0
+28|earliest credit|2
+25|C|0
+34|C|0
+2001|C|0
+1997|A|0
+19|C|0
+32|C|0
+21|A|0
+9|A|0
+17|C|0
+34|C|0
+15|C|0
+33|A|0
+21|C|0
+30|C|0
+26|C|0
+25|A|0
+19|A|0
+20|C|0
+21|earliest credit|2
+24|C|0
+15|C|0
+25|C|0
+6|C|0
+30|C|0
+1990|A|0
+2002|C|0
+16|C|0
+29|A|0
+8|A|0
+20|A|0
+12|C|0
+3|earliest credit|2
+34|A|0
+22|C|0
+17|A|0
+14|A|0
+35|C|0
+1999|A|0
+2000|C|0
+34|C|0
+32|earliest credit|3
+22|C|0
+17|C|0
+26|C|0
+31|C|0
+19|C|0
+28|C|0
+9|C|0
+30|C|0
+7|C|0
+1996|C|0
+2001|C|0
+1992|A|0
+10|A|0
+9|C|0
+8|C|0
+20|C|0
+13|A|0
+24|A|0
+5|C|0
+25|A|0
+30|C|0
+8|earliest credit|2
+28|C|0
+23|C|0
+17|C|0
+4|A|0
+15|C|0
+2004|C|0
+1997|A|0
+19|A|0
+18|grade|2
+29|C|0
+13|C|0
+31|C|0
+25|C|0
+23|C|0
+A|A|0
+C|C|0
+14|C|0
+8|A|0
+7|A|0
+19|A|0
+4|C|0
+24|A|0
+12|earliest credit|2
+14|C|0
+25|earliest credit|2
+10|C|0
+29|C|0
+1983|C|0
+1993|A|0
+2000|A|0
+1998|C|0
+16|A|0
+27|C|0
+28|C|0
+13|earliest credit|2
+17|A|0
+9|A|0
+18|C|0
+16|A|0
+11|A|0
+1993|A|0
+2008|C|0
+13|C|0
+18|A|0
+19|C|0
+21|C|0
+20|earliest credit|2
+2012|C|0
+2005|A|0
+FL|C|0
+TN|debt to income|2
+NJ|C|0
+KY|debt to income|2
+GA|debt to income|3
+IL|C|0
+NY|C|0
+IN|C|0
+MI|C|0
+AR|C|0
+SC|C|0
+MN|A|0
+AZ|C|0
+PA|C|0
+OH|C|0
+CO|C|0
+MO|C|0
+28|A|0
+30|C|0
+2|A|0
+12|C|0
+27|C|0
+12|C|0
+14|A|0
+60000|state|35
+15000|C|0
+80000|state|23
+125000|state|12
+40000|state|32
+150000|state|16
+30000|state|17
+100000|state|24
+20000|state|11
+KY|debt to income|3
+CA|debt to income|11
+TX|debt to income|9
+NJ|debt to income|4
+UT|C|0
+NH|debt to income|2
+NC|debt to income|3
+SD|A|0
+CT|C|0
+TN|A|0
+IN|A|0
+LA|A|0
+NV|C|0
+NY|debt to income|8
+AZ|debt to income|3
+MN|C|0
+MD|C|0
+NM|A|0
+PA|debt to income|5
+IL|C|0
+VA|debt to income|3
+FL|debt to income|4
+WY|C|0
+MI|debt to income|3
+MO|C|0
+WA|debt to income|2
+OH|debt to income|3
+GA|debt to income|3
+SC|C|0
+RI|C|0
+WI|C|0
+AR|debt to income|2
+NE|debt to income|3
+OR|C|0
+AL|A|0
+15|A|0
+20|C|0
+17|A|0
+13|C|0
+28|A|0
+20|C|0
+31|C|0
+17|C|0
+27|C|0
+23|C|0
+12|A|0
+14|C|0
+15|A|0
+8|C|0
+16|A|0
+7|C|0
+23|C|0
+12|A|0
+11|earliest credit|2
+28|A|0
+20|A|0
+8|C|0
+22|A|0
+1987|A|0
+2000|C|0
+11|A|0
+10|C|0
+13|C|0
+30|C|0
+22|C|0
+19|A|0
+24|C|0
+15|C|0
+22|A|0
+21|A|0
+18|A|0
+1|C|0
+17|C|0
+14|C|0
+8|C|0
+27|C|0
+23|C|0
+8|C|0
+11|A|0
+13|C|0
+19|A|0
+28|C|0
+13|A|0
+32|C|0
+10|A|0
+14|C|0
+17|A|0
+19|A|0
+29|C|0
+14|C|0
+25|C|0
+27|A|0
+23|C|0
+13|C|0
+14|A|0
+20|A|0
+16|C|0
+13|A|0
+30|C|0
+20|C|0
+34|C|0
+24|C|0
+30|A|0
+9|A|0
+15|C|0
+24|C|0
+7|A|0
+28|C|0
+OK|C|0
+FL|debt to income|7
+AK|C|0
+GA|debt to income|4
+IN|C|0
+IL|debt to income|4
+NY|debt to income|5
+TX|debt to income|5
+NJ|A|0
+CT|C|0
+MI|A|0
+CA|debt to income|5
+TN|C|0
+KS|C|0
+OR|C|0
+NE|C|0
+NC|C|0
+AZ|debt to income|5
+MT|C|0
+MO|C|0
+WA|C|0
+PA|debt to income|2
+WI|C|0
+29|C|0
+20|A|0
+8|C|0
+11|A|0
+22|A|0
+5|A|0
+4|C|0
+3|C|0
+21|A|0
+15|A|0
+7|C|0
+16|C|0
+7|C|0
+17|C|0
+12|A|0
+10|C|0
+1|C|0
+22|A|0
+8|A|0
+11|A|0
+7|A|0
+16|A|0
+19|C|0
+18|C|0
+14|C|0
+24|A|0
+19|A|0
+7|C|0
+3|C|0
+17|A|0
+11|C|0
+8|C|0
+24|C|0
+16|C|0
+3|A|0
+8|A|0
+21|C|0
+NJ|A|0
+TX|debt to income|5
+CA|debt to income|5
+MI|C|0
+NY|debt to income|3
+MN|C|0
+PA|A|0
+FL|C|0
+OK|debt to income|2
+WA|A|0
+IL|C|0
+MS|C|0
+16|C|0
+2|C|0
+13|A|0
+19|A|0
+26|A|0
+18|A|0
+29|A|0
+12|A|0
+20|A|0
+11|C|0
+16|C|0
+7|A|0
+14|C|0
+14|A|0
+20|C|0
+NJ|debt to income|4
+TX|debt to income|9
+CA|debt to income|6
+LA|debt to income|3
+OK|A|0
+FL|debt to income|7
+TN|debt to income|4
+OH|debt to income|5
+AL|debt to income|2
+NY|debt to income|10
+MA|debt to income|3
+NH|A|0
+VA|C|0
+IL|debt to income|5
+OR|C|0
+PA|C|0
+NC|debt to income|3
+KY|C|0
+WI|C|0
+UT|C|0
+MS|C|0
+SC|C|0
+DE|A|0
+AZ|debt to income|3
+AR|C|0
+MD|A|0
+GA|A|0
+WA|C|0
+MO|A|0
+MI|debt to income|4
+NV|C|0
+AK|C|0
+15|C|0
+20|C|0
+22|C|0
+23|A|0
+17|C|0
+26|C|0
+15|C|0
+33|C|0
+19|C|0
+28|C|0
+21|C|0
+25|C|0
+16|A|0
+29|C|0
+21|C|0
+9|C|0
+26|C|0
+11|A|0
+19|C|0
+25|earliest credit|2
+19|C|0
+28|C|0
+1987|A|0
+2003|C|0
+26|C|0
+6|C|0
+14|C|0
+25|A|0
+20|A|0
+7|C|0
+10|C|0
+26|A|0
+17|A|0
+2|C|0
+16|A|0
+29|A|0
+34|C|0
+30|C|0
+22|C|0
+13|C|0
+28|C|0
+17|A|0
+27|C|0
+30|A|0
+16|A|0
+18|C|0
+15|C|0
+33|C|0
+25|C|0
+12|earliest credit|2
+28|C|0
+14|A|0
+1997|A|0
+2003|C|0
+17|C|0
+16|A|0
+29|C|0
+19|C|0
+8|C|0
+28|C|0
+32|C|0
+34|A|0
+8|C|0
+12|C|0
+13|A|0
+6|A|0
+17|C|0
+18|C|0
+16|C|0
+14|C|0
+8|C|0
+29|A|0
+NY|debt to income|5
+PA|debt to income|2
+CT|C|0
+AR|A|0
+CA|debt to income|3
+TX|debt to income|4
+NC|A|0
+MA|C|0
+FL|A|0
+SC|A|0
+RI|C|0
+MS|C|0
+OH|C|0
+NV|A|0
+CO|A|0
+WY|A|0
+18|C|0
+15|A|0
+12|A|0
+6|C|0
+7|A|0
+18|C|0
+5|A|0
+30|C|0
+12|A|0
+15|C|0
+18|C|0
+21|C|0
+24|C|0
+4|A|0
+NJ|C|0
+TX|debt to income|3
+MS|C|0
+TN|C|0
+PA|C|0
+OH|debt to income|2
+NC|C|0
+MI|debt to income|2
+GA|C|0
+NY|debt to income|3
+WI|A|0
+IL|A|0
+VA|A|0
+FL|A|0
+IN|C|0
+NE|A|0
+KY|C|0
+30|A|0
+6|C|0
+28|C|0
+17|A|0
+34|C|0
+24|C|0
+11|A|0
+24|C|0
+2|C|0
+30|A|0
+WI|debt to income|3
+MS|C|0
+CA|debt to income|6
+TX|debt to income|9
+NJ|C|0
+OH|debt to income|3
+FL|C|0
+OR|C|0
+VA|C|0
+IL|C|0
+LA|C|0
+IN|A|0
+HI|A|0
+KY|C|0
+MA|C|0
+MN|A|0
+MI|debt to income|2
+ME|C|0
+NY|debt to income|4
+SC|A|0
+GA|C|0
+MD|A|0
+TN|A|0
+CT|A|0
+6|C|0
+19|C|0
+13|A|0
+21|C|0
+9|C|0
+14|A|0
+25|A|0
+5|A|0
+20|A|0
+10|A|0
+1|A|0
+14|C|0
+16|C|0
+27|A|0
+17|C|0
+13|C|0
+15|C|0
+11|C|0
+18|A|0
+34|C|0
+8|A|0
+24|C|0
+12|A|0
+10|A|0
+21|A|0
+24|A|0
+23|C|0
+SC|C|0
+KS|C|0
+VA|C|0
+TX|C|0
+OK|C|0
+MN|C|0
+PA|C|0
+NM|C|0
+MD|A|0
+NC|C|0
+LA|C|0
+15000|C|0
+60000|state|37
+20000|state|21
+30000|state|28
+80000|state|32
+125000|state|23
+100000|state|31
+40000|state|40
+150000|state|14
+LA|A|0
+IN|debt to income|2
+CO|debt to income|5
+GA|debt to income|5
+NM|C|0
+MD|C|0
+IL|debt to income|7
+VA|C|0
+NY|debt to income|16
+TX|debt to income|10
+NJ|debt to income|13
+CA|debt to income|26
+MA|debt to income|7
+NH|C|0
+HI|debt to income|3
+WA|C|0
+MO|C|0
+FL|C|0
+OK|C|0
+NC|C|0
+MI|debt to income|5
+AL|C|0
+KY|C|0
+WY|C|0
+NV|debt to income|5
+RI|debt to income|2
+CT|debt to income|6
+UT|debt to income|3
+AZ|C|0
+MN|debt to income|2
+DE|C|0
+TN|C|0
+PA|debt to income|6
+OR|debt to income|3
+OH|C|0
+WI|C|0
+AR|C|0
+19|A|0
+16|C|0
+20|A|0
+37|C|0
+23|A|0
+10|C|0
+15|C|0
+10|C|0
+4|A|0
+19|A|0
+14|C|0
+32|C|0
+6|C|0
+8|A|0
+22|C|0
+13|C|0
+3|C|0
+12|C|0
+15|C|0
+5|C|0
+32|C|0
+14|A|0
+11|C|0
+20|C|0
+26|A|0
+9|earliest credit|2
+29|C|0
+10|earliest credit|2
+12|earliest credit|3
+13|earliest credit|2
+15|earliest credit|4
+27|C|0
+31|A|0
+34|C|0
+7|A|0
+2005|C|0
+1993|A|0
+1997|grade|2
+1999|A|0
+C|C|0
+A|A|0
+1999|A|0
+1989|C|0
+2004|C|0
+1997|A|0
+1996|C|0
+2004|C|0
+2005|A|0
+2002|C|0
+2008|A|0
+25|C|0
+28|C|0
+11|C|0
+30|C|0
+22|earliest credit|2
+10|C|0
+15|A|0
+6|C|0
+17|A|0
+14|A|0
+1999|A|0
+2000|C|0
+25|C|0
+1|C|0
+21|C|0
+18|C|0
+15|earliest credit|3
+16|C|0
+13|A|0
+20|C|0
+17|C|0
+10|C|0
+14|C|0
+4|C|0
+34|C|0
+1974|C|0
+2000|A|0
+1995|C|0
+20|C|0
+19|earliest credit|3
+11|earliest credit|5
+2|C|0
+22|earliest credit|2
+12|earliest credit|3
+1|A|0
+18|C|0
+15|earliest credit|5
+33|C|0
+4|A|0
+9|earliest credit|5
+23|earliest credit|2
+14|C|0
+34|C|0
+3|C|0
+13|A|0
+27|C|0
+25|A|0
+24|A|0
+31|C|0
+6|C|0
+29|A|0
+16|A|0
+17|A|0
+8|A|0
+1998|A|0
+1990|A|0
+2007|C|0
+1990|C|0
+2004|C|0
+1984|A|0
+1975|A|0
+1992|C|0
+2002|C|0
+2005|A|0
+2005|C|0
+2002|A|0
+2003|C|0
+2006|C|0
+2003|C|0
+2005|A|0
+2008|C|0
+1998|C|0
+2005|A|0
+2001|A|0
+1996|C|0
+2002|C|0
+2003|C|0
+2008|C|0
+2006|A|0
+29|A|0
+18|A|0
+12|A|0
+3|C|0
+24|C|0
+31|C|0
+8|C|0
+5|A|0
+25|C|0
+30|A|0
+23|C|0
+20|earliest credit|2
+22|A|0
+17|C|0
+16|A|0
+2001|C|0
+1996|A|0
+24|C|0
+12|A|0
+19|A|0
+16|C|0
+10|C|0
+18|C|0
+4|A|0
+15|C|0
+22|C|0
+6|C|0
+12|C|0
+25|A|0
+10|C|0
+24|C|0
+16|C|0
+5|A|0
+22|C|0
+6|A|0
+17|earliest credit|2
+31|C|0
+6|A|0
+33|C|0
+15|A|0
+28|C|0
+1997|A|0
+1999|C|0
+23|A|0
+18|A|0
+16|earliest credit|2
+2007|A|0
+1994|C|0
+CA|debt to income|4
+NJ|C|0
+TX|debt to income|3
+OK|C|0
+FL|debt to income|7
+VT|C|0
+CO|debt to income|2
+MN|C|0
+AZ|C|0
+KS|A|0
+MA|debt to income|2
+LA|C|0
+GA|C|0
+NY|C|0
+WI|C|0
+IL|C|0
+VA|C|0
+OH|C|0
+MO|C|0
+MI|C|0
+CT|C|0
+18|C|0
+13|A|0
+20|C|0
+15|C|0
+23|C|0
+19|A|0
+49|C|0
+31|C|0
+17|C|0
+13|C|0
+35|C|0
+14|A|0
+15|C|0
+20|C|0
+13|A|0
+30|C|0
+14|C|0
+21|earliest credit|2
+2005|C|0
+1988|A|0
+KS|C|0
+MA|C|0
+MI|C|0
+SC|C|0
+CA|debt to income|10
+NJ|debt to income|5
+TX|debt to income|2
+FL|debt to income|6
+OK|A|0
+ME|A|0
+OH|debt to income|2
+IL|debt to income|7
+VA|C|0
+OR|debt to income|4
+TN|C|0
+NY|debt to income|10
+IN|C|0
+MD|C|0
+PA|C|0
+KY|A|0
+AZ|earliest credit|2
+MN|C|0
+CT|debt to income|2
+RI|C|0
+NC|C|0
+NV|C|0
+GA|C|0
+WA|C|0
+31|C|0
+26|C|0
+17|C|0
+15|C|0
+14|A|0
+21|C|0
+19|earliest credit|2
+28|C|0
+7|C|0
+13|A|0
+2006|C|0
+1983|A|0
+13|A|0
+35|A|0
+15|C|0
+24|C|0
+25|C|0
+14|C|0
+26|earliest credit|2
+2006|C|0
+2000|A|0
+11|A|0
+32|C|0
+7|C|0
+23|C|0
+15|C|0
+13|C|0
+20|A|0
+25|C|0
+21|C|0
+9|C|0
+12|C|0
+19|C|0
+8|A|0
+31|C|0
+30|C|0
+27|C|0
+28|C|0
+19|C|0
+13|A|0
+12|C|0
+3|C|0
+23|C|0
+24|C|0
+27|C|0
+14|C|0
+29|C|0
+11|C|0
+26|C|0
+6|A|0
+1994|A|0
+2002|C|0
+30|C|0
+9|A|0
+MN|C|0
+AZ|debt to income|4
+HI|A|0
+NY|debt to income|16
+CA|debt to income|21
+NJ|debt to income|5
+TX|debt to income|6
+FL|debt to income|10
+ME|A|0
+OR|debt to income|5
+VA|debt to income|2
+IL|C|0
+PA|C|0
+CT|C|0
+KS|C|0
+MA|debt to income|4
+NH|C|0
+NE|C|0
+OH|C|0
+WA|C|0
+MO|C|0
+MD|debt to income|2
+RI|debt to income|2
+WI|earliest credit|3
+AL|A|0
+NC|A|0
+CO|debt to income|2
+VT|A|0
+MI|C|0
+AK|C|0
+TN|A|0
+IN|C|0
+26|A|0
+14|A|0
+21|C|0
+24|C|0
+6|A|0
+18|C|0
+21|C|0
+8|C|0
+19|C|0
+20|C|0
+14|earliest credit|2
+25|A|0
+16|A|0
+27|C|0
+9|C|0
+5|C|0
+13|earliest credit|3
+12|A|0
+1|A|0
+24|C|0
+1983|A|0
+2001|grade|2
+A|A|0
+C|C|0
+2007|A|0
+2000|C|0
+1981|C|0
+15|earliest credit|3
+10|earliest credit|3
+29|C|0
+21|C|0
+18|C|0
+23|earliest credit|2
+26|earliest credit|2
+17|A|0
+25|C|0
+14|earliest credit|3
+11|earliest credit|2
+28|A|0
+6|earliest credit|2
+9|earliest credit|2
+12|C|0
+22|C|0
+7|A|0
+27|C|0
+16|C|0
+13|earliest credit|3
+4|A|0
+2008|C|0
+1987|A|0
+1991|C|0
+1989|C|0
+2005|A|0
+2004|C|0
+2000|A|0
+2011|C|0
+2006|C|0
+2004|A|0
+1998|A|0
+2008|C|0
+2003|C|0
+2007|C|0
+1993|A|0
+1994|A|0
+2002|C|0
+2004|C|0
+2003|A|0
+1996|C|0
+1974|C|0
+1997|A|0
+15|A|0
+29|A|0
+18|C|0
+19|C|0
+22|C|0
+22|C|0
+32|C|0
+17|A|0
+31|C|0
+9|A|0
+8|A|0
+14|C|0
+17|A|0
+23|A|0
+12|C|0
+16|A|0
+21|A|0
+8|C|0
+19|C|0
+22|C|0
+15|C|0
+37|A|0
+14|A|0
+32|A|0
+10|C|0
+21|C|0
+21|C|0
+12|A|0
+16|C|0
+15|C|0
+19|C|0
+21|A|0
+12|C|0
+11|A|0
+2|C|0
+14|A|0
+2004|A|0
+1993|C|0
+2003|A|0
+8|A|0
+15|C|0
+CA|debt to income|15
+KY|C|0
+TX|debt to income|2
+NJ|C|0
+NY|debt to income|8
+DC|debt to income|3
+FL|C|0
+OK|C|0
+MA|debt to income|2
+AR|C|0
+AZ|debt to income|3
+NM|debt to income|2
+MD|earliest credit|2
+MI|debt to income|2
+WA|C|0
+OH|A|0
+NV|C|0
+SC|C|0
+ME|C|0
+PA|C|0
+TN|A|0
+VA|A|0
+NC|C|0
+23|grade|2
+27|C|0
+16|C|0
+11|C|0
+19|A|0
+22|C|0
+10|C|0
+29|C|0
+15|A|0
+14|earliest credit|2
+9|A|0
+30|C|0
+24|C|0
+21|C|0
+3|C|0
+A|A|0
+C|C|0
+1990|A|0
+2005|C|0
+9|C|0
+17|A|0
+2|earliest credit|2
+13|C|0
+7|C|0
+30|A|0
+11|A|0
+3|C|0
+5|A|0
+14|C|0
+1998|A|0
+2002|C|0
+15|A|0
+18|C|0
+13|A|0
+27|C|0
+15|A|0
+7|A|0
+14|A|0
+12|C|0
+22|C|0
+16|A|0
+1980|A|0
+1981|C|0
+13|C|0
+16|A|0
+CT|A|0
+MD|C|0
+NM|A|0
+CA|debt to income|14
+MS|C|0
+CO|debt to income|3
+NY|debt to income|8
+VA|debt to income|3
+IL|debt to income|3
+NH|debt to income|2
+MA|debt to income|3
+KS|C|0
+WA|A|0
+MO|C|0
+NJ|debt to income|5
+TX|debt to income|6
+FL|C|0
+NE|C|0
+MN|debt to income|2
+AZ|debt to income|3
+WI|C|0
+MI|C|0
+ME|C|0
+HI|debt to income|3
+OH|A|0
+NV|C|0
+UT|C|0
+AR|A|0
+PA|debt to income|2
+RI|C|0
+NC|C|0
+32|C|0
+21|C|0
+20|C|0
+11|C|0
+15|earliest credit|2
+24|earliest credit|4
+23|C|0
+16|A|0
+22|earliest credit|2
+17|C|0
+8|C|0
+7|A|0
+4|A|0
+14|A|0
+1987|C|0
+1997|A|0
+1999|C|0
+1991|C|0
+2002|A|0
+1993|C|0
+2005|C|0
+2001|A|0
+15|C|0
+28|A|0
+35|C|0
+13|earliest credit|2
+5|earliest credit|2
+25|C|0
+19|earliest credit|2
+28|C|0
+20|A|0
+12|earliest credit|2
+24|C|0
+2002|C|0
+2006|A|0
+1996|A|0
+1995|C|0
+2001|C|0
+1993|A|0
+2001|C|0
+1994|A|0
+10|C|0
+21|A|0
+7|C|0
+22|C|0
+17|A|0
+23|A|0
+23|C|0
+15|A|0
+17|A|0
+6|C|0
+18|C|0
+16|A|0
+9|C|0
+29|C|0
+15|C|0
+14|C|0
+17|A|0
+31|C|0
+13|C|0
+2|A|0
+19|C|0
+30|C|0
+23|C|0
+17|A|0
+14|C|0
+20|A|0
+6|C|0
+34|C|0
+25|A|0
+22|C|0
+15|C|0
+17|A|0
+NY|debt to income|17
+LA|C|0
+IN|debt to income|4
+AZ|debt to income|6
+MN|C|0
+OH|C|0
+PA|C|0
+WA|debt to income|6
+MO|debt to income|4
+KY|C|0
+NJ|debt to income|17
+TX|debt to income|12
+CO|debt to income|5
+CA|debt to income|23
+VA|debt to income|9
+IL|debt to income|8
+MA|debt to income|8
+KS|C|0
+NH|debt to income|2
+NC|debt to income|6
+GA|debt to income|7
+TN|debt to income|5
+NV|debt to income|5
+AK|C|0
+FL|debt to income|16
+OK|C|0
+MI|debt to income|5
+HI|debt to income|3
+MD|debt to income|6
+NM|debt to income|3
+MS|C|0
+OR|debt to income|4
+CT|debt to income|4
+ME|C|0
+DC|A|0
+WI|debt to income|3
+RI|C|0
+AL|debt to income|3
+SC|C|0
+UT|C|0
+14|A|0
+22|A|0
+13|C|0
+15|earliest credit|2
+9|C|0
+12|C|0
+16|earliest credit|3
+28|C|0
+11|C|0
+26|C|0
+6|C|0
+21|C|0
+18|A|0
+17|C|0
+23|A|0
+10|earliest credit|3
+8|C|0
+2009|A|0
+2004|C|0
+2001|C|0
+1989|A|0
+1999|A|0
+2002|C|0
+2004|A|0
+2008|C|0
+30|C|0
+15|A|0
+23|C|0
+22|A|0
+19|C|0
+5|C|0
+9|earliest credit|2
+18|C|0
+17|C|0
+16|A|0
+2001|C|0
+2005|A|0
+18|C|0
+10|C|0
+16|A|0
+20|C|0
+28|C|0
+14|A|0
+8|C|0
+5|C|0
+18|A|0
+16|A|0
+9|C|0
+18|C|0
+12|A|0
+30|earliest credit|2
+26|C|0
+31|C|0
+11|A|0
+28|C|0
+35|C|0
+33|C|0
+19|C|0
+20|C|0
+15|A|0
+25|A|0
+24|C|0
+34|C|0
+3|A|0
+1988|C|0
+1999|A|0
+23|A|0
+24|C|0
+14|C|0
+50|C|0
+25|C|0
+29|C|0
+10|C|0
+13|earliest credit|3
+30|A|0
+22|A|0
+15|earliest credit|2
+20|earliest credit|2
+1991|A|0
+2005|C|0
+2001|C|0
+2001|A|0
+2002|C|0
+1990|A|0
+2010|C|0
+19|A|0
+28|C|0
+8|C|0
+18|C|0
+23|A|0
+21|C|0
+18|earliest credit|3
+33|C|0
+30|C|0
+7|earliest credit|2
+16|earliest credit|3
+12|C|0
+23|earliest credit|3
+14|A|0
+20|C|0
+19|C|0
+15|earliest credit|6
+32|C|0
+13|earliest credit|2
+22|earliest credit|2
+27|earliest credit|2
+31|C|0
+10|A|0
+29|C|0
+28|C|0
+25|C|0
+26|C|0
+24|C|0
+1996|A|0
+1987|C|0
+1999|C|0
+2010|C|0
+2001|A|0
+1998|A|0
+2003|C|0
+2006|A|0
+2003|C|0
+2002|A|0
+1997|C|0
+1984|C|0
+1993|C|0
+2002|A|0
+2011|C|0
+1992|A|0
+1996|A|0
+2005|C|0
+2002|A|0
+1996|C|0
+2006|A|0
+1986|A|0
+2007|C|0
+29|earliest credit|2
+11|A|0
+2|C|0
+16|C|0
+33|C|0
+15|C|0
+24|C|0
+17|A|0
+25|C|0
+2006|C|0
+1999|A|0
+16|C|0
+7|C|0
+8|A|0
+23|A|0
+18|C|0
+21|C|0
+15|earliest credit|2
+14|A|0
+2005|A|0
+2006|C|0
+9|C|0
+29|A|0
+21|C|0
+7|earliest credit|2
+16|A|0
+23|C|0
+12|A|0
+22|C|0
+2006|C|0
+2003|A|0
+19|C|0
+25|A|0
+16|C|0
+27|A|0
+17|C|0
+22|A|0
+14|C|0
+15|A|0
+28|A|0
+8|A|0
+20|C|0
+19|C|0
+26|C|0
+21|C|0
+29|C|0
+33|C|0
+1|A|0
+13|A|0
+27|A|0
+26|C|0
+21|A|0
+22|C|0
+32|C|0
+24|C|0
+30|C|0
+21|C|0
+18|C|0
+10|A|0
+29|earliest credit|2
+19|A|0
+20|C|0
+11|earliest credit|2
+28|earliest credit|3
+24|C|0
+25|C|0
+5|C|0
+32|C|0
+14|C|0
+30|C|0
+34|C|0
+17|A|0
+1997|A|0
+2005|C|0
+2001|A|0
+2004|C|0
+1999|C|0
+2001|A|0
+2005|C|0
+18|A|0
+19|A|0
+4|A|0
+33|C|0
+30|earliest credit|2
+1984|A|0
+1996|C|0
+28|A|0
+29|C|0
+15|A|0
+31|C|0
+7|A|0
+30|C|0
+32|C|0
+18|C|0
+8|C|0
+19|C|0
+20|C|0
+14|A|0
+3|C|0
+12|C|0
+15|A|0
+30|C|0
+25|C|0
+32|C|0
+15|C|0
+22|A|0
+25|earliest credit|2
+20|C|0
+22|C|0
+2004|A|0
+1996|C|0
+18|C|0
+26|A|0
+12|C|0
+MD|C|0
+CA|debt to income|11
+TX|C|0
+WA|C|0
+GA|A|0
+AZ|C|0
+VA|A|0
+IL|debt to income|2
+NY|debt to income|3
+NC|C|0
+TN|C|0
+FL|C|0
+AR|A|0
+CT|C|0
+14|C|0
+25|C|0
+4|C|0
+15|A|0
+10|A|0
+13|A|0
+7|A|0
+3|A|0
+28|C|0
+0|C|0
+5|A|0
+17|A|0
+6|C|0
+3|C|0
+9|A|0
+18|A|0
+MORTGAGE|income|10
+OWN|income|10
+RENT|income|10
+60000|state|30
+80000|state|27
+125000|state|22
+150000|state|24
+40000|state|34
+100000|state|22
+10000|state|2
+30000|state|16
+20000|C|0
+15000|A|0
+OK|C|0
+FL|debt to income|5
+IN|debt to income|3
+LA|debt to income|2
+PA|debt to income|5
+AZ|debt to income|2
+MN|debt to income|4
+VA|A|0
+IL|debt to income|2
+NY|C|0
+NJ|C|0
+TX|debt to income|11
+GA|debt to income|4
+MS|A|0
+CA|A|0
+MD|debt to income|3
+TN|C|0
+MO|C|0
+WA|C|0
+MI|A|0
+AL|C|0
+NH|A|0
+WI|debt to income|4
+UT|C|0
+CO|debt to income|2
+OR|C|0
+NV|A|0
+KY|C|0
+ND|debt to income|2
+WY|C|0
+28|C|0
+12|A|0
+23|A|0
+34|C|0
+29|C|0
+19|A|0
+10|A|0
+26|C|0
+29|C|0
+3|A|0
+34|C|0
+12|C|0
+8|C|0
+1|A|0
+6|C|0
+11|C|0
+24|A|0
+25|A|0
+6|C|0
+15|A|0
+22|A|0
+30|earliest credit|2
+32|C|0
+1982|A|0
+1998|C|0
+9|A|0
+10|C|0
+3|C|0
+6|C|0
+26|C|0
+20|A|0
+16|earliest credit|2
+2|A|0
+14|C|0
+11|C|0
+5|C|0
+2003|C|0
+2004|A|0
+6|A|0
+20|A|0
+11|C|0
+9|C|0
+24|C|0
+25|C|0
+11|A|0
+16|A|0
+28|C|0
+20|A|0
+23|C|0
+10|A|0
+32|C|0
+8|A|0
+26|C|0
+TX|debt to income|7
+NJ|C|0
+KY|C|0
+FL|debt to income|3
+NV|A|0
+NY|C|0
+PA|debt to income|5
+MD|C|0
+NH|C|0
+MA|C|0
+TN|C|0
+CA|debt to income|3
+MI|C|0
+NC|debt to income|3
+WY|C|0
+GA|A|0
+AZ|C|0
+MN|earliest credit|2
+IL|C|0
+VA|debt to income|2
+ID|A|0
+OH|debt to income|3
+IN|A|0
+SC|A|0
+WI|A|0
+CO|C|0
+UT|C|0
+16|A|0
+19|C|0
+26|C|0
+15|earliest credit|2
+24|A|0
+12|C|0
+9|C|0
+2004|C|0
+2001|A|0
+26|C|0
+10|A|0
+33|A|0
+26|C|0
+19|A|0
+22|C|0
+12|C|0
+29|C|0
+19|A|0
+7|C|0
+17|C|0
+16|A|0
+13|A|0
+31|C|0
+1997|C|0
+2002|A|0
+22|C|0
+20|A|0
+17|A|0
+20|A|0
+9|C|0
+WA|A|0
+MO|C|0
+NV|C|0
+VA|C|0
+IL|debt to income|6
+CT|C|0
+MN|C|0
+NJ|A|0
+TX|debt to income|3
+CA|debt to income|3
+KY|C|0
+MD|C|0
+TN|debt to income|2
+PA|C|0
+GA|C|0
+AL|C|0
+NC|C|0
+LA|C|0
+ME|A|0
+KS|C|0
+FL|A|0
+CO|C|0
+27|A|0
+13|C|0
+10|A|0
+24|A|0
+23|C|0
+20|C|0
+9|C|0
+21|A|0
+30|C|0
+21|A|0
+3|A|0
+25|C|0
+26|C|0
+11|A|0
+NY|A|0
+VA|debt to income|5
+IL|debt to income|2
+FL|debt to income|3
+OK|C|0
+NC|C|0
+LA|C|0
+MO|A|0
+WA|C|0
+WI|debt to income|3
+CA|debt to income|6
+MD|debt to income|3
+GA|debt to income|2
+CT|A|0
+KY|A|0
+KS|A|0
+PA|A|0
+NJ|debt to income|2
+TX|A|0
+AL|C|0
+MS|A|0
+CO|C|0
+MI|C|0
+OH|A|0
+9|A|0
+10|A|0
+31|C|0
+16|C|0
+3|A|0
+14|C|0
+10|A|0
+18|C|0
+9|A|0
+17|A|0
+16|C|0
+17|A|0
+14|A|0
+2|A|0
+22|C|0
+16|A|0
+21|A|0
+6|A|0
+15|A|0
+4|A|0
+23|A|0
+12|C|0
+18|A|0
+7|C|0
+7|C|0
+9|A|0
+MD|debt to income|2
+FL|debt to income|7
+KS|debt to income|2
+NH|debt to income|2
+MA|debt to income|2
+VA|C|0
+IL|debt to income|3
+NY|C|0
+CA|debt to income|3
+TX|debt to income|3
+NJ|C|0
+OH|debt to income|4
+GA|debt to income|4
+NC|debt to income|4
+MN|A|0
+AZ|C|0
+IN|C|0
+LA|C|0
+WI|debt to income|3
+PA|C|0
+TN|debt to income|3
+SD|C|0
+CT|A|0
+MS|debt to income|2
+NE|A|0
+MI|C|0
+WA|C|0
+MO|debt to income|2
+KY|C|0
+SC|debt to income|3
+NV|C|0
+AR|C|0
+WY|C|0
+CO|C|0
+14|C|0
+19|A|0
+14|C|0
+20|A|0
+11|C|0
+34|C|0
+17|C|0
+22|C|0
+7|A|0
+30|A|0
+28|C|0
+21|C|0
+20|A|0
+16|C|0
+13|A|0
+32|C|0
+33|C|0
+34|A|0
+11|C|0
+13|earliest credit|2
+5|C|0
+1988|A|0
+2002|C|0
+19|C|0
+32|C|0
+14|A|0
+23|C|0
+14|C|0
+27|C|0
+10|A|0
+28|C|0
+17|A|0
+9|A|0
+14|C|0
+20|C|0
+30|C|0
+22|C|0
+9|A|0
+21|C|0
+1|A|0
+7|A|0
+8|C|0
+13|A|0
+25|C|0
+16|A|0
+25|C|0
+14|A|0
+33|C|0
+32|A|0
+13|C|0
+23|A|0
+CA|debt to income|2
+TX|debt to income|6
+NJ|A|0
+SC|C|0
+OR|C|0
+GA|C|0
+PA|C|0
+IN|C|0
+FL|debt to income|5
+NV|C|0
+UT|C|0
+OH|debt to income|2
+MI|debt to income|2
+NC|C|0
+VT|C|0
+NY|debt to income|2
+KS|A|0
+MA|C|0
+IL|A|0
+VA|C|0
+NM|C|0
+DC|A|0
+13|earliest credit|2
+9|C|0
+1994|C|0
+1999|A|0
+4|C|0
+6|C|0
+7|C|0
+16|A|0
+19|C|0
+23|A|0
+14|C|0
+26|C|0
+6|A|0
+15|A|0
+19|C|0
+13|earliest credit|2
+21|C|0
+2005|C|0
+2002|A|0
+18|C|0
+6|A|0
+17|A|0
+22|C|0
+NV|A|0
+GA|C|0
+TN|C|0
+FL|C|0
+OK|debt to income|3
+VT|C|0
+CO|A|0
+MT|C|0
+GA|C|0
+PA|C|0
+OH|C|0
+TX|debt to income|2
+IN|debt to income|3
+MN|C|0
+NY|C|0
+NC|A|0
+SC|C|0
+CA|C|0
+4|C|0
+24|C|0
+8|A|0
+32|C|0
+15|A|0
+13|C|0
+27|A|0
+7|C|0
+40000|state|17
+150000|state|6
+80000|state|9
+125000|state|5
+20000|state|7
+100000|state|8
+60000|state|15
+15000|state|3
+30000|state|7
+10000|C|0
+OR|C|0
+RI|A|0
+FL|debt to income|3
+PA|C|0
+CA|debt to income|4
+TX|debt to income|2
+NJ|C|0
+NV|C|0
+GA|C|0
+NY|C|0
+MO|C|0
+HI|C|0
+MN|C|0
+IL|C|0
+OH|debt to income|2
+AL|C|0
+SC|C|0
+28|A|0
+19|A|0
+14|C|0
+16|C|0
+17|C|0
+4|A|0
+12|C|0
+11|C|0
+30|A|0
+27|C|0
+4|A|0
+MD|debt to income|2
+NJ|A|0
+CA|C|0
+TX|A|0
+IN|A|0
+GA|A|0
+16|A|0
+13|C|0
+MD|C|0
+FL|C|0
+MO|A|0
+CA|debt to income|2
+TX|C|0
+PA|A|0
+LA|C|0
+VA|C|0
+IL|A|0
+19|earliest credit|2
+35|C|0
+2005|A|0
+1994|C|0
+TN|A|0
+CA|debt to income|2
+TX|A|0
+AL|C|0
+NY|A|0
+5|A|0
+10|C|0
+FL|C|0
+TX|A|0
+CA|C|0
+MS|C|0
+UT|C|0
+OH|C|0
+IN|C|0
+MI|A|0
+IL|C|0
+NY|A|0
+CA|debt to income|2
+TX|C|0
+NJ|A|0
+PA|C|0
+FL|C|0
+20|C|0
+7|A|0
+NY|debt to income|3
+AL|C|0
+TX|A|0
+NJ|C|0
+CA|C|0
+AZ|C|0
+CT|A|0
+FL|debt to income|3
+OK|A|0
+NM|C|0
+SC|C|0
+NC|A|0
+OH|C|0
+PA|A|0
+CO|A|0
+15|A|0
+16|C|0
+29|A|0
+16|A|0
+15|C|0
+12|C|0
+FL|C|0
+NJ|debt to income|2
+IN|C|0
+33|C|0
+12|A|0
+FL|C|0
+TN|A|0
+SC|C|0
+AR|C|0
+IL|C|0
+NC|C|0
+NE|C|0
+30000|state|30
+40000|state|35
+150000|state|10
+60000|state|23
+15000|state|7
+80000|state|20
+125000|state|11
+20000|state|28
+100000|state|10
+10000|C|0
+ME|C|0
+OK|C|0
+FL|debt to income|9
+NY|C|0
+IL|C|0
+VA|C|0
+OH|debt to income|4
+MN|C|0
+AZ|C|0
+CA|debt to income|10
+TX|debt to income|6
+NJ|C|0
+NE|C|0
+NC|C|0
+IN|C|0
+LA|A|0
+CO|debt to income|3
+VT|C|0
+UT|debt to income|2
+MD|C|0
+MA|A|0
+PA|C|0
+TN|A|0
+MI|C|0
+WA|A|0
+GA|C|0
+CT|C|0
+KY|C|0
+WI|C|0
+SC|C|0
+24|C|0
+16|C|0
+13|C|0
+18|C|0
+10|A|0
+14|C|0
+25|C|0
+6|C|0
+19|C|0
+18|C|0
+29|A|0
+19|C|0
+24|C|0
+16|C|0
+13|C|0
+35|C|0
+17|earliest credit|2
+5|C|0
+25|C|0
+29|C|0
+4|C|0
+24|C|0
+18|C|0
+1987|C|0
+2013|A|0
+15|C|0
+24|A|0
+12|earliest credit|2
+14|C|0
+19|A|0
+9|C|0
+2009|A|0
+2013|C|0
+17|C|0
+3|C|0
+15|A|0
+19|C|0
+11|A|0
+MN|debt to income|4
+AZ|debt to income|7
+VA|debt to income|3
+IL|debt to income|6
+MA|debt to income|5
+NH|C|0
+GA|C|0
+CA|debt to income|17
+IN|debt to income|5
+LA|C|0
+FL|debt to income|9
+OK|A|0
+OR|C|0
+NC|debt to income|4
+NY|debt to income|11
+ME|C|0
+ND|C|0
+NV|C|0
+PA|debt to income|6
+TX|debt to income|13
+NJ|C|0
+OH|debt to income|5
+SC|C|0
+MD|debt to income|2
+TN|debt to income|2
+AL|C|0
+CO|debt to income|3
+VT|A|0
+WI|A|0
+CT|debt to income|2
+MI|C|0
+KY|C|0
+WA|earliest credit|2
+MO|C|0
+UT|debt to income|2
+8|C|0
+23|C|0
+15|A|0
+26|C|0
+7|C|0
+12|A|0
+17|earliest credit|2
+29|C|0
+10|A|0
+8|C|0
+4|C|0
+2006|C|0
+2012|A|0
+20|C|0
+23|C|0
+27|A|0
+12|C|0
+23|C|0
+18|C|0
+10|A|0
+19|C|0
+13|C|0
+4|C|0
+17|earliest credit|2
+2|C|0
+29|A|0
+21|C|0
+2008|C|0
+2000|A|0
+10|A|0
+18|C|0
+7|A|0
+16|C|0
+6|earliest credit|2
+17|A|0
+22|C|0
+57|C|0
+25|C|0
+14|A|0
+27|A|0
+24|A|0
+20|earliest credit|2
+19|C|0
+12|A|0
+23|C|0
+15|A|0
+2012|C|0
+2003|A|0
+2007|C|0
+1998|A|0
+21|A|0
+10|C|0
+15|C|0
+32|C|0
+14|C|0
+31|C|0
+17|A|0
+25|C|0
+15|C|0
+10|C|0
+18|C|0
+21|C|0
+13|A|0
+28|C|0
+5|A|0
+24|C|0
+23|C|0
+17|C|0
+10|C|0
+18|grade|2
+11|C|0
+17|earliest credit|3
+23|A|0
+12|C|0
+4|A|0
+15|A|0
+27|C|0
+25|C|0
+8|C|0
+C|C|0
+A|A|0
+2005|C|0
+2008|A|0
+2006|C|0
+18|C|0
+3|C|0
+17|A|0
+26|C|0
+11|C|0
+7|C|0
+22|C|0
+26|A|0
+27|C|0
+23|C|0
+20|C|0
+19|C|0
+28|C|0
+11|C|0
+15|C|0
+21|C|0
+7|A|0
+24|A|0
+3|A|0
+28|C|0
+19|C|0
+15|A|0
+25|C|0
+17|C|0
+31|C|0
+18|A|0
+24|A|0
+28|C|0
+16|A|0
+8|earliest credit|2
+19|C|0
+1990|C|0
+2001|A|0
+22|C|0
+20|A|0
+2005|A|0
+1996|C|0
+11|C|0
+32|A|0
+CA|debt to income|4
+TX|A|0
+NJ|C|0
+VA|debt to income|2
+NY|earliest credit|2
+MA|C|0
+PA|C|0
+MN|A|0
+MO|A|0
+NV|C|0
+20|C|0
+0|A|0
+10|earliest credit|2
+7|A|0
+2007|C|0
+1998|A|0
+21|C|0
+18|A|0
+2003|C|0
+2010|A|0
+OK|C|0
+FL|C|0
+CA|debt to income|15
+TX|debt to income|3
+NJ|debt to income|7
+WI|C|0
+NY|debt to income|9
+IL|debt to income|5
+VA|debt to income|3
+MN|C|0
+AZ|C|0
+PA|A|0
+MD|C|0
+HI|A|0
+WA|debt to income|3
+CO|C|0
+IN|A|0
+LA|C|0
+OH|C|0
+SC|C|0
+OR|A|0
+MA|C|0
+DC|C|0
+8|C|0
+20|C|0
+19|C|0
+17|earliest credit|2
+26|C|0
+1|C|0
+18|C|0
+14|C|0
+3|C|0
+7|A|0
+11|earliest credit|2
+10|earliest credit|2
+25|A|0
+4|C|0
+15|C|0
+2002|C|0
+2005|A|0
+2010|C|0
+2006|A|0
+1987|A|0
+2011|C|0
+28|C|0
+21|grade|2
+23|A|0
+C|C|0
+A|A|0
+25|C|0
+26|A|0
+6|earliest credit|3
+23|C|0
+16|C|0
+28|C|0
+9|C|0
+2001|A|0
+2011|A|0
+1988|C|0
+26|C|0
+5|C|0
+21|earliest credit|2
+18|C|0
+20|A|0
+19|A|0
+8|C|0
+12|C|0
+15|A|0
+1992|A|0
+1999|C|0
+16|grade|2
+20|C|0
+8|A|0
+10|C|0
+23|C|0
+C|C|0
+A|A|0
+16|A|0
+19|C|0
+13|C|0
+25|C|0
+17|C|0
+27|A|0
+NY|debt to income|2
+CA|C|0
+FL|C|0
+OH|A|0
+RI|C|0
+OR|C|0
+MI|C|0
+12|A|0
+27|C|0
+MD|C|0
+UT|A|0
+OR|A|0
+VA|A|0
+NY|debt to income|7
+CA|debt to income|10
+FL|debt to income|2
+AZ|debt to income|4
+NC|C|0
+NJ|A|0
+TX|debt to income|4
+AK|A|0
+CT|debt to income|2
+CO|C|0
+DC|C|0
+WI|C|0
+SC|C|0
+PA|C|0
+MA|C|0
+OH|A|0
+3|A|0
+16|C|0
+24|A|0
+15|A|0
+17|A|0
+18|earliest credit|3
+5|C|0
+2006|C|0
+2004|A|0
+2007|C|0
+16|C|0
+7|C|0
+14|C|0
+12|earliest credit|3
+17|C|0
+31|C|0
+13|C|0
+18|C|0
+11|A|0
+19|C|0
+1990|C|0
+1999|A|0
+2005|A|0
+6|A|0
+19|C|0
+23|C|0
+12|A|0
+24|C|0
+22|C|0
+1|C|0
+21|A|0
+18|A|0
+29|A|0
+16|A|0
+15|C|0
+TN|debt to income|2
+CO|A|0
+NY|A|0
+IL|C|0
+DC|A|0
+PA|C|0
+LA|A|0
+MD|debt to income|3
+CA|debt to income|4
+NC|C|0
+GA|C|0
+15|A|0
+13|C|0
+7|A|0
+26|A|0
+11|C|0
+13|C|0
+7|C|0
+3|A|0
+15|C|0
+TX|debt to income|4
+AZ|C|0
+MN|C|0
+OH|C|0
+MI|C|0
+NY|debt to income|6
+OK|C|0
+FL|debt to income|4
+OR|C|0
+WA|C|0
+MO|A|0
+NV|C|0
+CA|debt to income|3
+CT|C|0
+WI|C|0
+NE|C|0
+SC|C|0
+NC|C|0
+HI|C|0
+GA|C|0
+IN|C|0
+PA|debt to income|2
+KY|C|0
+MD|C|0
+VA|C|0
+IL|C|0
+VT|C|0
+MA|C|0
+20|C|0
+11|C|0
+15|C|0
+12|A|0
+21|A|0
+12|C|0
+17|C|0
+8|A|0
+7|C|0
+32|C|0
+6|C|0
+30|A|0
+22|C|0
+29|C|0
+12|earliest credit|2
+22|C|0
+25|C|0
+2013|C|0
+2006|A|0
+16|A|0
+24|C|0
+AZ|C|0
+PA|C|0
+NY|debt to income|4
+TX|debt to income|6
+CA|debt to income|6
+CO|C|0
+FL|C|0
+NC|C|0
+OR|C|0
+CT|C|0
+17|A|0
+11|C|0
+22|C|0
+29|A|0
+6|A|0
+17|C|0
+9|C|0
+10|A|0
+21|A|0
+30|C|0
+4|C|0
+25|C|0
+5|A|0
+26|C|0
+16|A|0
+12|A|0
+RENT|income|10
+MORTGAGE|income|10
+OWN|income|8
+30000|state|15
+80000|state|15
+125000|state|5
+60000|state|17
+15000|state|2
+40000|state|27
+150000|C|0
+20000|C|0
+100000|state|7
+10000|C|0
+CO|C|0
+FL|debt to income|3
+MO|C|0
+WA|A|0
+GA|C|0
+WI|debt to income|3
+CA|debt to income|4
+NC|C|0
+IN|C|0
+AZ|C|0
+NJ|C|0
+ND|C|0
+NY|C|0
+PA|C|0
+MA|C|0
+43|C|0
+26|C|0
+19|A|0
+4|A|0
+15|C|0
+13|A|0
+28|C|0
+22|C|0
+24|A|0
+15|C|0
+VA|A|0
+NY|debt to income|6
+CA|debt to income|6
+NJ|debt to income|2
+TX|A|0
+WA|A|0
+WI|C|0
+NV|C|0
+MA|A|0
+CT|A|0
+FL|C|0
+GA|C|0
+MD|debt to income|3
+NM|C|0
+LA|C|0
+8|C|0
+20|C|0
+10|A|0
+14|C|0
+22|C|0
+6|A|0
+17|C|0
+19|A|0
+8|C|0
+25|A|0
+15|C|0
+16|A|0
+24|A|0
+17|C|0
+8|C|0
+17|C|0
+27|A|0
+MD|C|0
+CA|A|0
+NJ|C|0
+WI|A|0
+FL|C|0
+CA|debt to income|8
+NJ|C|0
+WI|C|0
+MO|A|0
+FL|debt to income|5
+VA|debt to income|2
+IL|debt to income|4
+NY|debt to income|6
+IN|A|0
+PA|C|0
+OR|A|0
+MI|C|0
+OH|C|0
+MD|C|0
+NV|C|0
+MN|A|0
+MA|A|0
+12|earliest credit|2
+19|C|0
+9|C|0
+18|C|0
+21|C|0
+27|C|0
+17|C|0
+2|A|0
+2001|C|0
+2002|A|0
+23|C|0
+14|C|0
+32|C|0
+17|A|0
+16|C|0
+15|A|0
+26|C|0
+15|C|0
+14|A|0
+32|C|0
+17|C|0
+12|A|0
+19|C|0
+7|A|0
+14|C|0
+29|C|0
+10|C|0
+IN|C|0
+SC|A|0
+CA|debt to income|9
+NJ|debt to income|3
+TX|debt to income|4
+NV|debt to income|2
+AZ|C|0
+DE|C|0
+FL|debt to income|3
+OK|A|0
+VA|C|0
+MA|C|0
+KS|debt to income|2
+NC|A|0
+GA|C|0
+MI|C|0
+OH|debt to income|2
+SC|A|0
+CO|C|0
+NY|C|0
+OR|A|0
+NE|C|0
+NM|A|0
+MD|C|0
+MS|C|0
+CT|A|0
+HI|C|0
+PA|A|0
+MO|C|0
+12|earliest credit|2
+23|C|0
+27|C|0
+10|C|0
+17|C|0
+31|C|0
+4|C|0
+15|C|0
+8|C|0
+2002|A|0
+2013|C|0
+21|C|0
+15|C|0
+20|A|0
+20|C|0
+19|A|0
+14|C|0
+12|A|0
+28|A|0
+26|C|0
+27|C|0
+25|C|0
+6|A|0
+14|A|0
+22|C|0
+14|A|0
+24|C|0
+AZ|C|0
+PA|debt to income|2
+CA|debt to income|5
+MO|A|0
+GA|C|0
+MI|C|0
+FL|C|0
+19|C|0
+8|A|0
+6|C|0
+11|A|0
+20|C|0
+14|C|0
+10|C|0
+40000|state|27
+150000|state|12
+80000|state|22
+125000|state|13
+60000|state|25
+100000|state|16
+10000|C|0
+20000|state|4
+30000|state|7
+15000|C|0
+WI|C|0
+WA|debt to income|2
+MT|C|0
+IN|debt to income|2
+OH|debt to income|2
+NY|C|0
+IL|C|0
+CA|debt to income|3
+TN|C|0
+NV|C|0
+PA|debt to income|4
+TX|C|0
+MD|debt to income|2
+NM|C|0
+GA|debt to income|2
+MN|C|0
+DE|A|0
+SC|debt to income|2
+OK|C|0
+FL|A|0
+SD|A|0
+AL|C|0
+UT|C|0
+CO|C|0
+NC|C|0
+KS|A|0
+MS|C|0
+24|C|0
+35|A|0
+6|C|0
+22|A|0
+25|A|0
+11|C|0
+6|C|0
+15|A|0
+12|C|0
+2|C|0
+22|C|0
+8|A|0
+16|C|0
+17|A|0
+25|C|0
+22|A|0
+10|C|0
+13|A|0
+40|C|0
+MD|C|0
+VA|C|0
+AL|A|0
+TX|debt to income|3
+CA|C|0
+DE|C|0
+MN|C|0
+OH|C|0
+CT|debt to income|2
+GA|C|0
+NY|A|0
+NC|A|0
+10|A|0
+16|C|0
+20|A|0
+20|C|0
+18|A|0
+ID|C|0
+IL|debt to income|3
+VA|debt to income|2
+CT|A|0
+AR|C|0
+OH|C|0
+MT|C|0
+MO|debt to income|2
+SC|A|0
+FL|A|0
+TX|debt to income|5
+NJ|A|0
+HI|C|0
+KY|C|0
+AL|A|0
+IN|C|0
+VT|A|0
+CO|C|0
+NY|C|0
+AZ|A|0
+DE|A|0
+GA|C|0
+7|A|0
+21|C|0
+10|A|0
+21|C|0
+10|A|0
+15|C|0
+18|A|0
+21|C|0
+7|A|0
+5|A|0
+14|A|0
+8|C|0
+PA|debt to income|2
+MN|A|0
+AZ|C|0
+IL|A|0
+VA|A|0
+CA|A|0
+CO|C|0
+OK|C|0
+MD|A|0
+IN|C|0
+ND|C|0
+MO|C|0
+OH|C|0
+12|C|0
+20|A|0
+NY|A|0
+VA|C|0
+IN|debt to income|2
+TX|debt to income|6
+FL|C|0
+CO|A|0
+VT|C|0
+KS|C|0
+MA|A|0
+WA|C|0
+MO|debt to income|2
+MT|debt to income|2
+NC|debt to income|5
+MI|C|0
+AZ|A|0
+OH|debt to income|5
+AR|A|0
+GA|C|0
+MD|C|0
+NM|A|0
+TN|A|0
+AL|A|0
+NE|A|0
+PA|C|0
+ME|C|0
+21|A|0
+18|C|0
+16|A|0
+7|C|0
+10|A|0
+21|earliest credit|2
+22|C|0
+33|C|0
+2011|C|0
+2003|A|0
+30|C|0
+26|A|0
+14|A|0
+15|C|0
+11|C|0
+20|A|0
+25|C|0
+16|A|0
+17|A|0
+15|A|0
+16|A|0
+13|C|0
+20|C|0
+18|C|0
+NJ|A|0
+TX|debt to income|4
+CA|A|0
+IN|C|0
+VA|debt to income|4
+AL|A|0
+NM|A|0
+MD|C|0
+FL|C|0
+MA|debt to income|3
+MO|A|0
+GA|A|0
+MS|C|0
+PA|C|0
+NC|A|0
+CO|A|0
+14|A|0
+17|A|0
+16|A|0
+15|C|0
+19|C|0
+5|C|0
+25|C|0
+2|A|0
+20|A|0
+26|C|0
+10|C|0
+MA|C|0
+MI|A|0
+TN|C|0
+OK|C|0
+TX|C|0
+MN|C|0
+PA|C|0
+AZ|A|0
+MA|C|0
+CO|C|0
+FL|C|0
+60000|state|9
+30000|state|8
+80000|state|8
+125000|state|4
+40000|state|6
+150000|C|0
+100000|state|4
+20000|C|0
+NC|A|0
+FL|C|0
+CO|C|0
+NY|A|0
+IL|C|0
+CA|C|0
+TX|C|0
+MO|A|0
+OH|A|0
+MI|C|0
+MA|C|0
+MS|A|0
+CA|C|0
+NJ|debt to income|2
+PA|debt to income|2
+OH|C|0
+IL|C|0
+31|C|0
+18|A|0
+24|A|0
+26|C|0
+NE|C|0
+MA|C|0
+MI|C|0
+CT|C|0
+FL|A|0
+NC|A|0
+GA|C|0
+NY|A|0
+OH|A|0
+ND|C|0
+KS|C|0
+WI|A|0
+ND|C|0
+FL|debt to income|3
+TX|A|0
+CA|C|0
+IL|C|0
+MN|A|0
+23|A|0
+34|C|0
+18|A|0
+IL|C|0
+CA|A|0
+NJ|C|0
+OK|A|0
+MORTGAGE|income|10
+OWN|income|10
+RENT|income|10
+60000|state|27
+80000|state|26
+125000|state|15
+100000|state|19
+10000|C|0
+150000|state|19
+40000|state|29
+20000|state|9
+30000|state|16
+15000|A|0
+PA|C|0
+OH|debt to income|3
+NJ|debt to income|3
+TX|C|0
+NY|C|0
+IN|C|0
+NC|debt to income|6
+FL|debt to income|4
+GA|debt to income|4
+WA|C|0
+MO|A|0
+TN|C|0
+VA|debt to income|3
+IL|C|0
+MS|C|0
+WI|C|0
+MD|debt to income|3
+MA|debt to income|3
+MI|C|0
+KY|C|0
+AL|A|0
+MN|C|0
+OR|A|0
+CO|A|0
+CA|C|0
+CT|C|0
+SD|C|0
+16|C|0
+8|A|0
+18|C|0
+26|C|0
+4|A|0
+8|C|0
+23|C|0
+32|C|0
+19|C|0
+28|C|0
+24|A|0
+13|A|0
+24|A|0
+11|C|0
+20|A|0
+27|C|0
+5|C|0
+23|C|0
+13|C|0
+18|A|0
+21|C|0
+28|A|0
+14|C|0
+13|C|0
+26|A|0
+16|C|0
+18|earliest credit|2
+9|A|0
+19|A|0
+1999|C|0
+1996|A|0
+OH|debt to income|2
+MN|debt to income|2
+AZ|C|0
+SD|A|0
+CT|C|0
+ME|C|0
+CO|earliest credit|2
+NJ|debt to income|2
+TX|debt to income|4
+OR|C|0
+NM|A|0
+AL|C|0
+PA|C|0
+ND|A|0
+MI|debt to income|2
+CA|debt to income|3
+VA|C|0
+IL|A|0
+OK|C|0
+FL|C|0
+UT|C|0
+NC|C|0
+TN|A|0
+GA|C|0
+RI|A|0
+WA|A|0
+16|A|0
+23|C|0
+28|C|0
+11|A|0
+1987|A|0
+2007|C|0
+12|A|0
+15|C|0
+16|A|0
+4|C|0
+3|C|0
+14|C|0
+31|C|0
+17|A|0
+28|A|0
+7|A|0
+13|C|0
+TX|debt to income|3
+KY|A|0
+CA|debt to income|4
+FL|C|0
+OK|C|0
+IL|debt to income|3
+MI|A|0
+NH|debt to income|2
+NC|C|0
+AZ|debt to income|2
+NV|A|0
+TN|C|0
+WA|C|0
+CO|C|0
+NE|C|0
+6|A|0
+11|C|0
+12|A|0
+17|C|0
+11|C|0
+9|C|0
+13|A|0
+15|C|0
+6|A|0
+22|A|0
+8|C|0
+20|A|0
+24|C|0
+17|A|0
+WA|C|0
+MO|C|0
+WI|C|0
+CA|debt to income|4
+IL|A|0
+VA|debt to income|4
+PA|C|0
+OH|A|0
+MN|A|0
+MI|A|0
+TX|earliest credit|2
+MA|A|0
+TN|C|0
+NY|debt to income|2
+NV|A|0
+OK|C|0
+OR|A|0
+GA|A|0
+NC|C|0
+9|C|0
+13|C|0
+22|C|0
+8|A|0
+20|C|0
+17|C|0
+25|C|0
+21|A|0
+2001|C|0
+1989|A|0
+14|C|0
+13|A|0
+NJ|debt to income|2
+TX|debt to income|4
+CA|debt to income|2
+CO|C|0
+WI|A|0
+NV|A|0
+NH|C|0
+MA|C|0
+MT|C|0
+OH|C|0
+NY|A|0
+GA|C|0
+FL|C|0
+HI|C|0
+MO|C|0
+MN|A|0
+NM|C|0
+KY|A|0
+IL|debt to income|2
+28|C|0
+8|A|0
+21|C|0
+18|C|0
+19|C|0
+8|A|0
+8|A|0
+23|C|0
+4|A|0
+14|C|0
+IL|debt to income|4
+VA|debt to income|3
+CA|C|0
+MS|C|0
+TX|debt to income|4
+RI|A|0
+SC|debt to income|3
+LA|C|0
+IN|debt to income|5
+AZ|C|0
+MN|C|0
+MA|debt to income|3
+KS|C|0
+NH|C|0
+GA|debt to income|3
+FL|debt to income|4
+ME|C|0
+UT|A|0
+OH|debt to income|3
+AK|A|0
+NV|C|0
+MO|A|0
+WA|C|0
+CT|debt to income|2
+CO|debt to income|3
+OR|C|0
+ID|C|0
+NE|A|0
+NY|C|0
+15|A|0
+13|C|0
+14|A|0
+25|C|0
+7|C|0
+12|C|0
+22|A|0
+15|C|0
+20|C|0
+19|A|0
+29|A|0
+19|A|0
+29|A|0
+25|C|0
+26|A|0
+17|C|0
+19|A|0
+16|C|0
+25|C|0
+7|A|0
+10|A|0
+25|earliest credit|2
+2003|A|0
+1999|C|0
+30|C|0
+17|A|0
+29|C|0
+26|C|0
+21|A|0
+16|earliest credit|2
+19|C|0
+1997|C|0
+2000|A|0
+20|C|0
+23|A|0
+26|A|0
+18|earliest credit|2
+6|A|0
+2005|A|0
+2008|C|0
+28|C|0
+25|C|0
+22|A|0
+GA|A|0
+MO|C|0
+ME|C|0
+TN|C|0
+VA|C|0
+IL|C|0
+MS|C|0
+NC|C|0
+PA|A|0
+NY|C|0
+IL|C|0
+VA|C|0
+AL|C|0
+SC|C|0
+MI|A|0
+LA|C|0
+IN|debt to income|2
+GA|C|0
+FL|A|0
+CO|C|0
+ME|C|0
+MN|C|0
+OH|A|0
+NE|C|0
+PA|C|0
+50|C|0
+27|A|0
+40000|state|11
+150000|state|3
+60000|state|13
+15000|C|0
+80000|C|0
+125000|state|2
+30000|C|0
+100000|state|4
+20000|state|7
+10000|A|0
+NY|C|0
+VA|C|0
+IL|C|0
+AL|A|0
+TN|C|0
+OK|C|0
+MO|A|0
+WI|A|0
+TX|C|0
+MI|C|0
+PA|C|0
+PA|A|0
+OH|C|0
+TX|A|0
+NJ|A|0
+TX|C|0
+CA|A|0
+NM|C|0
+MD|A|0
+NY|C|0
+IL|C|0
+PA|C|0
+NV|C|0
+FL|C|0
+KS|C|0
+IN|C|0
+LA|A|0
+NJ|A|0
+TX|C|0
+VA|C|0
+NY|A|0
+TX|C|0
+CA|A|0
+VA|C|0
+IL|C|0
+PA|A|0
+AZ|C|0
+TN|A|0
+FL|A|0
+MA|C|0
+30000|state|28
+40000|state|27
+150000|state|11
+125000|state|8
+80000|state|17
+60000|state|23
+15000|state|8
+20000|state|19
+100000|state|8
+10000|C|0
+IL|C|0
+VA|debt to income|3
+WA|debt to income|3
+MO|C|0
+CA|debt to income|8
+NJ|C|0
+TX|C|0
+UT|A|0
+CO|C|0
+FL|debt to income|8
+OK|debt to income|2
+AZ|C|0
+MN|C|0
+HI|C|0
+TN|C|0
+NC|debt to income|2
+IN|debt to income|2
+LA|A|0
+KS|C|0
+MA|C|0
+NY|C|0
+MI|C|0
+MD|C|0
+CT|C|0
+KY|C|0
+NV|A|0
+SC|C|0
+GA|C|0
+25|C|0
+8|A|0
+31|C|0
+18|A|0
+6|C|0
+5|C|0
+10|C|0
+20|C|0
+11|C|0
+8|A|0
+14|C|0
+22|C|0
+13|C|0
+33|C|0
+17|C|0
+22|C|0
+11|C|0
+21|C|0
+16|A|0
+12|A|0
+14|C|0
+4|C|0
+11|C|0
+23|A|0
+14|C|0
+8|A|0
+27|C|0
+22|A|0
+CA|debt to income|14
+TX|debt to income|11
+NJ|debt to income|6
+ND|C|0
+CO|C|0
+OK|A|0
+FL|debt to income|10
+MD|A|0
+NY|debt to income|6
+OH|A|0
+IL|C|0
+VA|debt to income|4
+KS|debt to income|3
+MA|debt to income|3
+NE|C|0
+MI|debt to income|2
+NC|C|0
+CT|C|0
+MO|A|0
+WA|C|0
+NV|A|0
+GA|C|0
+KY|C|0
+MN|C|0
+PA|debt to income|4
+RI|C|0
+SC|C|0
+26|C|0
+6|earliest credit|2
+31|C|0
+18|C|0
+10|earliest credit|2
+24|earliest credit|4
+16|C|0
+12|C|0
+13|C|0
+5|A|0
+23|C|0
+28|C|0
+11|C|0
+20|C|0
+2007|A|0
+1993|C|0
+2010|C|0
+2005|A|0
+2007|A|0
+1987|A|0
+1994|C|0
+1999|A|0
+9|C|0
+47|C|0
+25|A|0
+16|A|0
+27|C|0
+15|A|0
+6|A|0
+23|C|0
+22|C|0
+14|C|0
+29|C|0
+7|C|0
+18|A|0
+10|A|0
+14|A|0
+23|A|0
+17|C|0
+8|C|0
+19|earliest credit|2
+4|C|0
+15|C|0
+22|C|0
+30|C|0
+17|C|0
+18|C|0
+9|C|0
+16|A|0
+2009|A|0
+1989|C|0
+16|A|0
+4|A|0
+14|C|0
+25|C|0
+20|C|0
+18|C|0
+13|C|0
+2|C|0
+21|C|0
+15|A|0
+19|C|0
+21|C|0
+18|A|0
+2|A|0
+13|A|0
+34|C|0
+18|C|0
+26|A|0
+20|A|0
+12|C|0
+23|C|0
+24|A|0
+CA|debt to income|5
+VA|C|0
+NY|debt to income|2
+UT|A|0
+OH|C|0
+CT|A|0
+FL|C|0
+WA|C|0
+GA|C|0
+TX|C|0
+NJ|C|0
+7|C|0
+21|A|0
+19|A|0
+5|C|0
+13|C|0
+11|A|0
+9|C|0
+MA|A|0
+MD|C|0
+GA|debt to income|2
+CA|debt to income|3
+VA|C|0
+NY|debt to income|2
+CO|A|0
+FL|C|0
+25|C|0
+13|A|0
+13|C|0
+9|C|0
+8|A|0
+13|A|0
+22|C|0
+WI|C|0
+TX|debt to income|3
+CA|debt to income|7
+VA|C|0
+IL|C|0
+NY|debt to income|5
+FL|A|0
+UT|C|0
+PA|A|0
+MI|C|0
+WA|A|0
+CO|debt to income|2
+NC|C|0
+CT|C|0
+AZ|C|0
+MD|A|0
+MA|C|0
+14|A|0
+20|A|0
+17|C|0
+12|A|0
+34|A|0
+21|C|0
+9|A|0
+17|C|0
+6|A|0
+27|A|0
+27|C|0
+7|C|0
+4|C|0
+15|C|0
+18|A|0
+12|A|0
+11|C|0
+CA|debt to income|12
+NJ|debt to income|3
+TX|debt to income|5
+NY|debt to income|10
+FL|A|0
+OK|A|0
+NE|C|0
+MT|C|0
+WA|debt to income|2
+AR|debt to income|2
+MI|debt to income|3
+IL|debt to income|5
+VA|C|0
+PA|C|0
+NM|A|0
+MD|A|0
+GA|debt to income|4
+MA|A|0
+TN|C|0
+NC|A|0
+OH|A|0
+AL|A|0
+OR|C|0
+18|earliest credit|2
+9|A|0
+19|A|0
+0|C|0
+11|C|0
+28|C|0
+16|earliest credit|2
+32|C|0
+34|C|0
+22|earliest credit|2
+25|C|0
+27|A|0
+2006|C|0
+2008|A|0
+2014|C|0
+2006|A|0
+2007|A|0
+2010|C|0
+27|C|0
+24|A|0
+21|C|0
+24|C|0
+15|A|0
+16|C|0
+28|A|0
+21|earliest credit|2
+2010|A|0
+2001|C|0
+6|C|0
+15|C|0
+4|C|0
+8|A|0
+11|C|0
+0|C|0
+7|C|0
+16|A|0
+14|C|0
+29|C|0
+12|C|0
+8|A|0
+18|A|0
+33|C|0
+6|C|0
+16|A|0
+18|C|0
+21|C|0
+18|A|0
+31|C|0
+26|C|0
+32|C|0
+12|C|0
+14|A|0
+5|C|0
+21|C|0
+ME|C|0
+DE|C|0
+CA|debt to income|2
+MT|C|0
+OR|C|0
+NY|C|0
+IL|C|0
+VA|C|0
+30|A|0
+3|C|0
+AZ|debt to income|3
+MN|C|0
+CO|A|0
+FL|C|0
+WI|C|0
+CA|C|0
+TX|debt to income|4
+NJ|A|0
+NE|C|0
+LA|C|0
+IN|A|0
+VA|C|0
+IL|C|0
+WA|C|0
+NY|debt to income|4
+GA|C|0
+PA|C|0
+OH|C|0
+MA|C|0
+18|C|0
+22|A|0
+27|C|0
+26|C|0
+17|C|0
+12|A|0
+25|C|0
+15|C|0
+8|A|0
+17|A|0
+18|C|0
+CA|debt to income|5
+TX|debt to income|3
+NY|debt to income|3
+IL|C|0
+NV|C|0
+AZ|C|0
+MD|A|0
+NC|C|0
+21|C|0
+10|A|0
+5|C|0
+12|earliest credit|4
+11|A|0
+2009|C|0
+1999|A|0
+2006|A|0
+2003|A|0
+10|C|0
+20|C|0
+25|A|0
+13|A|0
+7|A|0
+28|C|0
+RENT|income|10
+MORTGAGE|income|8
+OWN|income|9
+30000|state|27
+40000|state|30
+150000|state|8
+100000|state|11
+60000|state|30
+15000|state|5
+20000|state|16
+80000|state|21
+125000|state|7
+10000|C|0
+MA|earliest credit|2
+FL|C|0
+OK|C|0
+CO|C|0
+AZ|debt to income|3
+MN|C|0
+PA|C|0
+OH|A|0
+CA|debt to income|7
+NY|C|0
+VA|C|0
+WI|C|0
+IN|debt to income|4
+NV|A|0
+WA|C|0
+NC|C|0
+TX|C|0
+NJ|A|0
+SC|C|0
+HI|C|0
+KY|A|0
+RI|C|0
+AL|C|0
+OR|C|0
+GA|A|0
+MD|debt to income|2
+TN|C|0
+2010|C|0
+2003|A|0
+25|C|0
+16|A|0
+24|C|0
+18|A|0
+21|C|0
+15|C|0
+19|C|0
+7|C|0
+6|C|0
+17|C|0
+13|C|0
+6|C|0
+30|C|0
+33|A|0
+28|A|0
+18|C|0
+DC|C|0
+NY|debt to income|12
+AR|C|0
+PA|debt to income|7
+MN|A|0
+AZ|debt to income|2
+OH|debt to income|3
+MD|debt to income|3
+MI|C|0
+CA|debt to income|12
+IL|debt to income|7
+VA|C|0
+AL|C|0
+TX|debt to income|9
+NJ|C|0
+KY|C|0
+TN|C|0
+OR|debt to income|4
+GA|debt to income|3
+FL|debt to income|5
+OK|C|0
+CO|C|0
+WI|debt to income|3
+SC|debt to income|5
+NV|C|0
+HI|C|0
+MA|C|0
+IN|debt to income|2
+SD|C|0
+WA|C|0
+22|C|0
+33|C|0
+3|C|0
+14|C|0
+32|C|0
+5|C|0
+18|A|0
+10|C|0
+19|A|0
+27|A|0
+26|C|0
+6|C|0
+18|A|0
+30|C|0
+27|C|0
+32|C|0
+26|C|0
+11|A|0
+20|C|0
+25|A|0
+16|C|0
+35|A|0
+16|C|0
+17|A|0
+28|C|0
+24|A|0
+2|C|0
+17|A|0
+26|A|0
+16|C|0
+7|A|0
+22|C|0
+13|A|0
+14|A|0
+23|A|0
+4|C|0
+29|C|0
+21|C|0
+27|C|0
+23|A|0
+34|C|0
+25|C|0
+18|C|0
+16|A|0
+27|C|0
+15|A|0
+28|C|0
+20|earliest credit|2
+19|C|0
+24|C|0
+26|C|0
+6|C|0
+30|earliest credit|2
+23|C|0
+18|C|0
+2003|A|0
+2008|C|0
+2003|C|0
+2005|A|0
+16|A|0
+26|C|0
+18|C|0
+25|C|0
+31|C|0
+17|A|0
+10|C|0
+27|C|0
+21|A|0
+12|C|0
+6|C|0
+20|C|0
+19|C|0
+27|A|0
+12|A|0
+26|C|0
+7|C|0
+15|C|0
+24|A|0
+19|C|0
+18|C|0
+14|A|0
+TX|C|0
+CA|A|0
+CO|A|0
+OK|A|0
+MA|A|0
+MD|C|0
+UT|C|0
+NC|C|0
+FL|C|0
+CO|C|0
+MA|A|0
+CA|debt to income|7
+NJ|debt to income|2
+NC|debt to income|3
+NY|debt to income|2
+MD|C|0
+NV|C|0
+WA|A|0
+IL|C|0
+17|C|0
+8|C|0
+14|A|0
+1|C|0
+10|A|0
+16|A|0
+12|A|0
+10|C|0
+25|A|0
+31|C|0
+6|A|0
+25|C|0
+5|C|0
+10|A|0
+NY|debt to income|9
+VA|debt to income|3
+IL|debt to income|4
+TX|debt to income|5
+NJ|debt to income|7
+CA|debt to income|11
+NC|debt to income|2
+AZ|debt to income|4
+OH|debt to income|2
+CT|C|0
+SD|C|0
+FL|debt to income|7
+OK|C|0
+LA|C|0
+IN|earliest credit|2
+MD|debt to income|2
+GA|C|0
+MI|C|0
+MA|debt to income|3
+KS|C|0
+PA|A|0
+NV|C|0
+MS|C|0
+WI|C|0
+HI|C|0
+SC|C|0
+OR|C|0
+KY|C|0
+MT|C|0
+CO|C|0
+8|earliest credit|3
+11|C|0
+10|C|0
+21|C|0
+22|C|0
+15|C|0
+23|C|0
+5|A|0
+16|C|0
+1997|A|0
+2005|C|0
+2007|C|0
+13|earliest credit|2
+12|C|0
+21|A|0
+2010|C|0
+2001|A|0
+25|C|0
+29|A|0
+9|C|0
+27|C|0
+19|C|0
+28|C|0
+20|A|0
+16|C|0
+14|A|0
+18|C|0
+21|C|0
+28|C|0
+19|A|0
+8|A|0
+26|C|0
+27|C|0
+13|C|0
+22|A|0
+17|grade|2
+6|C|0
+11|A|0
+19|C|0
+15|A|0
+24|C|0
+29|earliest credit|3
+2|C|0
+14|C|0
+C|C|0
+A|A|0
+2009|C|0
+2004|C|0
+2000|A|0
+16|C|0
+19|A|0
+29|C|0
+23|A|0
+20|A|0
+8|C|0
+16|C|0
+12|A|0
+15|C|0
+24|C|0
+22|A|0
+21|C|0
+18|C|0
+20|C|0
+17|C|0
+2012|C|0
+1992|A|0
+18|A|0
+6|C|0
+14|A|0
+10|A|0
+16|C|0
+NY|A|0
+VA|A|0
+IL|C|0
+LA|C|0
+TX|C|0
+NJ|C|0
+TX|C|0
+CA|debt to income|4
+IL|C|0
+NY|debt to income|3
+OR|C|0
+NM|A|0
+MD|C|0
+MA|A|0
+AZ|C|0
+CO|C|0
+NE|C|0
+ND|C|0
+NC|A|0
+FL|C|0
+GA|C|0
+25|C|0
+29|C|0
+10|A|0
+20|C|0
+4|C|0
+23|C|0
+20|earliest credit|2
+2011|C|0
+2005|A|0
+CA|debt to income|8
+FL|C|0
+TN|C|0
+CO|A|0
+NY|debt to income|3
+IL|debt to income|4
+NV|C|0
+MA|A|0
+MI|debt to income|2
+IN|C|0
+TX|C|0
+NJ|C|0
+AZ|A|0
+SC|A|0
+AL|C|0
+MD|debt to income|3
+KY|C|0
+NE|C|0
+OR|C|0
+OH|A|0
+GA|C|0
+21|A|0
+8|earliest credit|2
+25|A|0
+26|C|0
+27|C|0
+30|A|0
+12|C|0
+22|C|0
+2012|C|0
+2003|A|0
+17|earliest credit|2
+24|C|0
+8|C|0
+2009|grade|2
+2001|C|0
+C|C|0
+A|A|0
+34|C|0
+6|A|0
+13|C|0
+18|A|0
+27|A|0
+16|C|0
+15|C|0
+13|C|0
+8|A|0
+NY|C|0
+AL|A|0
+MD|C|0
+CT|A|0
+GA|C|0
+CA|debt to income|3
+MA|A|0
+6|C|0
+20|earliest credit|2
+9|A|0
+2001|A|0
+2008|C|0
+40000|state|29
+150000|state|22
+100000|state|18
+125000|state|20
+80000|state|30
+60000|state|32
+30000|state|18
+20000|state|7
+TN|debt to income|3
+OK|C|0
+FL|debt to income|9
+CO|debt to income|3
+SC|C|0
+NJ|C|0
+TX|debt to income|8
+IL|debt to income|3
+VA|debt to income|3
+MO|debt to income|4
+WA|C|0
+AR|C|0
+OH|C|0
+AZ|C|0
+MN|debt to income|2
+MI|debt to income|2
+NV|debt to income|2
+WI|debt to income|5
+CA|C|0
+KS|C|0
+MA|C|0
+PA|C|0
+NY|debt to income|4
+NC|A|0
+IN|C|0
+LA|C|0
+WY|C|0
+UT|debt to income|2
+GA|debt to income|2
+19|C|0
+13|C|0
+29|A|0
+17|C|0
+20|A|0
+0|C|0
+24|A|0
+15|A|0
+25|C|0
+14|A|0
+9|C|0
+13|C|0
+3|C|0
+17|A|0
+18|C|0
+31|C|0
+6|earliest credit|2
+48|C|0
+26|A|0
+27|earliest credit|2
+49|C|0
+19|A|0
+21|C|0
+2007|A|0
+2005|C|0
+2013|C|0
+1989|A|0
+9|C|0
+18|A|0
+8|A|0
+17|A|0
+11|C|0
+21|C|0
+19|A|0
+37|C|0
+33|C|0
+23|C|0
+11|A|0
+19|C|0
+18|A|0
+24|C|0
+18|A|0
+29|C|0
+28|C|0
+37|C|0
+34|C|0
+15|C|0
+10|A|0
+13|A|0
+15|A|0
+6|A|0
+11|C|0
+13|C|0
+20|A|0
+19|C|0
+26|A|0
+CT|C|0
+AZ|debt to income|2
+MN|debt to income|2
+MI|debt to income|3
+WA|A|0
+GA|C|0
+MD|debt to income|3
+NM|A|0
+NY|debt to income|4
+TX|debt to income|2
+NJ|C|0
+FL|debt to income|5
+PA|debt to income|3
+CA|debt to income|4
+MA|A|0
+NH|debt to income|2
+TN|C|0
+IL|debt to income|3
+VA|debt to income|3
+NV|C|0
+WI|C|0
+MS|C|0
+8|A|0
+5|C|0
+24|A|0
+8|C|0
+16|C|0
+11|earliest credit|2
+25|A|0
+2010|C|0
+2001|A|0
+9|C|0
+15|A|0
+22|A|0
+14|A|0
+8|A|0
+11|C|0
+13|A|0
+11|earliest credit|3
+23|C|0
+1991|A|0
+1997|C|0
+1996|C|0
+9|C|0
+21|C|0
+16|A|0
+13|A|0
+6|C|0
+12|C|0
+20|A|0
+19|C|0
+24|A|0
+15|A|0
+6|C|0
+20|C|0
+1|A|0
+12|C|0
+10|earliest credit|2
+21|A|0
+23|A|0
+1994|C|0
+1995|A|0
+13|A|0
+21|A|0
+31|C|0
+CT|C|0
+AZ|debt to income|4
+TN|debt to income|2
+FL|C|0
+WA|C|0
+MO|A|0
+CA|debt to income|5
+TX|debt to income|3
+NJ|C|0
+KY|A|0
+MD|debt to income|3
+CO|C|0
+VA|A|0
+NH|debt to income|2
+KS|A|0
+SC|A|0
+MI|C|0
+ND|C|0
+12|A|0
+17|A|0
+15|A|0
+14|C|0
+12|A|0
+20|C|0
+12|C|0
+23|C|0
+16|C|0
+25|A|0
+11|A|0
+20|C|0
+16|A|0
+31|C|0
+19|A|0
+16|C|0
+22|A|0
+23|C|0
+19|A|0
+IN|C|0
+LA|C|0
+FL|debt to income|4
+CA|debt to income|5
+NJ|debt to income|2
+TX|debt to income|3
+MS|C|0
+IL|A|0
+VA|A|0
+GA|C|0
+PA|A|0
+HI|C|0
+NC|C|0
+NY|debt to income|2
+UT|A|0
+NV|A|0
+OH|C|0
+MI|C|0
+MN|C|0
+KS|A|0
+14|A|0
+30|C|0
+7|A|0
+24|C|0
+19|A|0
+11|C|0
+20|A|0
+3|C|0
+17|C|0
+17|C|0
+21|A|0
+13|earliest credit|2
+7|C|0
+24|A|0
+2005|A|0
+2001|C|0
+9|C|0
+25|A|0
+IL|debt to income|6
+VA|debt to income|4
+KY|C|0
+CA|debt to income|3
+CO|C|0
+ME|C|0
+OH|debt to income|3
+AR|C|0
+MI|C|0
+TX|debt to income|9
+NJ|debt to income|2
+MD|debt to income|3
+AK|C|0
+IN|C|0
+WY|debt to income|3
+GA|C|0
+PA|C|0
+MN|debt to income|2
+AZ|C|0
+FL|debt to income|2
+OK|A|0
+MS|C|0
+MA|C|0
+WA|A|0
+MO|debt to income|2
+UT|C|0
+NY|C|0
+NC|C|0
+RI|A|0
+TN|A|0
+11|C|0
+20|C|0
+5|C|0
+12|A|0
+17|C|0
+16|A|0
+7|A|0
+17|C|0
+26|A|0
+20|C|0
+14|A|0
+11|C|0
+17|A|0
+11|C|0
+12|C|0
+15|A|0
+12|A|0
+22|C|0
+13|C|0
+9|C|0
+17|A|0
+27|C|0
+14|C|0
+15|earliest credit|2
+28|C|0
+2007|A|0
+2004|C|0
+11|A|0
+21|C|0
+15|A|0
+10|earliest credit|2
+13|C|0
+1994|A|0
+2004|C|0
+17|C|0
+24|C|0
+11|A|0
+3|A|0
+22|C|0
+11|A|0
+23|C|0
+4|C|0
+6|A|0
+CO|debt to income|3
+FL|debt to income|6
+OK|debt to income|3
+NJ|debt to income|2
+TX|debt to income|3
+WI|debt to income|3
+GA|debt to income|4
+VA|A|0
+IL|debt to income|5
+NY|A|0
+CT|debt to income|2
+ME|C|0
+OH|C|0
+KY|debt to income|2
+MI|C|0
+AL|debt to income|2
+NM|C|0
+MD|C|0
+NV|debt to income|3
+PA|C|0
+AZ|C|0
+MN|debt to income|3
+DE|C|0
+KS|debt to income|2
+MA|C|0
+WA|debt to income|4
+NE|C|0
+CA|debt to income|2
+MS|C|0
+IN|C|0
+LA|debt to income|3
+NC|debt to income|2
+15|A|0
+13|A|0
+17|C|0
+2|A|0
+34|C|0
+6|C|0
+31|A|0
+4|A|0
+9|C|0
+20|A|0
+12|C|0
+9|C|0
+7|C|0
+11|A|0
+24|C|0
+13|A|0
+11|A|0
+15|C|0
+13|A|0
+27|A|0
+17|earliest credit|3
+5|C|0
+33|C|0
+19|C|0
+2006|A|0
+1997|C|0
+2005|C|0
+10|C|0
+25|C|0
+15|earliest credit|2
+6|A|0
+17|C|0
+2008|A|0
+1999|C|0
+8|A|0
+18|C|0
+21|C|0
+2|A|0
+10|A|0
+19|C|0
+27|C|0
+13|A|0
+60|C|0
+19|C|0
+22|A|0
+13|A|0
+23|A|0
+11|C|0
+11|C|0
+32|C|0
+15|C|0
+13|A|0
+21|A|0
+8|C|0
+18|C|0
+21|A|0
+12|C|0
+34|C|0
+27|A|0
+OH|C|0
+SC|C|0
+KS|A|0
+MO|C|0
+WI|C|0
+FL|debt to income|5
+CO|A|0
+NM|C|0
+TX|debt to income|4
+NY|C|0
+IN|debt to income|2
+LA|C|0
+NC|C|0
+IL|debt to income|2
+TN|C|0
+AZ|C|0
+RI|A|0
+MI|C|0
+20|A|0
+15|C|0
+30|C|0
+31|C|0
+23|C|0
+14|C|0
+23|C|0
+33|C|0
+15|A|0
+29|C|0
+32|A|0
+23|A|0
+16|C|0
+VA|C|0
+GA|C|0
+TX|C|0
+MN|A|0
+MI|C|0
+FL|C|0
+ND|C|0
+150000|state|6
+40000|state|14
+30000|state|7
+60000|state|14
+20000|state|2
+80000|state|9
+125000|C|0
+100000|state|5
+10000|C|0
+TX|debt to income|2
+OH|C|0
+AZ|A|0
+PA|C|0
+CT|C|0
+NY|A|0
+4|A|0
+15|C|0
+AL|C|0
+FL|debt to income|3
+OK|C|0
+AZ|debt to income|2
+OH|debt to income|4
+TX|C|0
+CA|debt to income|4
+MA|C|0
+NC|C|0
+VA|C|0
+IN|C|0
+NY|C|0
+MD|A|0
+GA|A|0
+16|A|0
+23|C|0
+28|C|0
+12|A|0
+21|C|0
+28|C|0
+8|A|0
+17|C|0
+25|A|0
+22|C|0
+32|C|0
+50|C|0
+6|A|0
+VA|C|0
+MI|C|0
+TX|C|0
+CA|A|0
+FL|C|0
+TN|C|0
+OR|A|0
+GA|C|0
+LA|C|0
+IN|C|0
+MD|C|0
+NY|C|0
+PA|C|0
+MN|C|0
+DE|C|0
+FL|C|0
+TX|debt to income|3
+MA|C|0
+AL|C|0
+IL|C|0
+CA|C|0
+6|C|0
+17|A|0
+24|C|0
+CA|debt to income|2
+NM|A|0
+8|C|0
+16|A|0
+OH|C|0
+AR|C|0
+NJ|C|0
+CA|C|0
+OK|C|0
+NY|C|0
+GA|C|0
+MO|debt to income|2
+NM|A|0
+15|A|0
+7|C|0
+CA|debt to income|2
+TX|C|0
+AL|C|0
+NY|A|0
+KS|C|0
+28|C|0
+25|A|0
+MORTGAGE|income|8
+OWN|income|8
+RENT|income|10
+40000|state|34
+150000|state|17
+100000|state|28
+80000|state|29
+125000|state|17
+60000|state|28
+30000|state|14
+20000|state|5
+OH|debt to income|7
+MN|A|0
+AZ|debt to income|4
+MA|C|0
+SC|C|0
+MD|C|0
+NJ|A|0
+TX|debt to income|4
+KY|C|0
+TN|C|0
+IL|debt to income|4
+VA|C|0
+OR|A|0
+NY|debt to income|3
+CA|C|0
+CT|C|0
+SD|C|0
+GA|C|0
+NC|C|0
+LA|debt to income|2
+IN|A|0
+PA|C|0
+WY|A|0
+WI|debt to income|3
+NE|C|0
+VT|A|0
+CO|C|0
+OK|C|0
+FL|debt to income|2
+WA|C|0
+MO|C|0
+AR|A|0
+AL|C|0
+MI|C|0
+33|C|0
+17|C|0
+28|A|0
+32|C|0
+27|C|0
+30|C|0
+13|A|0
+12|A|0
+30|C|0
+21|A|0
+20|C|0
+17|A|0
+31|C|0
+30|C|0
+9|A|0
+25|C|0
+10|A|0
+1|A|0
+17|A|0
+25|A|0
+5|C|0
+21|C|0
+29|C|0
+31|A|0
+14|C|0
+26|C|0
+7|A|0
+14|C|0
+19|A|0
+IL|debt to income|2
+VA|debt to income|3
+NY|debt to income|5
+NJ|A|0
+TX|debt to income|6
+MS|C|0
+GA|A|0
+FL|A|0
+MA|debt to income|2
+MD|A|0
+PA|debt to income|2
+CA|debt to income|4
+CO|debt to income|2
+OH|A|0
+TN|A|0
+AL|C|0
+WA|A|0
+7|A|0
+21|C|0
+21|C|0
+4|A|0
+16|C|0
+16|A|0
+15|A|0
+12|A|0
+20|C|0
+9|C|0
+17|A|0
+5|A|0
+7|A|0
+34|C|0
+4|A|0
+24|A|0
+5|C|0
+11|A|0
+21|C|0
+8|A|0
+6|A|0
+31|C|0
+22|C|0
+10|A|0
+4|A|0
+22|C|0
+MO|A|0
+WA|C|0
+AK|C|0
+NV|debt to income|5
+NY|debt to income|4
+DC|A|0
+CT|C|0
+AZ|A|0
+MN|A|0
+CA|debt to income|3
+MA|C|0
+KS|C|0
+NE|C|0
+ID|C|0
+TX|debt to income|3
+FL|A|0
+VA|debt to income|2
+IL|debt to income|2
+PA|C|0
+TN|debt to income|2
+NC|debt to income|4
+OH|C|0
+CO|A|0
+MD|C|0
+GA|C|0
+UT|C|0
+WI|A|0
+IN|C|0
+22|C|0
+10|C|0
+18|C|0
+34|A|0
+31|C|0
+14|A|0
+34|C|0
+6|C|0
+8|C|0
+7|C|0
+19|earliest credit|2
+8|C|0
+2004|C|0
+2001|A|0
+17|A|0
+14|C|0
+20|earliest credit|2
+1987|A|0
+2004|C|0
+21|C|0
+15|A|0
+15|C|0
+23|A|0
+5|earliest credit|2
+23|A|0
+2003|C|0
+1998|A|0
+23|C|0
+3|A|0
+18|A|0
+17|C|0
+NJ|A|0
+TX|debt to income|5
+NV|debt to income|4
+CT|debt to income|4
+AZ|C|0
+MN|debt to income|2
+SC|A|0
+MA|A|0
+NY|debt to income|4
+OR|A|0
+TN|C|0
+GA|debt to income|4
+FL|C|0
+OK|A|0
+CO|debt to income|2
+MO|C|0
+WA|debt to income|2
+OH|A|0
+MI|A|0
+VA|C|0
+IL|debt to income|2
+RI|C|0
+CA|C|0
+NC|A|0
+KY|C|0
+MD|C|0
+WI|A|0
+HI|C|0
+IN|C|0
+3|A|0
+12|C|0
+19|C|0
+1|C|0
+7|C|0
+23|C|0
+25|A|0
+20|C|0
+28|C|0
+18|A|0
+9|C|0
+16|A|0
+19|C|0
+12|A|0
+29|C|0
+24|C|0
+13|earliest credit|2
+19|A|0
+8|C|0
+1996|C|0
+2006|A|0
+16|C|0
+14|C|0
+3|A|0
+34|C|0
+20|C|0
+18|A|0
+24|A|0
+47|C|0
+9|A|0
+34|C|0
+CA|debt to income|3
+NJ|A|0
+TX|debt to income|2
+WA|C|0
+WI|A|0
+PA|A|0
+NC|A|0
+IN|debt to income|2
+NY|C|0
+IL|C|0
+VA|C|0
+GA|debt to income|2
+CO|A|0
+TN|A|0
+MT|A|0
+AL|C|0
+MS|A|0
+20|C|0
+11|A|0
+10|A|0
+24|A|0
+31|C|0
+5|A|0
+11|C|0
+11|C|0
+22|A|0
+CA|debt to income|6
+GA|C|0
+AL|debt to income|2
+ID|C|0
+OH|debt to income|3
+MN|A|0
+AZ|debt to income|4
+CO|C|0
+VT|A|0
+NC|C|0
+MD|C|0
+IL|C|0
+VA|C|0
+TX|debt to income|4
+NJ|C|0
+FL|C|0
+OK|A|0
+NY|debt to income|3
+NH|C|0
+MA|C|0
+MI|debt to income|2
+TN|debt to income|3
+MT|C|0
+ME|C|0
+CT|C|0
+SC|C|0
+PA|C|0
+WA|C|0
+25|C|0
+20|A|0
+11|C|0
+17|C|0
+9|C|0
+16|A|0
+19|A|0
+21|C|0
+17|A|0
+14|C|0
+29|C|0
+27|C|0
+15|C|0
+14|A|0
+18|A|0
+20|C|0
+8|A|0
+6|C|0
+13|A|0
+23|C|0
+19|A|0
+24|A|0
+12|C|0
+9|A|0
+23|A|0
+11|A|0
+33|C|0
+PA|C|0
+AR|C|0
+GA|debt to income|3
+WI|C|0
+SC|C|0
+MI|C|0
+TX|C|0
+AL|A|0
+IL|C|0
+CA|debt to income|2
+NY|C|0
+IN|C|0
+OH|debt to income|2
+MO|C|0
+24|C|0
+14|A|0
+21|C|0
+22|C|0
+28|A|0
+32|C|0
+21|A|0
+KS|C|0
+NV|C|0
+MS|A|0
+TX|C|0
+FL|debt to income|3
+28|A|0
+9|C|0
+17|C|0
+20000|state|11
+125000|state|3
+80000|state|8
+30000|state|6
+40000|state|12
+150000|C|0
+60000|state|9
+100000|state|5
+VA|A|0
+ID|C|0
+PA|C|0
+NC|A|0
+FL|debt to income|2
+NH|C|0
+MI|C|0
+TX|C|0
+NM|C|0
+SD|C|0
+CA|C|0
+34|C|0
+21|A|0
+NJ|C|0
+AK|C|0
+IL|A|0
+IL|C|0
+PA|A|0
+AZ|C|0
+LA|C|0
+CA|A|0
+MS|A|0
+MI|C|0
+NE|C|0
+SC|debt to income|2
+MI|A|0
+WI|C|0
+OH|C|0
+TX|C|0
+IL|C|0
+29|C|0
+21|A|0
+CA|debt to income|2
+NJ|C|0
+TX|C|0
+MN|C|0
+NC|C|0
+MA|C|0
+ME|A|0
+FL|debt to income|2
+NY|debt to income|2
+NV|C|0
+VA|C|0
+IL|C|0
+29|C|0
+3|A|0
+5|A|0
+15|C|0
+27|A|0
+23|C|0
+MD|A|0
+TX|A|0
+AL|C|0
+IL|C|0
+VA|A|0
+WA|C|0
+AK|C|0
+FL|A|0
+OH|C|0
+IL|A|0
+NY|C|0
+MA|debt to income|2
+OK|A|0
+TX|C|0
+8|C|0
+17|A|0
+40000|state|28
+150000|state|9
+60000|state|19
+15000|C|0
+80000|state|9
+125000|state|10
+30000|state|23
+20000|state|15
+100000|state|6
+10000|C|0
+FL|debt to income|3
+OK|C|0
+NY|debt to income|11
+MS|C|0
+KY|debt to income|2
+CA|debt to income|11
+MN|C|0
+AZ|C|0
+IN|debt to income|2
+LA|C|0
+NC|debt to income|5
+MD|debt to income|2
+MO|C|0
+WA|debt to income|2
+TX|C|0
+NJ|C|0
+OH|C|0
+GA|debt to income|6
+VA|C|0
+IL|debt to income|4
+WI|A|0
+TN|C|0
+MA|C|0
+UT|C|0
+PA|A|0
+CO|C|0
+AR|A|0
+NV|C|0
+28|C|0
+25|A|0
+30|C|0
+3|C|0
+23|A|0
+13|C|0
+11|C|0
+19|C|0
+20|A|0
+32|C|0
+5|C|0
+18|C|0
+12|C|0
+8|C|0
+12|A|0
+6|C|0
+23|C|0
+12|C|0
+14|C|0
+26|C|0
+31|A|0
+19|C|0
+28|A|0
+33|C|0
+21|C|0
+18|A|0
+30|C|0
+29|A|0
+27|C|0
+24|C|0
+17|C|0
+18|A|0
+8|C|0
+14|C|0
+21|earliest credit|2
+27|C|0
+2007|A|0
+2013|C|0
+33|C|0
+14|A|0
+9|C|0
+29|A|0
+21|C|0
+20|C|0
+27|A|0
+2|A|0
+18|C|0
+21|C|0
+20|C|0
+15|A|0
+NY|debt to income|5
+VA|A|0
+TX|debt to income|2
+CA|C|0
+MD|C|0
+CO|C|0
+FL|A|0
+NH|A|0
+OH|A|0
+11|A|0
+19|C|0
+12|C|0
+3|A|0
+9|C|0
+5|A|0
+15|C|0
+TN|debt to income|2
+FL|C|0
+NY|debt to income|5
+IL|C|0
+VA|debt to income|4
+CA|debt to income|8
+TX|debt to income|5
+NJ|debt to income|2
+AZ|C|0
+MN|C|0
+RI|C|0
+NV|C|0
+NH|C|0
+KS|C|0
+MI|C|0
+KY|C|0
+MD|C|0
+MO|A|0
+OH|C|0
+19|earliest credit|2
+26|C|0
+2000|C|0
+1997|A|0
+21|A|0
+18|C|0
+8|C|0
+13|C|0
+23|C|0
+28|A|0
+14|C|0
+32|C|0
+33|C|0
+13|C|0
+22|earliest credit|2
+20|C|0
+27|C|0
+17|A|0
+18|C|0
+23|C|0
+12|C|0
+2003|C|0
+2001|A|0
+22|C|0
+20|C|0
+6|A|0
+14|C|0
+25|C|0
+11|A|0
+2|C|0
+TN|C|0
+FL|C|0
+CO|C|0
+VA|C|0
+NY|debt to income|8
+CA|debt to income|7
+OH|C|0
+MI|A|0
+MD|C|0
+12|C|0
+18|C|0
+26|C|0
+11|C|0
+25|C|0
+30|A|0
+15|C|0
+4|A|0
+23|C|0
+12|A|0
+13|A|0
+10|C|0
+21|C|0
+11|C|0
+7|C|0
+MS|C|0
+KY|A|0
+CA|C|0
+TX|C|0
+NJ|C|0
+NV|C|0
+WI|A|0
+CO|A|0
+NC|A|0
+FL|C|0
+TX|C|0
+CA|debt to income|6
+IN|C|0
+MO|C|0
+OR|C|0
+FL|C|0
+OH|C|0
+PA|A|0
+NY|A|0
+KY|A|0
+NC|C|0
+MI|C|0
+NE|C|0
+MN|A|0
+AZ|C|0
+CT|C|0
+WI|A|0
+VA|C|0
+MD|C|0
+VT|C|0
+NV|C|0
+GA|C|0
+TN|A|0
+14|C|0
+28|C|0
+10|earliest credit|2
+12|C|0
+40|C|0
+26|C|0
+2006|C|0
+2007|A|0
+CA|C|0
+TX|C|0
+AZ|debt to income|2
+OH|C|0
+MA|C|0
+MO|C|0
+MD|C|0
+NC|C|0
+IN|C|0
+FL|debt to income|3
+OR|C|0
+NY|C|0
+AL|C|0
+NE|C|0
+CO|C|0
+19|C|0
+13|A|0
+32|C|0
+7|A|0
+23|C|0
+FL|debt to income|4
+CA|debt to income|8
+NJ|C|0
+NY|debt to income|3
+VA|A|0
+PA|C|0
+15|A|0
+6|C|0
+20|C|0
+30|C|0
+15|C|0
+10|earliest credit|3
+21|C|0
+18|A|0
+16|C|0
+22|C|0
+17|C|0
+12|C|0
+2008|A|0
+2000|C|0
+1995|A|0
+20|earliest credit|2
+13|C|0
+16|C|0
+2005|C|0
+2006|A|0
+MORTGAGE|income|9
+OWN|income|8
+RENT|income|9
+60000|state|18
+15000|C|0
+150000|state|13
+40000|state|20
+100000|state|15
+30000|state|8
+80000|state|15
+125000|state|9
+20000|state|3
+MN|A|0
+AZ|A|0
+CT|debt to income|3
+OK|debt to income|4
+FL|debt to income|6
+TX|debt to income|4
+CA|debt to income|3
+NY|earliest credit|2
+MD|debt to income|2
+SC|debt to income|2
+PA|debt to income|2
+UT|C|0
+KS|A|0
+WA|A|0
+LA|C|0
+VA|C|0
+IL|C|0
+GA|C|0
+19|C|0
+27|A|0
+34|C|0
+17|A|0
+4|A|0
+22|A|0
+12|C|0
+15|C|0
+22|A|0
+13|C|0
+11|C|0
+5|C|0
+14|C|0
+25|C|0
+14|A|0
+18|A|0
+33|C|0
+16|C|0
+14|A|0
+15|C|0
+1998|A|0
+2005|C|0
+15|C|0
+24|A|0
+18|A|0
+35|C|0
+26|C|0
+14|A|0
+CA|debt to income|2
+TX|debt to income|3
+PA|A|0
+MA|C|0
+KS|A|0
+CO|debt to income|2
+FL|debt to income|2
+IL|debt to income|2
+VA|A|0
+NY|earliest credit|2
+AL|A|0
+CT|A|0
+AZ|A|0
+12|A|0
+8|C|0
+32|C|0
+20|C|0
+17|A|0
+7|A|0
+24|C|0
+12|A|0
+16|C|0
+10|C|0
+4|A|0
+1998|C|0
+2004|A|0
+FL|debt to income|5
+CO|C|0
+NY|C|0
+NJ|C|0
+TX|C|0
+RI|C|0
+PA|debt to income|3
+DE|C|0
+LA|debt to income|2
+IN|C|0
+WA|A|0
+OH|C|0
+CA|debt to income|2
+KS|C|0
+MI|A|0
+VA|C|0
+IL|C|0
+SC|C|0
+GA|C|0
+NC|debt to income|2
+11|A|0
+19|C|0
+13|C|0
+23|A|0
+29|C|0
+18|A|0
+23|C|0
+12|C|0
+12|C|0
+27|A|0
+23|A|0
+26|C|0
+13|A|0
+24|C|0
+LA|C|0
+PA|C|0
+OH|A|0
+AZ|C|0
+MN|A|0
+VA|C|0
+AL|A|0
+NJ|C|0
+TX|debt to income|3
+CA|debt to income|4
+FL|A|0
+WA|debt to income|2
+GA|C|0
+TN|A|0
+ID|C|0
+7|C|0
+8|earliest credit|2
+5|A|0
+1998|A|0
+1990|C|0
+14|A|0
+25|C|0
+21|C|0
+16|A|0
+10|C|0
+17|A|0
+OH|A|0
+PA|C|0
+CA|C|0
+TX|C|0
+GA|C|0
+WA|C|0
+NE|C|0
+SC|A|0
+TX|debt to income|4
+CA|A|0
+MS|C|0
+NY|debt to income|5
+IL|C|0
+FL|debt to income|3
+MA|C|0
+KS|C|0
+NH|C|0
+MN|earliest credit|2
+PA|C|0
+IN|A|0
+VT|A|0
+GA|A|0
+NC|C|0
+6|C|0
+31|C|0
+30|A|0
+21|C|0
+9|C|0
+11|C|0
+5|C|0
+16|C|0
+24|A|0
+20|C|0
+11|A|0
+17|C|0
+1999|A|0
+2005|C|0
+TX|debt to income|2
+NV|C|0
+MD|debt to income|2
+OR|C|0
+FL|C|0
+CO|A|0
+MN|C|0
+OH|C|0
+VA|C|0
+10|C|0
+11|A|0
+7|C|0
+20|A|0
+AR|C|0
+FL|C|0
+NY|A|0
+125000|state|3
+80000|A|0
+40000|state|6
+150000|state|4
+60000|state|6
+30000|state|4
+20000|debt to income|3
+100000|state|3
+PA|A|0
+NY|C|0
+IL|A|0
+NY|C|0
+AL|debt to income|2
+MN|C|0
+CA|debt to income|2
+FL|C|0
+OR|C|0
+29|C|0
+20|A|0
+1|A|0
+13|C|0
+NY|debt to income|2
+CA|A|0
+NJ|A|0
+MD|A|0
+16|C|0
+20|A|0
+PA|C|0
+AZ|C|0
+FL|C|0
+WI|A|0
+NY|C|0
+MI|C|0
+OH|C|0
+NY|C|0
+LA|debt to income|2
+FL|C|0
+25|C|0
+23|A|0
+10|A|0
+11|C|0
+22|C|0
+SC|A|0
+FL|A|0
+MD|C|0
+40000|state|20
+150000|state|4
+30000|state|13
+80000|state|12
+125000|C|0
+100000|state|9
+60000|state|16
+15000|C|0
+20000|state|6
+NC|A|0
+MD|C|0
+NM|C|0
+NJ|debt to income|3
+TX|debt to income|4
+CA|C|0
+WA|A|0
+KS|A|0
+MN|A|0
+AZ|debt to income|2
+FL|C|0
+IL|C|0
+VA|C|0
+NY|debt to income|5
+WI|C|0
+PA|C|0
+UT|C|0
+CT|C|0
+TN|C|0
+OH|C|0
+13|A|0
+6|A|0
+14|C|0
+19|A|0
+27|C|0
+21|C|0
+23|C|0
+24|C|0
+17|A|0
+20|C|0
+28|A|0
+7|C|0
+24|A|0
+5|C|0
+NJ|C|0
+NY|earliest credit|2
+DC|A|0
+VA|A|0
+1989|A|0
+1999|C|0
+NY|debt to income|3
+FL|debt to income|4
+ME|C|0
+CO|A|0
+MS|C|0
+TX|C|0
+NJ|C|0
+SC|C|0
+MA|C|0
+OH|C|0
+MN|C|0
+IN|C|0
+TN|C|0
+9|A|0
+19|C|0
+30|C|0
+23|C|0
+12|C|0
+6|A|0
+14|C|0
+CT|C|0
+HI|C|0
+CA|debt to income|4
+TX|C|0
+NJ|A|0
+MA|A|0
+NY|C|0
+MO|debt to income|2
+IN|C|0
+VA|C|0
+RI|C|0
+MN|C|0
+33|C|0
+8|A|0
+12|A|0
+3|C|0
+9|A|0
+19|C|0
+NY|C|0
+VA|A|0
+IL|C|0
+MA|C|0
+CA|debt to income|3
+NC|C|0
+MD|A|0
+FL|C|0
+PA|C|0
+13|C|0
+10|A|0
+11|A|0
+MA|C|0
+IL|A|0
+VA|debt to income|3
+TX|C|0
+CA|debt to income|9
+AZ|C|0
+CT|A|0
+TN|A|0
+FL|C|0
+NC|C|0
+AL|C|0
+PA|C|0
+WA|A|0
+NY|A|0
+CO|debt to income|2
+MI|A|0
+20|A|0
+28|C|0
+8|C|0
+9|A|0
+21|C|0
+8|A|0
+19|earliest credit|2
+28|A|0
+14|A|0
+25|C|0
+16|A|0
+15|C|0
+2004|A|0
+1991|C|0
+29|C|0
+6|A|0
+FL|C|0
+CA|A|0
+TX|C|0
+NM|C|0
+AL|C|0
+NY|C|0
+MORTGAGE|income|8
+OWN|income|8
+RENT|income|8
+80000|state|26
+125000|state|14
+60000|state|30
+40000|state|21
+150000|state|15
+100000|state|11
+30000|state|5
+20000|C|0
+FL|A|0
+TN|debt to income|2
+NY|debt to income|2
+AK|A|0
+NV|A|0
+MO|C|0
+WA|A|0
+TX|debt to income|5
+NJ|C|0
+CA|A|0
+AR|C|0
+SC|C|0
+LA|C|0
+GA|A|0
+NH|C|0
+MA|A|0
+WI|A|0
+OH|C|0
+VA|C|0
+CT|C|0
+PA|C|0
+NC|C|0
+NM|C|0
+MD|A|0
+UT|C|0
+MI|A|0
+12|A|0
+24|C|0
+35|C|0
+20|A|0
+35|C|0
+32|A|0
+21|C|0
+15|C|0
+27|C|0
+CA|A|0
+NJ|A|0
+TX|C|0
+MI|C|0
+GA|A|0
+WI|A|0
+AL|C|0
+NY|C|0
+CO|C|0
+TN|C|0
+FL|C|0
+AK|A|0
+NC|C|0
+IL|C|0
+RI|C|0
+LA|A|0
+IN|C|0
+SD|A|0
+CT|debt to income|2
+OH|C|0
+KS|C|0
+NH|C|0
+MA|C|0
+SC|C|0
+GA|debt to income|4
+AL|debt to income|2
+NY|C|0
+VA|A|0
+IL|A|0
+PA|C|0
+TX|C|0
+MI|debt to income|2
+NC|C|0
+FL|debt to income|3
+WA|C|0
+KY|A|0
+NV|C|0
+AK|C|0
+AZ|debt to income|3
+ID|C|0
+NE|C|0
+CA|C|0
+MD|C|0
+TN|C|0
+14|A|0
+16|C|0
+17|C|0
+19|C|0
+25|A|0
+23|C|0
+18|A|0
+26|C|0
+19|A|0
+14|C|0
+34|C|0
+30|A|0
+24|C|0
+15|C|0
+13|A|0
+27|C|0
+TN|C|0
+FL|C|0
+OK|C|0
+TX|debt to income|4
+NJ|C|0
+MS|A|0
+AL|A|0
+MN|debt to income|2
+MA|C|0
+KS|C|0
+GA|debt to income|3
+MI|C|0
+OR|C|0
+WA|debt to income|3
+VA|A|0
+CA|A|0
+NE|C|0
+PA|C|0
+NY|C|0
+NV|C|0
+AR|C|0
+42|C|0
+11|A|0
+22|C|0
+31|C|0
+28|C|0
+14|A|0
+27|A|0
+8|C|0
+13|C|0
+9|A|0
+23|C|0
+38|C|0
+KY|A|0
+NJ|C|0
+TX|A|0
+CA|C|0
+OR|A|0
+TN|debt to income|2
+NV|A|0
+IN|A|0
+IL|earliest credit|2
+OK|C|0
+SD|C|0
+PA|C|0
+DC|A|0
+GA|A|0
+ME|C|0
+17|A|0
+14|C|0
+1991|C|0
+1995|A|0
+CA|debt to income|4
+TX|debt to income|3
+NJ|C|0
+MD|C|0
+RI|C|0
+IL|debt to income|2
+CT|A|0
+DE|C|0
+FL|A|0
+IN|A|0
+NY|A|0
+14|A|0
+25|C|0
+8|C|0
+17|A|0
+5|C|0
+21|C|0
+22|A|0
+25|C|0
+16|A|0
+PA|C|0
+OK|C|0
+IL|C|0
+TX|debt to income|2
+MD|C|0
+52|C|0
+41|A|0
+80000|state|2
+125000|A|0
+30000|state|9
+100000|state|4
+60000|state|9
+15000|C|0
+40000|state|6
+150000|state|3
+CT|A|0
+IL|C|0
+TX|C|0
+IL|C|0
+NY|debt to income|3
+FL|C|0
+CO|A|0
+OH|C|0
+PA|C|0
+IN|C|0
+MI|C|0
+9|A|0
+10|C|0
+27|C|0
+OH|C|0
+TX|A|0
+GA|A|0
+NY|debt to income|2
+21|C|0
+14|A|0
+IN|A|0
+NC|C|0
+FL|C|0
+TN|A|0
+TX|C|0
+KY|A|0
+MA|C|0
+NY|C|0
+AL|C|0
+NC|C|0
+TX|C|0
+MS|C|0
+WA|C|0
+MI|debt to income|2
+NY|C|0
+5|C|0
+11|A|0
+RI|A|0
+FL|C|0
+NY|A|0
+60000|state|21
+40000|state|22
+150000|state|10
+80000|state|10
+125000|state|5
+30000|state|12
+100000|C|0
+20000|state|7
+NY|C|0
+VA|C|0
+IL|A|0
+FL|debt to income|6
+TX|C|0
+NJ|C|0
+CA|debt to income|7
+NC|C|0
+WI|C|0
+MO|A|0
+WA|C|0
+MS|C|0
+MD|C|0
+MI|C|0
+MN|C|0
+AZ|C|0
+MA|C|0
+CO|C|0
+MT|C|0
+OH|A|0
+UT|C|0
+11|C|0
+13|C|0
+2|C|0
+21|C|0
+10|A|0
+15|A|0
+17|A|0
+8|C|0
+20|A|0
+11|A|0
+22|C|0
+25|C|0
+7|A|0
+CA|debt to income|7
+MS|C|0
+NJ|A|0
+TX|debt to income|4
+NH|C|0
+ME|A|0
+TN|C|0
+PA|A|0
+UT|C|0
+CO|C|0
+AR|C|0
+FL|debt to income|4
+AZ|C|0
+GA|debt to income|2
+OH|C|0
+MD|C|0
+LA|A|0
+IL|C|0
+VA|C|0
+NC|A|0
+NY|C|0
+CT|C|0
+20|C|0
+11|C|0
+19|A|0
+27|C|0
+26|A|0
+21|C|0
+35|C|0
+10|C|0
+9|C|0
+17|C|0
+7|A|0
+28|C|0
+20|C|0
+24|C|0
+16|A|0
+30|A|0
+28|C|0
+OR|A|0
+VA|C|0
+NY|A|0
+NJ|C|0
+CA|A|0
+FL|A|0
+WI|A|0
+NC|A|0
+MA|A|0
+SC|C|0
+NJ|C|0
+TX|A|0
+CA|debt to income|4
+KY|A|0
+FL|C|0
+VA|debt to income|3
+IL|debt to income|2
+MN|A|0
+MA|A|0
+NY|A|0
+9|A|0
+22|A|0
+30|C|0
+14|C|0
+10|C|0
+9|C|0
+8|A|0
+14|C|0
+11|A|0
+NY|C|0
+NJ|A|0
+TX|C|0
+CA|A|0
+NV|A|0
+CA|C|0
+TX|debt to income|2
+FL|C|0
+CO|A|0
+NV|C|0
+MT|C|0
+OR|C|0
+NY|debt to income|4
+NC|C|0
+WI|C|0
+SC|C|0
+WY|C|0
+26|C|0
+18|A|0
+26|A|0
+27|C|0
+18|C|0
+14|C|0
+TN|C|0
+PA|C|0
+NM|C|0
+UT|A|0
+RI|C|0
+WA|C|0
+TX|C|0
+MORTGAGE|income|8
+OWN|income|9
+RENT|income|9
+40000|state|25
+150000|state|18
+100000|state|22
+60000|state|21
+125000|state|16
+80000|state|15
+20000|state|8
+30000|state|12
+CA|debt to income|5
+NJ|C|0
+TX|C|0
+IL|C|0
+VA|debt to income|3
+NY|debt to income|2
+FL|C|0
+OK|C|0
+AZ|C|0
+MN|A|0
+MI|C|0
+NC|C|0
+OH|C|0
+UT|A|0
+CO|C|0
+ME|C|0
+ID|A|0
+AL|A|0
+MS|C|0
+MA|C|0
+KS|C|0
+TN|A|0
+SC|debt to income|2
+GA|A|0
+IN|C|0
+3|A|0
+22|earliest credit|2
+28|A|0
+21|A|0
+18|earliest credit|2
+2003|C|0
+2005|A|0
+1995|C|0
+1999|A|0
+29|C|0
+10|A|0
+27|C|0
+14|A|0
+15|C|0
+7|A|0
+32|C|0
+MD|C|0
+NJ|C|0
+TX|debt to income|3
+CA|debt to income|3
+IL|C|0
+OH|A|0
+NC|A|0
+LA|C|0
+IN|debt to income|2
+AK|C|0
+GA|C|0
+CO|C|0
+VT|A|0
+MI|A|0
+HI|A|0
+KS|A|0
+FL|C|0
+PA|C|0
+22|A|0
+16|A|0
+19|C|0
+19|C|0
+26|A|0
+15|A|0
+17|A|0
+32|C|0
+NH|C|0
+MA|debt to income|4
+CA|debt to income|5
+MS|A|0
+NV|C|0
+WA|C|0
+IL|debt to income|2
+VA|A|0
+AL|debt to income|2
+CT|C|0
+PA|debt to income|2
+OH|C|0
+FL|debt to income|2
+OK|C|0
+NC|C|0
+NY|C|0
+CO|A|0
+IN|A|0
+GA|C|0
+NJ|C|0
+KY|A|0
+MD|C|0
+12|A|0
+2|A|0
+8|C|0
+9|C|0
+24|C|0
+6|A|0
+7|A|0
+3|C|0
+14|C|0
+23|C|0
+18|A|0
+15|C|0
+10|A|0
+33|C|0
+23|A|0
+12|A|0
+30|C|0
+VA|A|0
+IL|debt to income|2
+NJ|C|0
+TX|debt to income|7
+MA|debt to income|2
+NH|C|0
+WY|C|0
+WI|C|0
+OH|debt to income|2
+CO|debt to income|3
+FL|C|0
+MS|debt to income|3
+LA|debt to income|3
+NY|debt to income|6
+NV|C|0
+MI|debt to income|3
+MN|C|0
+TN|A|0
+CA|C|0
+NC|C|0
+RI|A|0
+22|earliest credit|3
+23|C|0
+2005|C|0
+2004|C|0
+2003|A|0
+30|A|0
+16|C|0
+36|C|0
+18|A|0
+20|C|0
+25|C|0
+26|C|0
+22|A|0
+30|C|0
+11|C|0
+19|A|0
+23|C|0
+12|A|0
+26|A|0
+13|A|0
+14|C|0
+15|A|0
+17|C|0
+28|A|0
+10|A|0
+25|A|0
+6|A|0
+30|C|0
+16|A|0
+18|C|0
+2|C|0
+13|A|0
+32|A|0
+8|C|0
+MO|A|0
+GA|C|0
+IL|debt to income|2
+NY|C|0
+CA|debt to income|3
+NJ|C|0
+TX|A|0
+SC|A|0
+FL|A|0
+OK|A|0
+NV|A|0
+MI|C|0
+OR|C|0
+MD|debt to income|2
+MA|A|0
+UT|C|0
+17|A|0
+11|C|0
+9|A|0
+30|A|0
+13|earliest credit|2
+2006|C|0
+1998|A|0
+13|A|0
+18|C|0
+AL|C|0
+VA|C|0
+IL|C|0
+NC|A|0
+GA|debt to income|3
+KY|A|0
+CA|A|0
+AZ|debt to income|2
+FL|C|0
+CO|A|0
+NM|C|0
+OH|C|0
+PA|C|0
+MI|debt to income|2
+WI|C|0
+31|C|0
+32|C|0
+7|A|0
+20|C|0
+21|A|0
+28|C|0
+18|A|0
+AR|A|0
+AZ|C|0
+OR|C|0
+FL|C|0
+GA|C|0
+WI|C|0
+NY|A|0
+IN|C|0
+ME|A|0
+CO|C|0
+ND|C|0
+FL|A|0
+IL|C|0
+AL|A|0
+AZ|C|0
+PA|C|0
+MO|C|0
+NE|C|0
+MD|C|0
+AR|C|0
+60000|state|4
+15000|C|0
+125000|C|0
+80000|state|6
+30000|state|6
+40000|state|9
+150000|C|0
+20000|state|2
+100000|C|0
+CA|debt to income|2
+LA|A|0
+IN|C|0
+AR|C|0
+15|A|0
+20|C|0
+TN|A|0
+NJ|C|0
+CA|C|0
+TX|C|0
+NY|debt to income|2
+GA|C|0
+16|A|0
+23|C|0
+MN|C|0
+PA|C|0
+NC|A|0
+FL|C|0
+AL|C|0
+KY|C|0
+MN|A|0
+AZ|C|0
+KY|C|0
+NJ|A|0
+TX|C|0
+LA|C|0
+FL|A|0
+TN|A|0
+NY|C|0
+FL|A|0
+AR|C|0
+60000|state|18
+15000|C|0
+125000|state|4
+80000|state|10
+30000|state|6
+20000|state|12
+40000|state|20
+150000|state|9
+100000|state|4
+NV|C|0
+WI|C|0
+CA|debt to income|5
+NJ|C|0
+NY|C|0
+FL|C|0
+NC|C|0
+OR|C|0
+MI|C|0
+IL|C|0
+VA|C|0
+OH|C|0
+WA|C|0
+MO|C|0
+DE|C|0
+AZ|C|0
+NH|A|0
+GA|C|0
+12|C|0
+30|C|0
+17|A|0
+11|C|0
+20|C|0
+AK|C|0
+VA|C|0
+NJ|A|0
+CA|C|0
+NY|debt to income|2
+IL|C|0
+FL|C|0
+MN|C|0
+PA|C|0
+CA|debt to income|2
+NJ|C|0
+TX|debt to income|2
+WA|C|0
+MA|C|0
+17|A|0
+25|C|0
+21|C|0
+14|A|0
+22|C|0
+20|A|0
+WA|C|0
+GA|C|0
+CA|debt to income|3
+NJ|C|0
+NY|A|0
+PA|C|0
+18|C|0
+29|A|0
+22|C|0
+PA|C|0
+AR|A|0
+MN|C|0
+CT|C|0
+VA|C|0
+AL|C|0
+FL|A|0
+TX|C|0
+UT|A|0
+NC|C|0
+MS|C|0
+NY|C|0
+FL|debt to income|5
+MI|C|0
+CA|debt to income|9
+NJ|C|0
+TX|debt to income|2
+VA|A|0
+IL|C|0
+NY|debt to income|2
+NE|C|0
+OH|debt to income|4
+WA|debt to income|2
+MS|C|0
+PA|C|0
+MN|debt to income|2
+MD|C|0
+NV|C|0
+MA|C|0
+AR|C|0
+NC|C|0
+ME|A|0
+24|C|0
+18|C|0
+10|A|0
+35|C|0
+31|C|0
+8|A|0
+28|C|0
+16|A|0
+9|A|0
+29|C|0
+22|earliest credit|2
+4|A|0
+15|A|0
+17|C|0
+2002|C|0
+2001|A|0
+10|A|0
+26|C|0
+11|A|0
+9|C|0
+11|A|0
+34|C|0
+23|C|0
+18|C|0
+6|C|0
+21|A|0
+22|C|0
+10|A|0
+MA|A|0
+CA|C|0
+TX|C|0
+DC|A|0
+NY|A|0
+WA|C|0
+LA|A|0
+CT|C|0
+FL|A|0
+FL|debt to income|3
+NJ|C|0
+CA|debt to income|3
+NY|A|0
+20|A|0
+11|C|0
+14|A|0
+21|C|0
+18|C|0
+12|A|0
