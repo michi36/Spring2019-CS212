@@ -1,3 +1,9 @@
+/*
+	NAME: Misael Hinojosa
+	STUDENT ID: 0134-86600
+	COMPLETION TIME: A lot of hours
+	COLLABS: None
+*/
 #include "CsvParser.h"
 #include "TreeNode.h"
 #include "StringSplitter.h"
@@ -24,15 +30,16 @@ TreeNode* buildTree(const vector<vector<string>>& matrix, const vector<string>& 
 int main(void)
 {
 	TreeNode* tree = nullptr;
-	int response;
+	int response = 0;
 	
-	while (true)
+	while (response != 5)
 	{
 		cout << "*** MENU ***" << endl;
 		cout << "1. Build Decision Tree From File\n";
 		cout << "2. Write Tree To File\n";
 		cout << "3. Predict Outcome\n";
 		cout << "4. Read Tree From File\n";
+		cout << "5. Exit Program\n";
 
 		cin >> response;
 		cin.ignore();
@@ -46,6 +53,8 @@ int main(void)
 		case 3: predictOutcome(tree);
 			break;
 		case 4: tree = readTreeFromFile();
+			break;
+		case 5: cout << "Exititng Program\n";
 			break;
 		default: cout << "Invalid input\n";
 		}
@@ -161,9 +170,7 @@ void predictOutcome(TreeNode* tree)
 	cout << "Enter CSV file to open: ";
 	getline(cin, file_name);
 
-	//CsvStateMachine parser{ file_name };
-	//CsvStateMachine parser{ "easy data set.csv" };
-	CsvStateMachine parser{ "loan stats with single outcomes_80.csv" };
+	CsvStateMachine parser{ file_name };
 	data = parser.processFile();
 	header = data[0];
 
@@ -172,16 +179,16 @@ void predictOutcome(TreeNode* tree)
 
 	move(data.begin() + 1, data.end(), back_inserter(data2));
 
-	string predicted_outcome = "";
 	vector<string> predicted{};
 	for (auto row : data2)
 	{
+		string predicted_outcome = "";
 		predictOutcomeHelper(tree, row, header, predicted_outcome);
 		predicted.push_back(predicted_outcome);
-		predicted_outcome.clear();
 	}
 
-	ofstream output_file{ "stats.csv" };
+	file_name = file_name.substr(0, file_name.length() - 4);
+	ofstream output_file{ file_name + " with predictions.csv" };
 	for (auto column : header)
 	{
 		if (column.length() > 0)
@@ -207,7 +214,7 @@ void predictOutcome(TreeNode* tree)
 	}
 
 	output_file.close();
-	cout << endl;
+	cout << "File saved as " << file_name << " with predictions.csv" << endl;
 }
 
 void predictOutcomeHelper(TreeNode* node, const vector<string>& row, const vector<string>& header, string& predicted_outcome)
@@ -232,7 +239,6 @@ void predictOutcomeHelper(TreeNode* node, const vector<string>& row, const vecto
 		}
 		column_index++;
 	}
-
 
 	string variable_value = row[column_index];
 
