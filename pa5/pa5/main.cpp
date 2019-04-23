@@ -1,3 +1,9 @@
+/*
+	NAME: Misael Hinojosa
+	STUDENT ID: 0134-86600
+	COMPLETION TIME: 3 hours
+	COLLABS: None
+*/
 #include <iostream>
 #include <algorithm>
 #include <fstream>
@@ -6,8 +12,8 @@
 #include "StringSplitter.h"
 #include "Word.h"
 
-string autoCorrect(const string& word, const vector<string>& dictionary, const string& line);
-string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, const string& line);
+string autoCorrect(const string& word, const vector<string>& dictionary, const string& context_line);
+string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, const string& context_line);
 
 int calculateEditDistance(
 	const string& first,
@@ -158,6 +164,7 @@ int main(void)
 	vector<string> text{};
 	string text_file, destination_file;
 
+	// Grab dictionary.
 	ifstream input_file{ "words.txt" };
 	if (input_file.is_open() == true)
 	{
@@ -165,7 +172,10 @@ int main(void)
 		{
 			string line;
 			getline(input_file, line);
-			dictionary.push_back(line);
+			if (line.length() > 0)
+			{
+				dictionary.push_back(line);
+			}
 		}
 	}
 	input_file.close();
@@ -175,6 +185,7 @@ int main(void)
 	cout << "Enter desination file: ";
 	getline(cin, destination_file);
 
+	// Grab file to correct.
 	input_file.open(text_file);
 	if (input_file.is_open() == true)
 	{
@@ -191,17 +202,19 @@ int main(void)
 	input_file.close();
 
 	ofstream output{ destination_file };
-	vector<string> corrected{};
 	for (auto line : text)
 	{
+		// For every line in the text, split into single words.
 		vector<string> temp = StringSplitter::split(line, " ");
 
+		// For each word, check if the word is spelled correctly.
 		for (auto word : temp)
 		{
 			string only_word;
 			char punctuation;
 			bool isChanged = false;
 
+			// Check for punctuation at the end.
 			if (word[word.length() - 1] == '!' || word[word.length() - 1] == '?'
 				|| word[word.length() - 1] == '.' || word[word.length() - 1] == ',')
 			{
@@ -229,23 +242,28 @@ int main(void)
 	return 0;
 }
 
-string autoCorrect(const string& word, const vector<string>& dictionary, const string& line)
+string autoCorrect(const string& word, const vector<string>& dictionary, const string& context_line)
 {
+	// Check if the word is in the dictionary.
 	if (find(dictionary.begin(), dictionary.end(), word) != dictionary.end())
 	{
 		return word;
 	}
 	else
 	{
+		// Word is not in the dictionary.
 		vector<string> words{};
 		unordered_map<string, int> table{};
 		bool hasFile = false;
 
+		// Check if the misspelled word has files.
 		ifstream word_file{ word + ".dat" };
 		if (word_file.is_open() == true)
 		{
+			// Set to true
 			hasFile = true;
 
+			// Place the wards into a vector.
 			while (word_file.good() == true)
 			{
 				string line;
@@ -261,11 +279,14 @@ string autoCorrect(const string& word, const vector<string>& dictionary, const s
 		}
 		else
 		{
+			// Word has no file
+			// Calculate edit distance of every word.
 			for (auto w : dictionary)
 			{
 				table[w] = calculateEditDistanceBU(word, w);
 			}
 
+			// Find the least costly edit distance.
 			int counter = 1;
 			while (words.size() < 10)
 			{
@@ -288,16 +309,18 @@ string autoCorrect(const string& word, const vector<string>& dictionary, const s
 		int response;
 		int counter = 2;
 		cout << "Unknown Word: " << word << endl;
-		cout << "\tConext: " << line << endl;
+		cout << "\tConext: " << context_line << endl;
 		cout << "Corrected word: " << endl;
 		cout << "1. None of the words below are correct" << endl;
 
+		// Print the words.
 		for (auto w : words)
 		{
 			cout << counter << ". " << w << endl;
 			counter++;
 		}
 
+		// Recieve user input.
 		do
 		{
 			cout << "Enter selection: ";
@@ -310,6 +333,9 @@ string autoCorrect(const string& word, const vector<string>& dictionary, const s
 
 		if (response == 1)
 		{
+			// None of the words are correct.
+			// Record correct word from user and save the
+			// it to a file.
 			correct_word;
 			cout << "Enter the correct word: ";
 			getline(cin, correct_word);
@@ -323,6 +349,8 @@ string autoCorrect(const string& word, const vector<string>& dictionary, const s
 		}
 		else
 		{
+			// Grab the correct word and if the word doesn't
+			// have a file already, save it.
 			correct_word = words[response - 2];
 
 			if (hasFile == false)
@@ -344,23 +372,24 @@ string autoCorrect(const string& word, const vector<string>& dictionary, const s
 	}
 }
 
-string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, const string& line)
+string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, const string& context_line)
 {
+	// Check dictionary.
 	if (find(dictionary.begin(), dictionary.end(), word) != dictionary.end())
 	{
 		return word;
 	}
 	else
 	{
+		// Use a PQ for this solution.
 		priority_queue<Word, vector<Word>, greater<Word>> words{};
 		vector<Word> top_words{};
-		bool hasFile = false;
 
+		// Check if word has a saved file.
 		ifstream word_file{ word + ".dat" };
 		if (word_file.is_open() == true)
 		{
-			hasFile = true;
-
+			// For each word, create Word object and push into PQ.
 			while (word_file.good() == true)
 			{
 				string line;
@@ -375,9 +404,11 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 		}
 		else
 		{
+			// Find distance for each word in dictionary relative to
+			// the misspelled word.
+			// Push into PQ.
 			for (auto w : dictionary)
 			{
-
 				int distance = calculateEditDistanceBU(word, w);
 				words.push(Word(w, distance));
 			}
@@ -386,10 +417,12 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 		int response;
 		int counter = 2;
 		cout << "Unknown Word: " << word << endl;
-		cout << "\tConext: " << line << endl;
+		cout << "\tConext: " << context_line << endl;
 		cout << "Corrected word: " << endl;
 		cout << "1. None of the words below are correct" << endl;
 
+		// Print out the closest words, push them into a vector,
+		// and then pop the PQ.
 		for (int i = 0; i < 10; i++)
 		{
 			cout << i + 2 << ". " << words.top().word << endl;
@@ -406,10 +439,9 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 
 		string correct_word;
 		ofstream output{};
-
 		if (response == 1)
 		{
-			correct_word;
+			// Get user input and save to file.
 			cout << "Enter the correct word: ";
 			getline(cin, correct_word);
 
@@ -422,6 +454,8 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 		}
 		else
 		{
+			// Get the correct word from vector, then save
+			// to file.
 			correct_word = top_words[response - 2].word;
 
 			output.open(word + ".dat");
