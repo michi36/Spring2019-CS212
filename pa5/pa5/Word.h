@@ -4,12 +4,12 @@
 class Word
 {
 public:
-	string word;
+	string value;
 	int weight;
 
 	Word(string w, int num)
 	{
-		word = w;
+		value = w;
 		weight = num;
 	}
 };

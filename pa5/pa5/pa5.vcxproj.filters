@@ -29,9 +29,6 @@
     <Text Include="words.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="sample3.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="StringSplitter.h">

@@ -407,15 +407,21 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 			// Find distance for each word in dictionary relative to
 			// the misspelled word.
 			// Push into PQ.
+			// Hashtable to block repeats.
+			unordered_map<string, int> freq{};
+
 			for (auto w : dictionary)
 			{
-				int distance = calculateEditDistanceBU(word, w);
-				words.push(Word(w, distance));
+				if (freq[w] < 1)
+				{
+					freq[w]++;
+					int distance = calculateEditDistanceBU(word, w);
+					words.push(Word(w, distance));
+				}
 			}
 		}
 
 		int response;
-		int counter = 2;
 		cout << "Unknown Word: " << word << endl;
 		cout << "\tConext: " << context_line << endl;
 		cout << "Corrected word: " << endl;
@@ -425,7 +431,7 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 		// and then pop the PQ.
 		for (int i = 0; i < 10; i++)
 		{
-			cout << i + 2 << ". " << words.top().word << endl;
+			cout << i + 2 << ". " << words.top().value << endl;
 			top_words.push_back(words.top());
 			words.pop();
 		}
@@ -449,23 +455,23 @@ string autoCorrectWithPQ(const string& word, const vector<string>& dictionary, c
 			output << correct_word << " 0" << "\n";
 			for (auto w : top_words)
 			{
-				output << w.word << " " << w.weight << "\n";
+				output << w.value << " " << w.weight << "\n";
 			}
 		}
 		else
 		{
 			// Get the correct word from vector, then save
 			// to file.
-			correct_word = top_words[response - 2].word;
+			correct_word = top_words[response - 2].value;
 
 			output.open(word + ".dat");
 			output << correct_word << " 0\n";
 
 			for (auto w : top_words)
 			{
-				if (correct_word != w.word)
+				if (correct_word != w.value)
 				{
-					output << w.word << " " << w.weight << "\n";
+					output << w.value << " " << w.weight << "\n";
 				}
 			}
 		}

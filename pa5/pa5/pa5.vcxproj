@@ -120,7 +120,6 @@
   <ItemGroup>
     <Text Include="sample1.txt" />
     <Text Include="sample2.txt" />
-    <Text Include="sample3.txt" />
     <Text Include="words.txt" />
   </ItemGroup>
   <ItemGroup>
