@@ -1,13 +1,18 @@
+/*
+	NAME: Misael Hinojosa
+	STUDENT ID: 0134-86600
+	COMPLETION TIME: 6 hours
+	COLLABS: None
+*/
+
 #include <iostream>
-#include <string>
-#include <cstdlib>
 #include <fstream>
-#include <sstream>
 #include "StringSplitter.h"
 #include <bitset>
+
 using namespace std;
 
-const vector<vector<int>> CGM{
+const vector<vector<int>> ENCODINGMATRIX{
 	{1, 1, 0, 1},
 	{1, 0, 1, 1},
 	{1, 0, 0, 0},
@@ -17,35 +22,25 @@ const vector<vector<int>> CGM{
 	{0, 0, 0, 1}
 };
 
-const vector<vector<int>> PCH{
+const vector<vector<int>> PARITYMATRTIX{
 	{1, 0, 1, 0, 1, 0, 1},
 	{0, 1, 1, 0, 0, 1, 1},
 	{0, 0, 0, 1, 1, 1, 1}
 };
 
-vector<int> decodingMultiply(const vector<int>& bit)
-{
-	vector<int> decoded{};
-
-	for (auto row : PCH)
-	{
-		int total = 0;
-		for (int i = 0; i < bit.size(); i++)
-		{
-			int temp = row[i] * bit[i];
-			total += temp;
-		}
-		decoded.push_back(total % 2);
-	}
-	
-	return decoded;
-}
+const vector<vector<int>> DECODINGMATRIX{
+	{0, 0, 1, 0, 0, 0, 0},
+	{0, 0, 0, 0, 1, 0, 0},
+	{0, 0, 0, 0, 0, 1, 0},
+	{0, 0, 0, 0, 0, 0, 1}
+};
 
 vector<int> encodingMultiply(const vector<int>& bit)
 {
+	// Multiply out the vectors.
 	vector<int> encoded{};
 
-	for (auto row : CGM)
+	for (auto row : ENCODINGMATRIX)
 	{
 		int total = 0;
 		for (int i = 0; i < bit.size(); i++)
@@ -53,18 +48,21 @@ vector<int> encodingMultiply(const vector<int>& bit)
 			int temp = row[i] * bit[i];
 			total += temp;
 		}
+
+		// Mod 2 to keep the bits
 		encoded.push_back(total % 2);
 	}
 
 	return encoded;
 }
 
-char convertCharEncode(const short& ch)
+char encodingChar(const short& ch)
 {
+	// Convert the short into its binary representation.
 	vector<int> bits{};
 	string bit = bitset<4>(ch).to_string();
 
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < bit.length(); i++)
 	{
 		if (bit[i] == '0')
 		{
@@ -76,8 +74,13 @@ char convertCharEncode(const short& ch)
 		}
 	}
 
+	// Returns encoded representation.
 	bits = encodingMultiply(bits);
 
+	// Get the string representation of the encoded
+	// char.
+	// Place a 0 at the biginning of the string to
+	// keep the byte.
 	string binary = "0";
 	for (int i = 0; i < bits.size(); i++)
 	{
@@ -102,20 +105,25 @@ void encodeFile(string file_name)
 	}
 	input_file.close();
 
-	ofstream output{ "sample1.txt.coded" };
+	ofstream output{ file_name + ".coded" };
 	for (auto line : text)
 	{
 		for (auto ch : line)
 		{
-			short low = (0b1111) & ch;
+			// Grab the high and low bits of the char
 			short high = (0b1111) & (ch >> 4);
+			short low = (0b1111) & ch;
 
-			char converted_high = convertCharEncode(high);
-			char converted_low = convertCharEncode(low);
+			// Convert the high and low bits into its
+			// encoded char.
+			char converted_high = encodingChar(high);
+			char converted_low = encodingChar(low);
 
+			// Save to file.
 			output << converted_high << converted_low;
 		}
 
+		// Adds new line to the file.
 		char new_line = 10;
 		output << new_line;
 	}
@@ -124,13 +132,87 @@ void encodeFile(string file_name)
 	return;
 }
 
-vector<int> convertCharDecode(const string& binary)
+void parityCheck(vector<int>& bits)
 {
-	vector<int> bits{};
+	// error_position keeps track of the where
+	// the possible error might be.
+	int error_position = 0;
+	int multiplier = 1;
 
-	for (int i = 0; i < binary.length(); i++)
+	for (auto row : PARITYMATRTIX)
 	{
-		if (binary[i] == '0')
+		// Multiply the respesctted row and column.
+		int total = 0;
+		for (int i = 0; i < bits.size(); i++)
+		{
+			int temp = row[i] * bits[i];
+			total += temp;
+		}
+
+		// If total = 0, then the error_position
+		// won't be affected.
+		// Else, multipy the parity_bit by the multiplier
+		// and 2 * multiplier to properly keep muliplying
+		// the parity_bit.
+		short parity_bit = total % 2;
+		error_position += parity_bit * multiplier;
+		multiplier *= 2;
+	}
+
+	// If error was detected, ask user if a fix should
+	// be attempted.
+	if (error_position != 0)
+	{
+		string response;
+
+		cout << "There was an error detected." << endl;
+		cout << "Would you like to fix the error(y/n)?: ";
+		getline(cin, response);
+
+		if (response == "Y" || response == "y")
+		{
+			// Minus one to get the proper bit position
+			// that will be flipped.
+			if (bits[error_position - 1] == 1)
+			{
+				bits[error_position - 1] = 0;
+			}
+			else
+			{
+				bits[error_position - 1] = 1;
+			}
+		}
+	}
+}
+
+vector<int> decodingMultiply(const vector<int>& bit)
+{
+	// Multiply vectors.
+	vector<int> decoded{};
+
+	for (auto row : DECODINGMATRIX)
+	{
+		int total = 0;
+		for (int i = 0; i < bit.size(); i++)
+		{
+			int temp = row[i] * bit[i];
+			total += temp;
+		}
+		decoded.push_back(total % 2);
+	}
+
+	return decoded;
+}
+
+char decodingChar(const short& ch)
+{
+	// String representation of the short in binary.
+	vector<int> bits{};
+	string bit = bitset<7>(ch).to_string();
+
+	for (int i = 0; i < bit.length(); i++)
+	{
+		if (bit[i] == '0')
 		{
 			bits.push_back(0);
 		}
@@ -140,9 +222,20 @@ vector<int> convertCharDecode(const string& binary)
 		}
 	}
 
+	// Check if bits are correct.
+	parityCheck(bits);
+
+	// Decode the bits.
 	bits = decodingMultiply(bits);
 
-	return bits;
+	// Add 0 in the beginnning to keep a byte.
+	string binary = "0";
+	for (int i = 0; i < bits.size(); i++)
+	{
+		binary = binary + to_string(bits[i]);
+	}
+
+	return stoi(binary, nullptr, 2);
 }
 
 void decodeFile(string file_name)
@@ -161,24 +254,43 @@ void decodeFile(string file_name)
 	}
 	input_file.close();
 
-	ofstream output{ "sample.decoded.txt" };
+	file_name = file_name.substr(0, file_name.size() - 10);
+
+	// counter wll be used to ensure an extra empty line
+	// will not be outputted to the file.
+	int counter = text.size();
+	ofstream output{ file_name + ".decoded.txt" };
 	for (auto line : text)
 	{
+		// Every two indices make up the original letter.
 		for (int i = 0; i < line.length(); i += 2)
 		{
-			string binary = bitset<7>(line[i]).to_string();
-			short low = (0b1111) & line[i];
-			short high = (0b1111) & (line[i] >> 4);
+			// i represents the high bits and i + 1
+			// represents the low bits.
+			short high = (0b1111111) & (line[i]);
+			short low = (0b1111111) & (line[i + 1]);
 
-			convertCharDecode(binary);
+			// Pass each to get the decoded bits.
+			char upper_bits = decodingChar(high);
+			char lower_bits = decodingChar(low);
 
-			char converted_high = convertCharEncode(high);
-			char converted_low = convertCharEncode(low);
+			// Create the original (possible error) char.
+			char converted = '\0';
+			converted = upper_bits << 4;
+			converted = converted | lower_bits;
 
-			cout << "Hello";
+			// Save to file.
+			output << converted;
 		}
 
-		output << endl;
+		// Subtract counter
+		counter--;
+
+		// Add newline while counter is greater than 1.
+		if (counter > 1)
+		{
+			output << '\n';
+		}
 	}
 	output.close();
 }
