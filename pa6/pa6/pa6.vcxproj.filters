@@ -25,19 +25,19 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="sample.txt.coded">
-      <Filter>Resource Files</Filter>
-    </None>
-    <None Include="sample_garbled.txt.coded">
-      <Filter>Resource Files</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="sample.txt">
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="sample_garbled.decoded.txt">
       <Filter>Resource Files</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample.txt.coded">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sample_garbled.txt.coded">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

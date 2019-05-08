@@ -49,7 +49,7 @@ vector<int> encodingMultiply(const vector<int>& bit)
 			total += temp;
 		}
 
-		// Mod 2 to keep the bits
+		// Mod 2 to keep the bits.
 		encoded.push_back(total % 2);
 	}
 
@@ -79,7 +79,7 @@ char encodingChar(const short& ch)
 
 	// Get the string representation of the encoded
 	// char.
-	// Place a 0 at the biginning of the string to
+	// Place a 0 at the beginning of the string to
 	// keep the byte.
 	string binary = "0";
 	for (int i = 0; i < bits.size(); i++)
@@ -110,7 +110,7 @@ void encodeFile(string file_name)
 	{
 		for (auto ch : line)
 		{
-			// Grab the high and low bits of the char
+			// Grab the high and low bits of the char.
 			short high = (0b1111) & (ch >> 4);
 			short low = (0b1111) & ch;
 
@@ -141,7 +141,7 @@ void parityCheck(vector<int>& bits)
 
 	for (auto row : PARITYMATRTIX)
 	{
-		// Multiply the respesctted row and column.
+		// Multiply the respected row and column.
 		int total = 0;
 		for (int i = 0; i < bits.size(); i++)
 		{
@@ -228,8 +228,8 @@ char decodingChar(const short& ch)
 	// Decode the bits.
 	bits = decodingMultiply(bits);
 
-	// Add 0 in the beginnning to keep a byte.
-	string binary = "0";
+	// Get string representation of bits.
+	string binary = "";
 	for (int i = 0; i < bits.size(); i++)
 	{
 		binary = binary + to_string(bits[i]);
@@ -263,7 +263,13 @@ void decodeFile(string file_name)
 	for (auto line : text)
 	{
 		// Every two indices make up the original letter.
-		for (int i = 0; i < line.length(); i += 2)
+		// For some reason, the loop would execute when there
+		// was an empty string.
+		// If I left line.length() - 1 in the for loop,
+		// it would execute even though 0 < -1 should never
+		// execute. Using a variable solved that problem.
+		int length = line.length() - 1;
+		for (int i = 0; i < length; i += 2)
 		{
 			// i represents the high bits and i + 1
 			// represents the low bits.
@@ -283,11 +289,11 @@ void decodeFile(string file_name)
 			output << converted;
 		}
 
-		// Subtract counter
+		// Subtract counter.
 		counter--;
 
-		// Add newline while counter is greater than 1.
-		if (counter > 1)
+		// Add newline while counter is greater than 0.
+		if (counter > 0)
 		{
 			output << '\n';
 		}

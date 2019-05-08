@@ -127,12 +127,12 @@
     <ClInclude Include="StringSplitter.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="sample.txt.coded" />
-    <None Include="sample_garbled.txt.coded" />
-  </ItemGroup>
-  <ItemGroup>
     <Text Include="sample.txt" />
     <Text Include="sample_garbled.decoded.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sample.txt.coded" />
+    <None Include="sample_garbled.txt.coded" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
